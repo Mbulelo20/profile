@@ -1,33 +1,26 @@
 import React, { Component } from 'react';
 import './App.css';
-import {layout, Header, Navigation, Drawer, Content} from 'react-mdl'
+import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
 import {Link} from 'react-router-dom'
 import Main from './components/main'
-import Home from './components/home';
+
 function App() {
   return (
-    <div className="demo-big-content">
-    <layout>
-        <Header title="Title" scroll>
-            <Navigation>
-                <Link to="about">About</Link>
+  <div style={{height: '950px', position: 'relative'}}>
+    <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
+      <Header className='nav-bar' title="My Portfoliio" style={{color: 'black', background: 'lightblue', position: 'fixed', opacity: '0.8'}}>
+            <Navigation style={{color: 'black'}}>
+                <Link to="/home">Home</Link>
+                <Link to="/about">About</Link>
                 <Link to="/MyProjects">My Projects</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
-            <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-            </Navigation>
-        </Drawer>
+
         <Content>
-            <div className="page-content" />
-            <Main/>
-            <Home />
+            <div className='page-content' />
+            <Main />
         </Content>
-    </layout>
+      </Layout>
 </div>
     
   );

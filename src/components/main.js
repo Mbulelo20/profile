@@ -2,14 +2,15 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Home from './home';
-import About from './about'
-import MyProjects from './MyProjects'
+import About from './about';
+import MyProjects from './MyProjects';
+
 
 const Main = () => (
     <Switch>
         <Route exact path="/home" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/MyProjects" component={MyProjects} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/MyProjects" component={MyProjects} />
     </Switch>
 )
 
