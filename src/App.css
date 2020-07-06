@@ -81,7 +81,10 @@
   padding-top: 5px;
 }
 .link-dir {
-  color: red;
+  margin-top: 1em;
+  margin-bottom: 20em;
+  background:brown;
+  opacity: .8;
 }
 .about-me {
   margin-top: 25em;
@@ -102,9 +105,9 @@
   width: 500px;
   height: 300px;
   opacity: .8;
-  margin-top: 10em;
-  margin-bottom: 10em;
-  margin-left: 1em;
+  margin-top: 13em;
+  margin-bottom: 1em;
+  margin-left: 17em;
   border: 1px solid #f1f1f1;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }

@@ -8,8 +8,8 @@ function App() {
   return (
   <div style={{height: '950px', position: 'relative'}}>
     <Layout className="body">
-      <Header className="nav-bar" title="My Portfoliio" style={{color: 'black', background: 'lightcyan', position: 'fixed', opacity: '0.8'}}>
-            <Navigation className="link-dir">
+      <Header className="nav-bar" title="Mbulelo Pani" style={{color: 'black', background: 'lightyellow', marginTop:'1em', position: 'fixed', opacity: '0.8'}}>
+            <Navigation className="link-dir" style={{marginRight: '15em'}}>
                 <Link to="/home">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/MyProjects">My Projects</Link>
