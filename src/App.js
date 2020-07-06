@@ -7,7 +7,7 @@ import Main from './components/main'
 function App() {
   return (
   <div style={{height: '950px', position: 'relative'}}>
-    <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
+    <Layout className="body">
       <Header className='nav-bar' title="My Portfoliio" style={{color: 'black', background: 'lightblue', position: 'fixed', opacity: '0.8'}}>
             <Navigation style={{color: 'black'}}>
                 <Link to="/home">Home</Link>

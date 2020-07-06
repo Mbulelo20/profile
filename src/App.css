@@ -7,10 +7,11 @@
 }
 .my-image {
   border-radius: 50%;
+  margin-left: 5em;
   margin-top: 13em;
-  margin-left: 38em;
-  width: 95%;
+  width: 100%;
   padding-bottom: 0em;
+  opacity: .6;
 }
 
 .nav-bar {
@@ -20,10 +21,62 @@
 }
 
 .info {
-  background-color: rgb(214, 237, 245);
-  margin-left: 27em;
-  width: 150%;
-  opacity: .7;
-  border-radius: 100px;
+  margin-top: 25em;
+  margin-left: 5em;
+  background-color: rgb(97, 167, 190);
+  width: 155%;
+  height: 35%;
+  opacity: .8;
+  border-radius: 120px;
   
+}
+.info h1 {
+  font-weight: bold;
+}
+.info p {
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.profiles {
+  width: 50%;
+  display: flex;
+  margin: auto;
+}
+
+.profiles i {
+  color: rgb(46, 69, 199);
+  font-size: 5em;
+  padding: 28px;
+  padding-top: 5px;
+}
+.body {
+  background-image: url('https://media.itpro.co.uk/image/upload/t_content-image-desktop@1/v1570815829/itpro/2018/01/how_to_wipe_a_laptop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-info {
+  margin: 50em;
+}
+.contact i {
+  color: rgba(43, 41, 167, 0.699);
+  font-size: 3em;
+  padding: 28px;
+  padding-top: 5px;
+
+}
+.email i {
+  color: rgb(80, 187, 38);
+  font-size: 3em;
+  padding: 28px;
+  padding-top: 5px;
+}
+
+.address i {
+  color: rgb(199, 46, 97);
+  font-size: 3em;
+  padding: 28px;
+  padding-top: 5px;
 }
