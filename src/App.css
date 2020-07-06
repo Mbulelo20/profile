@@ -52,6 +52,7 @@
   padding-top: 5px;
 }
 .body {
+  opacity: .7;
   background-image: url('https://media.itpro.co.uk/image/upload/t_content-image-desktop@1/v1570815829/itpro/2018/01/how_to_wipe_a_laptop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
