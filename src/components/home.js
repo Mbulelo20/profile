@@ -6,10 +6,10 @@ const Home = () => {
         <div style={{width: '100', margin: 'auto'}}>
             <Grid classname="homepage">
                 <Cell>
-                    <img src="https://pbs.twimg.com/profile_images/1053055123193122816/IUwo6l_Q_400x400.jpg"
+                    <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHt5-_z0yS9qw/profile-displayphoto-shrink_400_400/0?e=1599696000&v=beta&t=oiZ6Ax1993-R146eCu4P5MgN8ZlZs_aoN-eUNtXvKIY"
                     className="my-image"
                     alt="pic"
-                    /></Cell>
+                    style={{opacity: '.8'}}/></Cell>
                 <Cell>
                     <div className="info">
                         <h1><center>Junior Web Deloper</center></h1>

@@ -56,7 +56,7 @@ const About = () => {
                     </div>
                 </Cell>
                 <Cell>
-                    <div class="flip-card" style={{marginLeft: '1em', opacity:.9}}>
+                    <div class="flip-card" style={{marginLeft: '1em', marginTop: '2em',opacity:.9}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                             <img src="https://w0.pngwave.com/png/409/981/computer-icons-computer-program-work-experience-png-clip-art.png" alt="Work experience" style={{width:'500px', height: '300px'}}/>
