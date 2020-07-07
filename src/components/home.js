@@ -16,7 +16,7 @@ const Home = () => {
                         <hr></hr>
                         <p><center>HTML/CSS |   Bootstrap   |   JavaScript  |   react   |   MongoDb </center></p>
                             <div className="profiles">
-                                <a href="www.google.com" rel="noopener noreferrer" target="google.com">
+                                <a href="www.github.com"  target="github.com">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                                 </a>
                                 <a href="www.google.com" >
