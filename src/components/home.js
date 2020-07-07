@@ -1,5 +1,5 @@
 import React from 'react'
-import {Grid, Cell, Footer} from 'react-mdl'
+import {Grid, Cell} from 'react-mdl'
 
 const Home = () => {
     return (
@@ -16,8 +16,8 @@ const Home = () => {
                         <hr></hr>
                         <p><center>HTML/CSS |   Bootstrap   |   JavaScript  |   react   |   MongoDb </center></p>
                             <div className="profiles">
-                                <a href="www.github.com/Mbulelo20"  rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-github-square" aria-hidden="true"/>
+                                <a href="www.github.com/Mbulelo20" class="hvr-icon-forward" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-github-square" hvr-icon aria-hidden="true"/>
                                 </a>
                                 <a href="www.linkedin.com/in/mbulelo-pani-638b4b196" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
@@ -25,6 +25,7 @@ const Home = () => {
                                 <a href="https://www.freecodecamp.org/mbulelo97" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-free-code-camp" aria-hidden="true"/>
                                 </a>
+                                
                             </div>
                     </div>
                 </Cell>
