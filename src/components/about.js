@@ -24,7 +24,7 @@ const About = () => {
         <div>
             <Grid>
                 <Cell>
-                    <div class="flip-card"style={{marginLeft: '1em', opacity:.8}} >
+                    <div class="flip-card"style={{marginLeft: '1em', marginTop: '5em',marginBottom:'8em', opacity:.8}} >
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <img src="https://www.logolynx.com/images/logolynx/s_f4/f460eba97a71bb6d15ffaec2b34164c7.jpeg" alt="personal info" style={{width:'500px', height: '300px'}}/>
@@ -41,7 +41,7 @@ const About = () => {
                     </div>
                 </Cell>
                 <Cell>
-                    <div class="flip-card" style={{marginLeft: '1em', opacity:.8}}>
+                    <div class="flip-card" style={{marginLeft: '1em', marginTop: '5em',marginBottom:'8em', opacity:.8}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                             <img src="https://images.squarespace-cdn.com/content/v1/55d1e076e4b0be96a30dc726/1462368966061-POHA1M6HMOLR1RE0NWLT/ke17ZwdGBToddI8pDm48kDmvgM2_GYudIur22MWWiLdZw-zPPgdn4jUwVcJE1ZvWMv8jMPmozsPbkt2JQVr8L3VwxMIOEK7mu3DMnwqv-Nsp2ryTI0HqTOaaUohrI8PIAMptwCqFPAysT-w5vhITGLLtmRDEeJ_ureoOCGqPmJM/computerworld_training_icon" alt="Avatar" style={{width:'300px'}}/>
@@ -56,7 +56,7 @@ const About = () => {
                     </div>
                 </Cell>
                 <Cell>
-                    <div class="flip-card" style={{marginLeft: '1em', marginTop: '2em',opacity:.9}}>
+                    <div class="flip-card" style={{marginLeft: '1em', marginTop: '5em',marginBottom:'8em',opacity:.9}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                             <img src="https://w0.pngwave.com/png/409/981/computer-icons-computer-program-work-experience-png-clip-art.png" alt="Work experience" style={{width:'500px', height: '300px'}}/>
