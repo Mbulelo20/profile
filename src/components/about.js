@@ -16,8 +16,8 @@ const About = () => {
                     individual and teamwork creativity at the same. 
                     I hope one day to be able to use computer systems to solve 
                     some of society’s biggest problems. <br/>
-                    See what others have to say about me <Link to="/testimonials">here</Link>
-                    <p>View a some more about me below</p>
+                    See what others have to say about me <Link to="/testimonials"><text style={{color:'blue'}}>here</text></Link>
+                    <p>View some more about me below...</p>
                     </center>
                 </h4>
             </div>

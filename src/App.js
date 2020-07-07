@@ -3,12 +3,11 @@ import './App.css';
 import {Layout, Header, Navigation, Content} from 'react-mdl'
 import {Link} from 'react-router-dom'
 import Main from './components/main'
-
 function App() {
   return (
   <div style={{height: '950px', position: 'relative'}}>
     <Layout className="body">
-      <Header className="nav-bar" title="Mbulelo Pani" style={{color: 'black', background: 'lightyellow', marginTop:'1em', position: 'fixed', opacity: '0.8'}}>
+      <Header className="nav-bar" title="Mbulelo Pani" style={{fontWeight: "bold",color: 'black', background: 'lightyellow', marginTop:'1em', position: 'fixed', opacity: '0.8'}}>
             <Navigation className="link-dir" style={{marginRight: '15em'}}>
                 <Link to="/home">Home</Link>
                 <Link to="/about">About</Link>

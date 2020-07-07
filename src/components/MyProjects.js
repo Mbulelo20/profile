@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import {Grid, Cell, Card, CardTitle, CardText, CardActions} from 'react-mdl';
-import {Link} from 'react-router-dom'
 
 
 
@@ -62,7 +61,7 @@ const MyProjects = () => {
 
                 <h5>JavaScript</h5>
                 <div class="container">
-                    <div class="skills js">80%</div>
+                    <div class="skills js">87%</div>
                 </div>
 
                 <h5>CSS</h5>

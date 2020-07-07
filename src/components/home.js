@@ -1,5 +1,5 @@
 import React from 'react'
-import {Grid, Cell} from 'react-mdl'
+import {Grid, Cell, Footer} from 'react-mdl'
 
 const Home = () => {
     return (
@@ -16,13 +16,13 @@ const Home = () => {
                         <hr></hr>
                         <p><center>HTML/CSS |   Bootstrap   |   JavaScript  |   react   |   MongoDb </center></p>
                             <div className="profiles">
-                                <a href="www.github.com"  target="github.com">
+                                <a href="www.github.com/Mbulelo20"  rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true"/>
                                 </a>
-                                <a href="www.google.com" >
+                                <a href="www.linkedin.com/in/mbulelo-pani-638b4b196" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                 </a>
-                                <a href="www.google.com" rel="noopener noreferrer">
+                                <a href="https://www.freecodecamp.org/mbulelo97" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-free-code-camp" aria-hidden="true"/>
                                 </a>
                             </div>
@@ -31,21 +31,24 @@ const Home = () => {
             </Grid>
             <Grid className="contact-info">
                 <Cell className="contact-phone">
-                    <div className="contact">
-                        <i className="fa fa-phone-square" aria-hidden="true"/>
-                        <h4>(+27)73 7036 422</h4>
+                    <div className="contact" style={{marginTop:'5em', backgroundColor:'rgb(63, 76, 78)', width:'100%'}}>
+                        <i className="fa fa-phone-square" aria-hidden="true" />
+                        <text style={{color:'white'}}>(+27)73 7036 422</text>
+                        
                     </div>
                 </Cell>
                 <Cell>
-                    <div className="email">
-                        <i className="fa fa-envelope-square" aria-hidden="true"/>
-                        <h4>mbulelopani09@gmail.com</h4>
+                    <div className="email" style={{marginTop:'5em',backgroundColor:'rgb(63, 76, 78)', width:'100%'}}>
+                        <i className="fa fa-envelope-square" aria-hidden="true" style={{marginBottom: '0em'}}/>
+                        <text style={{color:'white'}}>mbulelopani09@gmail.com</text>
                     </div>
                 </Cell>
                 <Cell>
-                    <div className="address">
+                    <div className="email" style={{marginTop:'5em',backgroundColor:'rgb(63, 76, 78)', width:'100%'}}>
                         <i className="fa fa-envelope-square" aria-hidden="true"/>
-                        <h4>(+27)73 7036 422</h4>
+                        <text style={{color:'white'}}>
+                            21 167 Tambo Road, Mandela Park 7784 <br/>
+                        </text>
                     </div>
                 </Cell>
             </Grid>
