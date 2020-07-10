@@ -2,18 +2,22 @@
   color: aquamarine;
 }
 
-.homepage{
-
+.homepage:after {
+  content: "";
+  clear: both;
+  display: table;
 }
 .my-image {
   border-radius: 50%;
-  margin-left: 5em;
+  margin-left: 0em;
   margin-top: 13em;
-  width: 100%;
+  width: 125%;
   padding-bottom: 0em;
   opacity: .6;
 }
-
+* {
+  box-sizing: border-box;
+}
 .nav-bar {
   height: 10%;
   color: violet;
@@ -21,15 +25,16 @@
 }
 
 .info {
-  margin-top: 25em;
-  margin-left: 5em;
+  margin-top: 22em;
+  margin-left: 13em;
   background-color: white;
-  width: 155%;
-  height: 35%;
+  width: 170%;
+  height: 42%;
   opacity: .8;
   border-radius: 120px;
   
 }
+
 .info h1 {
   font-weight: bold;
 }
@@ -42,7 +47,7 @@
 .profiles {
   width: 50%;
   display: flex;
-  margin: auto;
+  margin-left: 27%;
 }
 
 .profiles i {
