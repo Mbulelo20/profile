@@ -3,7 +3,7 @@ import {Grid, Cell} from 'react-mdl'
 
 const Home = () => {
     return (
-        <div style={{width: '100', margin: 'auto'}}>
+        <div style={{ margin: 'auto', marginTop: '8em'}}>
             <Grid className="homepage ">
                 <Cell class="col-4">
                     <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHt5-_z0yS9qw/profile-displayphoto-shrink_400_400/0?e=1599696000&v=beta&t=oiZ6Ax1993-R146eCu4P5MgN8ZlZs_aoN-eUNtXvKIY"
@@ -13,18 +13,18 @@ const Home = () => {
                 </Cell>
                 <Cell>
                     <div className="info">
-                        <h1><center>Junior Web Deloper</center></h1>
+                        <h1><center>Junior Web Developer</center></h1>
                         <hr></hr>
-                        <p><center>HTML/CSS |   Bootstrap   |   JavaScript  |   React   |MongoDb   </center></p>
+                        <p><center> HTML/CSS | Bootstrap | JavaScript | React | MongoDb| NodeJS</center></p>
                             <div className="profiles">
                                 <a href="www.github.com/Mbulelo20" class="hvr-icon-forward" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-github-square" hvr-icon aria-hidden="true"/>
+                                    <i className="fa fa-github-square" hvr-icon aria-hidden="true" style={{color: 'black'}}/>
                                 </a>
                                 <a href="www.linkedin.com/in/mbulelo-pani-638b4b196" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-linkedin-square" aria-hidden="true"/>
+                                    <i className="fa fa-linkedin-square" aria-hidden="true" style={{color: 'blue'}}/>
                                 </a>
                                 <a href="https://www.freecodecamp.org/mbulelo97" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-free-code-camp" aria-hidden="true"/>
+                                    <i className="fa fa-free-code-camp" aria-hidden="true" style={{color: 'darkgreen'}}/>
                                 </a>
                                 
                             </div>
@@ -58,4 +58,4 @@ const Home = () => {
     )
 }
 
-export default Home; 
+export default Home;

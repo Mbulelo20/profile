@@ -7,7 +7,7 @@ const Testimonials = () => {
         <div>
             <Grid>
                 <Cell>
-                    <div class="flip-card">
+                    <div class="flip-card" style={{width:"430px"}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front" style={{backgroundColor: 'green', color:'white'}}>
                                 <h2>Godwin Dzvapatsva</h2>
@@ -28,14 +28,14 @@ const Testimonials = () => {
                     </div>
                 </Cell>
                 <Cell>
-                    <div class="flip-card">
+                    <div class="flip-card" style={{width:"430px"}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front" style={{backgroundColor: 'blue', color:'white'}}>
                                 <h2>Siyamthanda Mgoqi,</h2>
                                 <h4>fellow classmate,</h4>
                                 <h5>says this...</h5>
                             </div>
-                            <div class="flip-card-back">
+                            <div class="flip-card-back" style={{width:"430px"}}>
                             <h5>
                                 <p>......................................</p>
                                 Mbulelo is a focused individual, and <br/>
@@ -53,7 +53,7 @@ const Testimonials = () => {
             </Grid>
             <Grid>
                 <Cell>
-                    <div class="flip-card" style={{marginTop:'2em'}}>
+                    <div class="flip-card" style={{marginTop:'2em', width: '430px'}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front" style={{backgroundColor: 'brown', color:'white'}}>
                                 <h2>Asaph Franks</h2>
@@ -74,7 +74,7 @@ const Testimonials = () => {
                     </div>
                 </Cell>
                 <Cell>
-                    <div class="flip-card" style={{marginTop:'2em'}}>
+                    <div class="flip-card" style={{marginTop:'2em', width: '430px'}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front" style={{backgroundColor: 'purple', color:'white'}}>
                                 <h2><h5>While</h5>Lukhanyo Vakele,</h2>
