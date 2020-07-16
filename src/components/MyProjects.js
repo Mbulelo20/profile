@@ -6,10 +6,17 @@ import {Grid, Cell, Card, CardTitle, CardText, CardActions} from 'react-mdl';
 const MyProjects = () => {
     return (
         <Fragment>
-            <Grid>
-                <Cell>
-                    <Card shadow={5} style={{minWidth:'450', marginTop:'10em', marginLeft:'5em'}}>
-                        <CardTitle style={{color: 'white', height:'350px', background :'url(https://github.githubassets.com/images/modules/explore/social.jpg)'}}>
+            <Grid className="demo-grid-ruler">
+                <Cell col={1} style={{width:'100%', color:'white', backgroundColor:'silver'}}>
+                    <h1>
+                        <center>My Projects</center>
+                    </h1>
+                </Cell>
+            </Grid>
+            <Grid className="demo-grid-ruler">
+                <Cell col={4}>
+                    <Card shadow={5} style={{width:'75%',height:'75%', marginTop:'3em', marginLeft:'5em'}}>
+                        <CardTitle style={{color: 'white', height:'350px', background :'url(https://images.idgesg.net/images/article/2018/02/coding_programming_software_development_thinkstock_871030872-100749644-large.jpg)'}}>
                             <h3>GitHub Project Finder</h3>
                         </CardTitle>
                         <CardText style={{width: '100%',color: 'white',backgroundColor:'brown', opacity:'.4'}}>
@@ -23,8 +30,8 @@ const MyProjects = () => {
                     </Card>
                 </Cell>
                 <Cell>
-                    <Card shadow={5} style={{minWidth:'450', marginTop:'10em', marginLeft:'5em'}}>
-                        <CardTitle style={{color: 'white', height:'350px', background:'url(https://www.mini.com.ng/assets/uploads/mini/bdGP_contact_keeper2.png.png)',backgroundColor:'brown'}}>
+                    <Card shadow={5} style={{width:'75%',height:'75%', marginTop:'3em', marginLeft:'5em'}}>
+                        <CardTitle style={{color: 'white', height:'350px', background:'url(https://cdn.osxdaily.com/wp-content/uploads/2012/06/iphone-contacts.jpg)',backgroundColor:'brown'}}>
                             <h3>Contacts-Keeper</h3>
                         </CardTitle>
                         <CardText style={{width:'100%',color: 'white',backgroundColor:'brown', opacity:'.4'}}>
@@ -38,8 +45,8 @@ const MyProjects = () => {
                     </Card>
                 </Cell>
                 <Cell>
-                    <Card shadow={5} style={{minWidth:'450', marginTop:'10em', marginLeft:'5em'}}>
-                        <CardTitle style={{ color: 'orange', height:'350px', background:'url(https://www.loggly.com/wp-content/uploads/2018/10/Web-Application-Logging-And-Analytics-Feature.png)'}}>
+                    <Card shadow={5} style={{width:'75%',height:'75%', marginTop:'3em', marginLeft:'5em'}}>
+                        <CardTitle style={{ color: 'orange', height:'350px', background:'url(https://5.imimg.com/data5/OP/NN/MY-4030281/notebook-diary-500x500.jpg)'}}>
                             <h3>IT-Logger</h3>
                         </CardTitle>
                         <CardText style={{width:'100%',color: 'white',backgroundColor:'brown', opacity:'.4'}}>
@@ -53,22 +60,28 @@ const MyProjects = () => {
                     </Card>
                 </Cell>
             </Grid>
-            <div className="skills-bar">
-                <h4>HTML</h4>
-                <div class="container">
-                    <div class="skills html">95%</div>
-                </div>
+            <Grid className="demo-grid-ruler" >
+                <Cell className="skills-bar" >
+                    <h4>HTML</h4>
+                    <div class="container">
+                        <div class="skills html">95%</div>
+                    </div>
 
-                <h5>JavaScript</h5>
-                <div class="container">
-                    <div class="skills js">87%</div>
-                </div>
+                    <h5>JavaScript</h5>
+                    <div class="container">
+                        <div class="skills js">87%</div>
+                    </div>
 
-                <h5>CSS</h5>
-                <div class="container">
-                    <div class="skills css">90%</div>
-                </div>
-            </div>
+                    <h5>CSS</h5>
+                    <div class="container">
+                        <div class="skills css">90%</div>
+                    </div>
+                    <h5>Python</h5>
+                    <div class="container">
+                        <div class="skills python">85%</div>
+                    </div>
+                </Cell>
+            </Grid>
         </Fragment>
     )
 }

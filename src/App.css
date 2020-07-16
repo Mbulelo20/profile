@@ -5,14 +5,15 @@
 
 .my-image {
   border-radius: 50%;
-  margin-left: 2em;
+  margin-left: 7em;
   margin-top: 0%;
-  width: 120%;
+  width: 80%;
   padding-bottom: 0em;
   opacity: .6;
 }
 
 .nav-bar {
+  
   height: 10%;
   color: violet;
   font-weight: bolder;
@@ -23,18 +24,20 @@
   margin-left: 12em;
   background-color: rgb(169, 173, 173);
   width: 172%;
-  height: 44%;
+  height: 43%;
   opacity: .8;
   
 }
 
-.info h1 {
+.demo-grid-ruler h1 {
   font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }
-.info p {
-  font-size: x-large;
+.demo-grid-ruler p {
+  font-size: medium;
   font-weight: bold;
-  font-style: normal;
+  font-style: italic;
+  
 }
 
 .profiles {
@@ -43,11 +46,11 @@
   margin-left: 27%;
 }
 
-.profiles i {
-  font-size: 3.5em;
-  margin-left: 0.5em;
-  padding: 28px;
+.demo-grid-ruler i {
+  padding: 2%;
+  padding-left: 3em;
   padding-top: 1px;
+  
 }
 .body {
   background-image: url('https://media.itpro.co.uk/image/upload/t_content-image-desktop@1/v1570815829/itpro/2018/01/how_to_wipe_a_laptop.jpg');
@@ -87,12 +90,10 @@
   margin-top: 1em;
   margin-bottom: 20em;
   background:brown;
-  opacity: .8;
+  opacity: 1;
 }
 .about-me {
-  margin-top: 13em;
-  margin-left: 19em;
-  padding-top: 0.5em;
+  margin-top: 13em;margin-left: 19em;padding-top: 0.5em;
   background-color: rgb(72, 124, 122);
   width: 75%;
   height: 35%;
@@ -157,7 +158,7 @@
 
 .skills {
   text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
+  padding-top: 5px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
   color: white; /* White text color */
 }
@@ -165,10 +166,12 @@
 .html {width: 90%; background-color: #4CAF50;} /* Green */
 .css {width: 80%; background-color: #2196F3;} /* Blue */
 .js {width: 65%; background-color: peru;} /* Red */
+.python {width: 60%; background-color: brown;} /* Dark Grey */
+
 
 .skills-bar {
   margin-left: 2em;
-  margin-top: 5em;
+  margin-top: 1em;
   margin-bottom: 10em;
   width: 790px;
 }
