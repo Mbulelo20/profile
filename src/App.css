@@ -177,7 +177,7 @@
 
 .bar{
   background-color: #EEE;
-  padding: 2px;
+  padding: 5px;
   border-radius: 15px;
   margin-bottom: 5px;
   font-size: 14px;
@@ -198,10 +198,10 @@
 }
 
 .bar.front::before{
-  background-color: #ffcc33;
+  background-color: yellowgreen;
 }
 .bar.back::before{
-  background-color: #a6cfe3;
+  background-color: grey;
 }
 
 .bar.learning::before{

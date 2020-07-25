@@ -13,12 +13,12 @@ function App() {
         <Grid className="demo-grid-ruler" style={{width:'100%'}}>
           <Cell col={12} className="title" >
             <Header className="demo-grid-ruler" title="Mbulelo Pani" style={{marginTop:'-1%',fontWeight: "bold",color: 'black', background: 'lightyellow', position: 'fixed', opacity: '0.9'}}>
-              <Navigation className="link-dir " style={{width:'100%',marginLeft: '10em'}}>
-                  <Link to="/home">Home</Link>
-                  <Link to="/about">About me</Link>
-                  <Link to="/MyProjects">My Projects</Link>
-                  <Link to="/testimonials">Testimonials</Link>
-                  <Link to="/Skills">Skills</Link>
+              <Navigation className="link-dir" style={{width:'100%',marginLeft: '10em'}}>
+                  <Link to="/home" className="zoom">Home</Link>
+                  <Link to="/about" className="zoom">About me</Link>
+                  <Link to="/MyProjects" className="zoom">My Projects</Link>
+                  <Link to="/testimonials" className="zoom">Testimonials</Link>
+                  <Link to="/Skills" className="zoom">Skills</Link>
               </Navigation>
             </Header>
           </Cell>  
