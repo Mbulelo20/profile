@@ -5,8 +5,8 @@ import {Grid, Cell} from 'react-mdl'
 const Testimonials = () => {
     return (
         <div>
-            <Grid>
-                <Cell>
+            <Grid className="demo-grid-ruler">
+                <Cell >
                     <div class="flip-card" style={{width:"430px"}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front" style={{backgroundColor: 'green', color:'white'}}>
@@ -51,7 +51,7 @@ const Testimonials = () => {
                     </div>
                 </Cell>
             </Grid>
-            <Grid>
+            <Grid className="demo-grid-ruler">
                 <Cell>
                     <div class="flip-card" style={{marginTop:'2em', width: '430px'}}>
                         <div class="flip-card-inner">

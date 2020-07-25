@@ -6,8 +6,8 @@ import {Grid, Cell, Card, CardTitle, CardText, CardActions} from 'react-mdl';
 const MyProjects = () => {
     return (
         <Fragment>
-            <Grid className="demo-grid-ruler">
-                <Cell col={1} style={{width:'100%', color:'white', backgroundColor:'silver'}}>
+            <Grid className="demo-grid-ruler" style={{width:'100%'}}>
+                <Cell col={1} style={{width:'100%', color:'white', backgroundColor:'grey'}}>
                     <h1>
                         <center>My Projects</center>
                     </h1>
@@ -58,28 +58,6 @@ const MyProjects = () => {
                         </button>                       
                         </CardActions>
                     </Card>
-                </Cell>
-            </Grid>
-            <Grid className="demo-grid-ruler" >
-                <Cell className="skills-bar" >
-                    <h4>HTML</h4>
-                    <div class="container">
-                        <div class="skills html">95%</div>
-                    </div>
-
-                    <h5>JavaScript</h5>
-                    <div class="container">
-                        <div class="skills js">87%</div>
-                    </div>
-
-                    <h5>CSS</h5>
-                    <div class="container">
-                        <div class="skills css">90%</div>
-                    </div>
-                    <h5>Python</h5>
-                    <div class="container">
-                        <div class="skills python">85%</div>
-                    </div>
                 </Cell>
             </Grid>
         </Fragment>

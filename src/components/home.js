@@ -12,48 +12,25 @@ const Home = () => {
                     style={{opacity: '1', marginRight:'14%'}}/>
                 </Cell>
                 <Cell col={6}>
-                    <div style={{width: '105%',height:'55%',marginLeft:'-1em', marginTop:'6em', backgroundColor: 'rgb(169, 173, 173)'}}>
+                    <div style={{width: '90%',height:'55%',marginLeft:'-1em', marginTop:'6em', backgroundColor: 'rgb(169, 173, 173)'}}>
                         <h1><center>Junior Web Developer</center></h1>
                         <hr></hr>
-                        <p><center> HTML/CSS | Bootstrap | JavaScript | React | MongoDb| NodeJS</center></p>
-                        <div className="demo-grid-ruler" style={{width: '182%', opacity: '1', marginLeft:'0em' }}>
-                            <a href="https://www.github.com/Mbulelo20" class="hvr-icon-forward" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-github-square" hvr-icon aria-hidden="true" style={{color: 'black',fontSize: '3.5em'}}/>
+                        <p><center> HTML/CSS | Python | JavaScript | Bootstrap | React | MongoDb | NodeJS | ExpressJS </center></p>
+                        <center>
+                            <a href="https://www.github.com/Mbulelo20" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-github-square zoom" hvr-icon aria-hidden="true" style={{color: 'black',fontSize: '3.5em', padding:'0.2em', margin:'0.2em' }}/>
                             </a>
                             <a href="https://www.linkedin.com/in/mbulelo-pani-638b4b196" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-linkedin-square" aria-hidden="true" style={{color: 'blue', fontSize: '3.5em'}}/>
+                                <i className="fa fa-linkedin-square zoom" aria-hidden="true" style={{color: 'blue', fontSize: '3.5em', padding:'0.2em', margin:'0.2em'}}/>
                             </a>
-                            <a href="https://www.freecodecamp.org/mbulelo97" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-free-code-camp" aria-hidden="true" style={{color: 'darkgreen', fontSize: '3.5em'}}/>
+                            <a href="https://www.freecodecamp.org/mbulelo97"  rel="noopener noreferrer" target="_blank" >
+                                <i className="fa fa-free-code-camp zoom" aria-hidden="true" style={{color: 'darkgreen', fontSize: '3.5em', padding:'0.2em', margin:'0.2em'}}/>
                             </a>
-                        </div>
+                        </center>
                     </div>
                 </Cell>
             </Grid>
-            <Grid className="demo-grid-ruler" style={{marginTop: '0em', marginBottom:'0em', width:'100%', marginLeft:'0em', opacity:'.8'}}>
-                <Cell className="contact-phone">
-                    <div className="contact" style={{backgroundColor:'rgb(63, 76, 78)'}}>
-                        <i className="fa fa-phone-square" aria-hidden="true" />
-                        <text style={{color:'white'}}>(+27)73 7036 422</text>
-                        
-                    </div>
-                </Cell>
-                <Cell>
-                    <div className="email mr-sm-2" style={{backgroundColor:'rgb(63, 76, 78)'}}>
-                        <i className="fa fa-envelope-square" aria-hidden="true" style={{marginBottom: '0em'}}/>
-                        <text style={{color:'white'}}>mbulelopani09@gmail.com</text>
-                    </div>
-                </Cell>
-                <Cell>
-                    <div className="email mr-sm-2" style={{backgroundColor:'rgb(63, 76, 78)'}}>
-                        <i className="fa fa-envelope-square" aria-hidden="true"/>
-                        <text style={{color:'white'}}>
-
-                            21 167 Tambo Road, Mandela Park 7784 <br/>
-                        </text>
-                    </div>
-                </Cell>
-            </Grid>               
+                       
         </div>
     )
 }

@@ -19,13 +19,13 @@ const About = () => {
                     <h1><center>A little about me</center></h1>
                     <h4>
                         <center>
-                        I am an innovative person with a good problem 
-                        solving-ability. I solve, design and create through programming.
-                        I love my programming skills because they've taught me <br/> to be both independant, and be able to work  with others.
-                        <br/>
-                        Hopefully, in a few years time I'll have worked with brilliant fellow developers to learn from! <br/>
-                        See what others have to say about me <Link to="/testimonials"><text style={{color:'lightblue'}}>here</text></Link>
-                        <p>View some more about me below...</p>
+                        I am an innovative person with good problem 
+                        solving capabilities.<br/>
+                        I love my programming because it is one of the few disciplines 
+                        that allow <br/>for individual and teamwork creativity simultaneously.
+                        
+                        I hope one day to use computer systems to solve some of society's biggest problems. 
+                        <p><Link to="/testimonials"><text style={{color:'lightblue'}}>See what others have to say about me.</text></Link> or View some more about me below...</p>
                         </center>
                     </h4>
                 </Cell>

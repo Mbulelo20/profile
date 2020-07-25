@@ -17,6 +17,8 @@ function App() {
                   <Link to="/home">Home</Link>
                   <Link to="/about">About me</Link>
                   <Link to="/MyProjects">My Projects</Link>
+                  <Link to="/testimonials">Testimonials</Link>
+                  <Link to="/Skills">Skills</Link>
               </Navigation>
             </Header>
           </Cell>  
@@ -27,7 +29,7 @@ function App() {
           </Content>
       </Layout>
     </div>
-    <Footer size="mega" style={{opacity:'0.9', height:'200px', paddingTop:'0em', paddingBottom:'0em'}}>
+    <Footer size="mega" style={{opacity:'0.9', height:'150px', paddingTop:'0em'}}>
     <FooterSection type="middle">
         <FooterDropDownSection title="Navigation">
             <FooterLinkList>
@@ -36,15 +38,14 @@ function App() {
               <Link to="/MyProjects">My Projects</Link>
             </FooterLinkList>
         </FooterDropDownSection>
+        
         <FooterDropDownSection title="">
             <FooterLinkList style={{paddingLeft:'18em'}}>
-              <center><h4 >Made By Mbulelo Pani</h4></center>
+            <i className="fa fa-envelope-square" aria-hidden="true" style={{marginBottom: '0em'}}/>
+              <text style={{color:'white'}}>mbulelopani09@gmail.com</text>
+            <i className="fa fa-phone-square" aria-hidden="true" />
+              <text style={{color:'white'}}>(+27)737036422</text>
             </FooterLinkList>
-        </FooterDropDownSection>
-        <FooterDropDownSection title="">
-            <FooterLinkList>
-              
-              </FooterLinkList>
         </FooterDropDownSection>
         
     </FooterSection>
