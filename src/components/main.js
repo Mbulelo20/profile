@@ -11,13 +11,12 @@ import Skills from './Skills'
 const Main = () => (
    
     <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/home" component={Home} />
+        <Route exact path='/' component={Home}/>
+        <Route exact path="/home" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/MyProjects" component={MyProjects} />
         <Route path="/testimonials" component={Testimonials} />
         <Route path="/Skills" component={Skills} />
-
     </Switch>
         
 )

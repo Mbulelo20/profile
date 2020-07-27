@@ -25,12 +25,31 @@ const Home = () => {
                             </a>
                             <a href="https://www.freecodecamp.org/mbulelo97"  rel="noopener noreferrer" target="_blank" >
                                 <i className="fa fa-free-code-camp zoom" aria-hidden="true" style={{color: 'darkgreen', fontSize: '3.5em', padding:'0.2em', margin:'0.2em'}}/>
-                            </a>
-                        </center>
+                            </a></center>
                     </div>
                 </Cell>
             </Grid>
-                       
+            <Grid className="demo-grid-ruler" style={{ width:'100%', margin:'auto',marginTop:'3em', opacity:'.8'}}>
+                <Cell>
+                    <div className="email mr-sm-2" style={{backgroundColor:'silver'}}>
+                        <i className="fa fa-envelope-square" aria-hidden="true" style={{marginBottom: '0em'}}/>
+                        <text style={{color:'black', fontSize:'20px', fontWeight:"bold"}}>mbulelopani09@gmail.com</text>
+                    </div>
+                </Cell>
+                <Cell className="contact-phone">
+                    <div className="contact" style={{backgroundColor:'silver'}}>
+                        <i className="fa fa-phone-square" aria-hidden="true" />
+                        <text style={{color:'black', fontSize:'20px', fontWeight:"bold"}}>(+27)73 7036 422</text>
+                        
+                    </div>
+                </Cell>
+                <Cell className="contact-phone">
+                    <div className="contact" style={{backgroundColor:'silver'}}>
+                        <i class="fa fa-home" style={{color:'blue'}}>...</i>
+                        <text style={{color:'black', fontSize:'20px', fontWeight:"bold"}}>Cape Town, Western Cape</text>
+                    </div>
+                </Cell>
+            </Grid>               
         </div>
     )
 }
