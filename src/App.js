@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import {Footer, FooterDropDownSection, FooterLinkList, FooterSection} from 'react-mdl'
 
 import './App.css';
-import {Grid, Cell, Layout, Header, Navigation, Content} from 'react-mdl'
+import {Grid, Cell, Layout, Header, Navigation} from 'react-mdl'
 import {Link, Switch, Route} from 'react-router-dom'
 import Home from './components/home'
 import About from './components/about';
@@ -14,7 +14,7 @@ function App() {
   return (
     <Fragment>
     <div className="demo-grid-ruler" style={{height: '950px', position: 'relative'}}>
-      <Layout className="body " >
+      <Layout className="body" >
         <Grid className="demo-grid-ruler" style={{width:'100%'}}>
           <Cell col={12} className="title" >
             <Header className="demo-grid-ruler" title="Mbulelo Pani" style={{marginTop:'-1%',fontWeight: "bold",color: 'black', background: 'lightyellow', position: 'fixed', opacity: '0.9'}}>
@@ -28,7 +28,7 @@ function App() {
             </Header>
           </Cell>  
         </Grid>
-          <Content>
+          <div>
             <div className='page-content' />
             <Switch>
               <Route exact path='./' component={Home}/>
@@ -38,7 +38,7 @@ function App() {
               <Route path="/testimonials" component={Testimonials} />
               <Route path="/Skills" component={Skills} />
             </Switch>
-          </Content>
+          </div>
       </Layout>
     </div>
     <Footer  style={{opacity:'0.9', height:'150px', paddingTop:'0em'}}>
