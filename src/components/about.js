@@ -72,12 +72,12 @@ const About = () => {
                             </div>
                             <div class="flip-card-back" style={{backgroundColor:'purple'}}>
                                 <h1>Experience</h1>
-                                <p>Company: Sage Future Makers Foundation</p>
-                                <p>Period: Sep - Nov, 2019. Feb, 2020.</p>
-                                <p>Role: Volunteer facilitator Duties:</p>
-                                <p> Teach basic programming skills to high school pupils
-                                    Recruit potential students around townships</p>
-                                <p></p>
+                                Company: Sage Future Makers Foundation<br/>
+                                Period: Sep - Nov, 2019. Feb, 2020.<br/>
+                                Role: Volunteer facilitator<br/>
+                                Duties: <br/>
+                                 Teach basic programming skills to high school pupils, 
+                                    Recruit potential students around townships
                             </div>
                         </div>
                     </div>

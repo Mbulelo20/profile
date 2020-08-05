@@ -12,7 +12,7 @@ const Home = () => {
                     style={{opacity: '1', marginRight:'14%'}}/>
                 </Cell>
                 <Cell col={6}>
-                    <div style={{width: '90%',height:'55%',marginLeft:'-1em', marginTop:'6em', backgroundColor: 'rgb(169, 173, 173)'}}>
+                    <div style={{width: '90%',height:'48%',marginLeft:'-1em', marginTop:'6em', backgroundColor: 'rgb(169, 173, 173)'}}>
                         <h1><center>Junior Web Developer</center></h1>
                         <hr></hr>
                         <p><center> HTML/CSS | Python | JavaScript | Bootstrap | React | MongoDb | NodeJS | ExpressJS </center></p>

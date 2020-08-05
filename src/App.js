@@ -5,6 +5,7 @@ import './App.css';
 import {Grid, Cell, Layout, Header, Navigation} from 'react-mdl'
 import {Link, Switch, Route} from 'react-router-dom'
 import Home from './components/home'
+import Contactform from './components/Contactform'
 import About from './components/about';
 import MyProjects from './components/MyProjects';
 import Testimonials from './components/testimonials';
@@ -24,6 +25,7 @@ function App() {
                   <Link to="/MyProjects" className="animate">My Projects</Link>
                   <Link to="/testimonials" className="animate">Testimonials</Link>
                   <Link to="/Skills" className="animate">Skills</Link>
+                  <Link to="/Contactform" className="animate">Contact me</Link>
               </Navigation>
             </Header>
           </Cell>  
@@ -33,10 +35,13 @@ function App() {
             <Switch>
               <Route exact path='/my-portfolio' component={Home}/>
               <Route exact path="/home" component={Home} />
+              <Route exact path="/Contactform" component={Contactform} />
+
               <Route path="/about" component={About} />
               <Route path="/MyProjects" component={MyProjects} />
               <Route path="/testimonials" component={Testimonials} />
               <Route path="/Skills" component={Skills} />
+              <Route path="/Contactform" component={Contactform} />
             </Switch>
           </div>
       </Layout>
@@ -52,10 +57,16 @@ function App() {
         </FooterDropDownSection>
         
         <FooterDropDownSection title="">
-            <FooterLinkList style={{paddingLeft:'13em'}}>
+            <FooterLinkList style={{paddingLeft:'18em'}}>
               <div style={{width:'240px'}}>
                 <h4>Made by Mbulelo Pani</h4>
               </div>
+            </FooterLinkList>
+        </FooterDropDownSection>
+        <FooterDropDownSection style={{paddingLeft:'47em'}}>
+            <FooterLinkList>
+              <Link to="/testimonials">Testimonials</Link>
+              <Link to="/Skills">Skillset</Link>
             </FooterLinkList>
         </FooterDropDownSection>
         
