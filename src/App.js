@@ -31,7 +31,7 @@ function App() {
           <div>
             <div className='page-content' />
             <Switch>
-              <Route exact path='./' component={Home}/>
+              <Route exact path='/my-portfolio' component={Home}/>
               <Route exact path="/home" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/MyProjects" component={MyProjects} />

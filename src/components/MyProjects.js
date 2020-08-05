@@ -24,7 +24,7 @@ const MyProjects = () => {
                         </CardText>
                         <CardActions style={{backgroundColor:'lightcyan'}}>
                             <button>
-                                <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link"> View</a>                        
+                                <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">Github link</a>                        
                             </button>
                         </CardActions>
                     </Card>
@@ -39,7 +39,7 @@ const MyProjects = () => {
                         </CardText>
                         <CardActions style={{backgroundColor:'ightcyan'}}>
                             <button>
-                                <a href="https://github.com/Mbulelo20/Contacts-Keeper.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link"> View</a>                        
+                                <a href="https://github.com/Mbulelo20/Contacts-Keeper.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">Github</a>                        
                             </button>
                         </CardActions>
                     </Card>
@@ -64,7 +64,7 @@ const MyProjects = () => {
                 </Cell>
                 <Cell col={3}>
                     <Card shadow={5} style={{width:'75%',height:'75%', marginTop:'3em', marginLeft:'5em'}}>
-                        <CardTitle style={{color: 'white', height:'350px', background :'url(https://biz-file.com/c/2005/555786.jpg)'}}>
+                        <CardTitle style={{color: 'yellow', height:'350px', background :'url(https://biz-file.com/c/2005/555786.jpg)'}}>
                             <h3 style={{fontFamily:'sans', fontWeight:'bold'}}>visitour</h3>
                         </CardTitle>
                         <CardText style={{width: '100%',color: 'white',backgroundColor:'brown', opacity:'.4'}}>

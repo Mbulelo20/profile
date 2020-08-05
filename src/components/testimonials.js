@@ -11,14 +11,14 @@ const Testimonials = () => {
                         <div class="flip-card-inner">
                             <div class="flip-card-front" style={{backgroundColor: 'green', color:'white'}}>
                                 <h2>Godwin Dzvapatsva</h2>
-                                <h4>Head of Curriculum and Learnind</h4>
+                                <h4>Head of Curriculum and Learning</h4>
                                 <h5>says...</h5>
                             </div>
                             <div class="flip-card-back">
                                 <h5><br/>
                                     <p>......................................</p>
-                                    Mbulelo is a well-behaved student <br/> 
-                                    who has shown sound skills in back end and front end development<br/>
+                                        Mbulelo is a well-behaved student <br/> 
+                                        who has shown sound skills in back end and front end development<br/>
                                     <br/>He is someone who manages to work within given timelines.
                                     </h5>
                                     <p>......................................</p>
@@ -64,7 +64,7 @@ const Testimonials = () => {
                                 <h5><br/>
                                     <p>......................................</p>
                                         Mbulelo is a really curious person<br/> 
-                                    who invests a lot of his time in getting work done.<br/>
+                                        who invests a lot of his time in getting work done.<br/>
                                     <br/> I'd recommend working with him to anyone.
                                     </h5>
                                     <p>......................................</p>
@@ -78,15 +78,14 @@ const Testimonials = () => {
                         <div class="flip-card-inner">
                             <div class="flip-card-front" style={{backgroundColor: 'purple', color:'white'}}>
                                 <h2><h5>While</h5>Lukhanyo Vakele,</h2>
-                                <h4>fellow classmate and friend,</h4>
                                 <h5>has this to say...</h5>
                             </div>
                             <div class="flip-card-back">
                                 <br/>
                                 <p>......................................</p>
-                                <p><h5>Mbulelo is one of the hardest working people I met at the Academy</h5> </p>
+                                <h5>Mbulelo is one of the hardest <br/> working people I met at the Academy.</h5>
                                 <h5>Working and learning with him has been a valuable experience.<br/>
-                                I do hope to he stays hungry for knowledge</h5>
+                                    I do hope to he stays hungry for knowledge</h5>
                                 <p>......................................</p>
                                 
                             </div>
