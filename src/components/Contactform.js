@@ -21,7 +21,9 @@ const Contactform = () => {
                     </Grid>
                     <Grid style={{marginTop:'2em', }}>
                         <Cell style={{margin:'0em'}}>
-                    `       <input  type="submit" value="Send"/>
+                    `       <button  type="submit" value="Send" rel="noopener noreferrer" target="_blank">
+                                Send email
+                            </button>
                         </Cell>
                     </Grid>
                 </form>
