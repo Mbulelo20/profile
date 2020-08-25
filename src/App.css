@@ -203,9 +203,37 @@
 .bar.back::before{
   background-color: grey;
 }
+a {
+  text-decoration: none;
+}
 
+.-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 216px;
+  height: 35px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.-btn:hover {
+  opacity: .8;
+}
+
+.-bg {
+  background: grey;
+}
+
+.-txt {
+  color: #fff;
+}
+
+.-xs {
+  font-size: 12px;
+}
 .bar.learning::before{
-  width: calc(20% - 10px);
+  width: calc(30% - 10px);
 }
 .bar.basic::before{
   width: calc(40% - 10px);
@@ -214,7 +242,10 @@
   width: calc(60% - 10px);
 }
 .bar.advanced::before{
-  width: calc(80% - 10px);
+  width: calc(95% - 10px);
+}
+.bar.js::before{
+  width: calc(90% - 10px);
 }
 .bar.expert::before{
   width: calc(100% - 10px);

@@ -7,15 +7,13 @@ const About = () => {
     return (
         <Fragment >
             <Grid className="demo-grid-3" style={{  
-                    backgroundColor: 'rgb(72, 124, 122)',
-                    marginTop: '3em', opacity:'.8',
-                    width: '75%',
-                    color: 'white',
-                    borderRadius: '50px 15px'
-
-                   
+                    backgroundColor: 'navy',
+                    marginTop: '2.2em', opacity:'.8',
+                    width: '100%',
+                    height:'40%',
+                    color: 'white',  
                 }} >
-                <Cell col ={12} >
+                <Cell col ={12}>
                     <h1><center>A little about me</center></h1>
                     <h4>
                         <center>
@@ -25,14 +23,13 @@ const About = () => {
                         that allow <br/>for individual and teamwork creativity simultaneously.
                         
                         I hope one day to use computer systems to solve some of society's biggest problems. 
-                        <p><Link to="/testimonials"><text style={{color:'lightblue'}}>See what others have to say about me.</text></Link> or View some more about me below...</p>
+                        <p><Link to="/testimonials"><text style={{color:'lightblue'}} class='zoom'>See what others have to say about me.</text></Link> or View some more about me below...</p>
                         </center>
                     </h4>
                 </Cell>
             </Grid>
-    
-            <Grid className="demo-grid-3" >
-                <Cell>
+            <Grid>
+                <Cell className="demo-grid-3">
                     <div class="flip-card"style={{marginLeft: '1em', marginTop: '5em',marginBottom:'8em', opacity:1}} >
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
@@ -76,8 +73,8 @@ const About = () => {
                                 Period: Sep - Nov, 2019. Feb, 2020.<br/>
                                 Role: Volunteer facilitator<br/>
                                 Duties: <br/>
-                                 Teach basic programming skills to high school pupils, 
-                                    Recruit potential students around townships
+                                Teach basic programming skills to high school pupils, 
+                                Recruit potential students around townships
                             </div>
                         </div>
                     </div>

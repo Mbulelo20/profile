@@ -2,36 +2,36 @@ import React, { Fragment } from 'react'
 import {Grid, Cell, Card, CardTitle, CardText, CardActions} from 'react-mdl';
 
 
-const MyProjects = () => {
+
+const Python = () => {
     return (
         <Fragment>
             <Grid style={{marginTop:'5em', marginLeft:'1.5em'}}>
-                <div style={{width:'216px',height:"35px", backgroundColor:'peru', borderRadius:'12px'}}>
-                    <div style={{margin:'0.5em', marginLeft:'5.5em', color:'white'}}>
+                <a href="/MyProjects" class="-btn -bg -txt">
+                    <div>
                         Javascript
                     </div>
-                </div>
-                <a href="/py" class="-btn -bg -txt">
-                    <div>
+                </a>
+                <div style={{width:'216px',height:"35px", backgroundColor:'peru', borderRadius:'12px'}}>
+                    <div style={{margin:'0.5em', marginLeft:'6em', color:'white'}}>
                         Python
                     </div>
-                </a>
+                </div>
             </Grid>
-            
             <Grid className="demo-grid-ruler">
                 <Cell col={3}>
                     <Card shadow={5} style={{width:'85%',height:'75%', marginTop:'3em', marginLeft:'1em'}}>
                         <CardTitle style={{color: 'white', height:'350px', background :'url(https://images.idgesg.net/images/article/2018/02/coding_programming_software_development_thinkstock_871030872-100749644-large.jpg)'}}>
                         </CardTitle>
                         <CardText style={{width: '100%',color: 'white',backgroundColor:'grey'}}>
-                        <h3 style={{marginTop:"0em", fontFamily:'fantasy'}}><center>Git Finder</center></h3>
+                        <h3 style={{marginTop:"0em", fontFamily:'fantasy'}}><center>PyLott</center></h3>
                             <h5 style={{marginBottom:"2em"}}>
-                                Search each easily for Git users and repos they've shared
-                                </h5>
+                                Python lottery game to validate user eligibility, generate random numbers and print out results.
+                            </h5>
                         </CardText>
                         <CardActions style={{backgroundColor:'silver'}}>
                             <button>
-                                <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">Github link</a>                        
+                                <a href="/" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">Github link</a>                        
                             </button>
                             
                         </CardActions>
@@ -42,8 +42,8 @@ const MyProjects = () => {
                         <CardTitle style={{color: 'white', height:'350px', background:'url(https://cdn.osxdaily.com/wp-content/uploads/2012/06/iphone-contacts.jpg)',backgroundColor:'brown'}}>
                         </CardTitle>
                         <CardText style={{width:'100%',color: 'white',backgroundColor:'gray'}}>
-                            <h3 style={{marginTop:"0em", fontFamily:'fantasy'}}><center>Contact Keeper</center></h3>
-                            <h5 style={{marginBottom:"2em"}}>Manages a registered user's contacts, and perfomes feautures add, delete and update.</h5>
+                            <h3 style={{marginTop:"0em", fontFamily:'fantasy'}}><center>Students/Employee Log</center></h3>
+                            <h5 style={{marginBottom:"2em"}}>Programme to register, signin/out employees and students using SQL</h5>
                         </CardText>
                         <CardActions style={{backgroundColor:'silver'}}>
                             <button>
@@ -57,8 +57,8 @@ const MyProjects = () => {
                         <CardTitle style={{ color: 'orange', height:'350px', background:'url(https://5.imimg.com/data5/OP/NN/MY-4030281/notebook-diary-500x500.jpg)'}}>
                         </CardTitle>
                         <CardText style={{width: '100%',color: 'white',backgroundColor:'gray', marginTop:"0em"}}>
-                            <h3 style={{marginTop:"0em", fontFamily:'fantasy'}}><center>IT Logger</center></h3>
-                            <h5 style={{marginBottom:"2em"}}>Technicians' log app. Keeps records of changes made by technicians</h5>
+                            <h3 style={{marginTop:"0em", fontFamily:'fantasy'}}><center>Currency Exchange</center></h3>
+                            <h5 style={{marginBottom:"2em"}}>Python app that fetches data from api, and perfoms currency conversion based on user input.</h5>
                         </CardText>
                         <CardActions style={{backgroundColor:'silver'}}>
                         <button>
@@ -71,7 +71,7 @@ const MyProjects = () => {
                     </Card>
                 </Cell>
                 <Cell col={3}>
-                    <Card shadow={5} style={{width:'85%',height:'75%',marginTop:'3em', marginLeft:'3em'}}>
+                    <Card shadow={5} style={{width:'85%',height:'75%',marginTop:'3em', marginLeft:'1em'}}>
                         <CardTitle style={{color: 'yellow', height:'350px', background :'url(https://cdn.24.co.za/files/Cms/General/d/6043/bd1b36d3e59b4a02a8391508ba5193a1.jpg)'}}>
                         </CardTitle>
                         <CardText style={{width: '100%',color: 'white',backgroundColor:'gray', marginTop:"0em"}}>
@@ -95,4 +95,4 @@ const MyProjects = () => {
     )
 }
 
-export default MyProjects;
+export default Python;
