@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import {Grid, Cell, Card, CardTitle, CardText, CardActions} from 'react-mdl';
-
+import {Link} from 'react-router-dom'
 
 const MyProjects = () => {
     return (
@@ -11,11 +11,9 @@ const MyProjects = () => {
                         Javascript
                     </div>
                 </div>
-                <a href="/py" class="-btn -bg -txt">
-                    <div>
-                        Python
-                    </div>
-                </a>
+                <Link to="/py" class="-btn -bg -txt">
+                    Python
+                </Link>
             </Grid>
             
             <Grid className="demo-grid-ruler">

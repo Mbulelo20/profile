@@ -1,15 +1,13 @@
 import React, { Fragment } from 'react'
 import {Grid, Cell, Card, CardTitle, CardText, CardActions} from 'react-mdl';
-
+import {Link} from 'react-router-dom'
 const Python = () => {
     return (
         <Fragment>
             <Grid style={{marginTop:'5em', marginLeft:'1.5em'}}>
-                <a href="/MyProjects" class="-btn -bg -txt">
-                    <div>
+                <Link to="/MyProjects" class="-btn -bg -txt">
                         Javascript
-                    </div>
-                </a>
+                </Link>
                 <div style={{width:'216px',height:"35px", backgroundColor:'peru', borderRadius:'12px'}}>
                     <div style={{margin:'0.5em', marginLeft:'6em', color:'white'}}>
                         Python
