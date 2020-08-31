@@ -7,9 +7,9 @@ const About = () => {
     return (
         <Fragment >
             <Grid className="demo-grid-3" style={{  
-                    backgroundColor: 'navy',
+                    backgroundColor: 'blue',
                     marginTop: '2.2em', opacity:'.8',
-                    width: '100%',
+                    width: '80%',
                     height:'40%',
                     color: 'white',  
                 }} >
@@ -23,7 +23,7 @@ const About = () => {
                         that allow <br/>for individual and teamwork creativity simultaneously.
                         
                         I hope one day to use computer systems to solve some of society's biggest problems. 
-                        <p><Link to="/testimonials"><text style={{color:'lightblue'}} class='zoom'>See what others have to say about me.</text></Link> or View some more about me below...</p>
+                        <p><Link to="www.mbulelopani09@gmail.com"><text style={{color:'lime'}} class='zoom'>See what others have to say about me.</text></Link> or View some more about me below...</p>
                         </center>
                     </h4>
                 </Cell>

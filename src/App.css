@@ -255,7 +255,9 @@ a {
   margin: 15em;
   background-color: #ddd; 
 }
-
+.title {
+  color: white;
+}
 
 .zoom {
   background-color: transparent;

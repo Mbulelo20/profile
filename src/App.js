@@ -19,7 +19,7 @@ function App() {
       <Layout className="body" >
         <Grid className="demo-grid-ruler" style={{width:'100%'}}>
           <Cell col={12} className="title" >
-            <Header className="demo-grid-ruler" title="Mbulelo Pani" style={{marginLeft:'-1.2em',marginTop:'-1%',fontWeight: "bold",color: 'black', background: 'lightyellow', position: 'fixed', opacity: '0.9'}}>
+            <Header className="demo-grid-ruler" title="Mbulelo Pani" style={{marginLeft:'-1.2em',marginTop:'-1%',fontWeight: "bold", color: 'black', background: 'lightyellow', position: 'fixed', opacity: '0.9'}}>
               <Navigation className="link-dir" style={{width:'100%',marginLeft: '10em'}}>
                   <Link to="/home" className="animate">Home</Link>
                   <Link to="/about" className="animate">About me</Link>

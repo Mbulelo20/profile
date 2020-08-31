@@ -19,21 +19,21 @@ const MyProjects = () => {
             </Grid>
             
             <Grid className="demo-grid-ruler">
-                <Cell col={3}>
-                    <Card shadow={5} style={{width:'85%',height:'75%', marginTop:'3em', marginLeft:'1em'}}>
-                        <CardTitle style={{color: 'white', height:'350px', background :'url(https://images.idgesg.net/images/article/2018/02/coding_programming_software_development_thinkstock_871030872-100749644-large.jpg)'}}>
+            <Cell col={3}>
+                    <Card shadow={5} style={{width:'85%',height:'75%',marginTop:'3em', marginLeft:'1em'}}>
+                        <CardTitle style={{color: 'yellow', height:'350px', background :'url(https://cdn.24.co.za/files/Cms/General/d/6043/bd1b36d3e59b4a02a8391508ba5193a1.jpg)'}}>
                         </CardTitle>
-                        <CardText style={{width: '100%',color: 'white',backgroundColor:'grey'}}>
-                        <h3 style={{marginTop:"0em", fontFamily:'fantasy'}}><center>Git Finder</center></h3>
-                            <h5 style={{marginBottom:"2em"}}>
-                                Search each easily for Git users and repos they've shared
-                                </h5>
+                        <CardText style={{width: '100%',color: 'white',backgroundColor:'gray', marginTop:"0em"}}>
+                            <h3 style={{marginTop:"0em", fontFamily:'fantasy'}}><center>Visitour</center></h3>
+                            <h5 style={{marginBottom:"2em"}}>Register and login, and view pictures of cool locations. Tour app, uses MongoDB.</h5>
                         </CardText>
                         <CardActions style={{backgroundColor:'silver'}}>
                             <button>
-                                <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">Github link</a>                        
+                                <a href="https://github.com/Mbulelo20/visitour.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">GitHub link</a>                        
                             </button>
-                            
+                            <button style={{marginLeft:"6.5em"}}>
+                                <a href="https://polar-coast-73088.herokuapp.com/" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">View</a>                        
+                            </button>
                         </CardActions>
                     </Card>
                 </Cell>
@@ -71,24 +71,23 @@ const MyProjects = () => {
                     </Card>
                 </Cell>
                 <Cell col={3}>
-                    <Card shadow={5} style={{width:'85%',height:'75%',marginTop:'3em', marginLeft:'3em'}}>
-                        <CardTitle style={{color: 'yellow', height:'350px', background :'url(https://cdn.24.co.za/files/Cms/General/d/6043/bd1b36d3e59b4a02a8391508ba5193a1.jpg)'}}>
+                    <Card shadow={5} style={{width:'85%',height:'75%', marginTop:'3em', marginLeft:'1em'}}>
+                        <CardTitle style={{color: 'white', height:'350px', background :'url(https://images.idgesg.net/images/article/2018/02/coding_programming_software_development_thinkstock_871030872-100749644-large.jpg)'}}>
                         </CardTitle>
-                        <CardText style={{width: '100%',color: 'white',backgroundColor:'gray', marginTop:"0em"}}>
-                            <h3 style={{marginTop:"0em", fontFamily:'fantasy'}}><center>Visitour</center></h3>
-                            <h5 style={{marginBottom:"2em"}}>Register and login, and view pictures of cool locations. Tour app, uses MongoDB.</h5>
+                        <CardText style={{width: '100%',color: 'white',backgroundColor:'grey'}}>
+                        <h3 style={{marginTop:"0em", fontFamily:'fantasy'}}><center>Git Finder</center></h3>
+                            <h5 style={{marginBottom:"2em"}}>
+                                Search each easily for Git users and repos they've shared
+                                </h5>
                         </CardText>
                         <CardActions style={{backgroundColor:'silver'}}>
                             <button>
-                                <a href="https://github.com/Mbulelo20/visitour.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">GitHub link</a>                        
+                                <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">Github link</a>                        
                             </button>
-                            <button style={{marginLeft:"6.5em"}}>
-                                <a href="https://polar-coast-73088.herokuapp.com/" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">View</a>                        
-                            </button>
+                            
                         </CardActions>
                     </Card>
                 </Cell>
-                
             </Grid>
             
         </Fragment>
