@@ -15,7 +15,7 @@
 .nav-bar {
   
   height: 10%;
-  color: violet;
+  color: rgb(138, 128, 138);
   font-weight: bolder;
 }
 
@@ -36,8 +36,6 @@
 .demo-grid-ruler p {
   font-size: medium;
   font-weight: bolder;
-  font-style: italic;
-  
 }
 
 .profiles {
@@ -52,10 +50,16 @@
   padding-top: 1px;
   
 }
-.body {
-  background-image: url('https://media.itpro.co.uk/image/upload/t_content-image-desktop@1/v1570815829/itpro/2018/01/how_to_wipe_a_laptop.jpg');
+html {
+  scroll-behavior: smooth;
+}
+.backgroundI {
+  background-image: url('./components/layout/bckimg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: relative;
+  scroll-behavior: smooth;
+
 }
 
 .contact-info {
@@ -148,11 +152,29 @@
   color: white;
   transform: rotateY(180deg);
 }
+.fa fa-arrow-circle-down {
+  width: 90%;
+}
+.navbutton{
+  margin-top: 13em;
+  height: 240px;
+  text-align: center;
+  width: 100%
+}
+.navbutton a {
+
+  text-align: center;
+  padding: 12px;
+  color: white;
+  font-size: 17px;
+}
+
 
 * {box-sizing:border-box}
 .container{
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
+  justify-content: flex-end;
 }
 @keyframes load{
   from {
@@ -250,11 +272,7 @@ a {
 .bar.expert::before{
   width: calc(100% - 10px);
 }
-.container {
-  width: 72%; 
-  margin: 15em;
-  background-color: #ddd; 
-}
+
 .title {
   color: white;
 }
@@ -299,4 +317,28 @@ a {
   border-color: yellow;
   border: yellow;
 
+}
+.navbar-nav {
+  width: 100%;
+  height: 90px;
+  opacity: .8;
+  overflow: auto;
+  position: fixed;
+  float: right;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: crimson;
+}
+
+.active {
+  background-color: #4CAF50;
 }

@@ -4,7 +4,7 @@ const Skills = () => {
     return (
         <div className="demo-grid-ruler">
             <div class="container" style={{backgroundColor:'lightblue'}}>
-                <h4 style={{fontFamily: 'cursive', fontWeight:'bold', color:'black'}}><center>"...what I do have are a very particular set of skills."</center></h4>
+                <h4 style={{fontFamily: 'fantasy', fontWeight:'800', color:'black'}}><center>"...what I do have are a very particular set of skills."</center></h4>
                 <div className="bar front expert" data-skill="CSS"></div>
                 <div className="bar front expert" data-skill="HTML5"></div>
                 <div className="bar front js" data-skill="JavaScript"></div>
