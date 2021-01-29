@@ -10,22 +10,20 @@ const Home = () => {
                     marginTop: '10em',
                     width: '60%',
                     height:'40%',
-                    color: 'white',  
+                    color: 'grey',  
                 }} >
                 <Cell col ={12}>
                     <div style={{marginBottom: '-1em', color: 'white'}}>
-                        <h1 style={{fontFamily: 'Trebuchet MS', fontWeight: 'bolder', textAlign:'left'}}>Mbulelo Pani</h1>
+                        <h1 style={{fontFamily: 'Trebuchet MS', fontWeight: 'bolder', textAlign:'left'}}>Hello, I'm Mbulelo Pani</h1>
                     </div>
-                    <div style={{fontFamily: 'Tahoma', marginBottom: '0em', color:'white', textAlign:'left'}}>
-                        <h4> HTML/CSS | Python | JavaScript | Bootstrap | React | MongoDb | NodeJS | ExpressJS </h4>
+                    <div style={{fontFamily: 'Trebuchet MS', marginBottom: '0em', color:'white', textAlign:'left'}}>
+                        <h4 style={{fontFamily: 'Trebuchet MS'}}> HTML/CSS | Python | JavaScript | Bootstrap | React | MongoDb | NodeJS | ExpressJS </h4>
                     </div>
                     <div style={{color: 'white', textAlign:'left'}}>
-                        <h6 style={{ lineHeight: '110%'}}> 
-                        I am an innovative person with good problem 
-                        solving capabilities.
-                        I love my programming because it is one of the few disciplines 
-                        that allow for individual and teamwork creativity simultaneously.
-                        </h6>
+                        <h5 style={{ lineHeight: '110%', fontFamily: 'Time New Roman'}}> 
+                            I am a junior web developer. I do full stack web delopment, but I'm mostly passionate about the functionality of things, the backend. <br/>
+                            Take a while to see my work, ok.
+                        </h5>
                     </div>
                 </Cell>
                 <a 

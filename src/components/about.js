@@ -6,11 +6,13 @@ import {Link} from 'react-router-dom'
 const About = () => {
     return (
         <Fragment >
+            <div shadow={5}>
             <Grid className="demo-grid-3" style={{  
-                    marginTop: '7em',
+                    marginTop: '1em',
                     width: '80%',
                     height:'40%',
                     color: 'grey',  
+                    
                 }} >
                 <Cell col ={12}>
                     <h1 style={{fontFamily: 'Trebuchet MS'}}><center>Who Am I?</center></h1>
@@ -18,9 +20,7 @@ const About = () => {
                         <center>
                         I am a junior web developer living in Cape Town. I am passionate about building websites that are smart, neat
                         and interactive.
-                        
-                        <p><Link to="www.mbulelopani09@gmail.com"><text style={{color:'lime'}} class='zoom'>See what others have to say about me.</text></Link> or View some more about me below...</p>
-                        </center>
+                                                </center>
                     </h4>
                 </Cell>
                 {/* <Cell className="demo-grid-3">
@@ -80,18 +80,18 @@ const About = () => {
                         <div style={{backgroundColor:'white', textAlign:'center', marginTop: '2em'}}>
                             <img src="https://i.pinimg.com/originals/5b/18/08/5b18084d03c0ba117c60a98a0d0d02b5.jpg" alt="Avatar" style={{width:'15%'}}/>
                         </div>
-                        <div style={{color: 'grey', textAlign:'center', paddingBottom: '-12em'}}>
+                        <div style={{color: 'grey', textAlign:'center', paddingBottom: '-10em'}}>
                             <h2>Education</h2>
                             <h4> Lifechoices Coding Academy</h4>
-                            <div style={{fontFamily:'Tahoma', fontSize: '75px'}}>
-                                <p> JavaScript</p>
-                                <p> Python</p>
-                                <p> MySQL</p>
-                                <p>ReactJS</p>
-                                <p>MongoDB</p>
-                                <p>NodeJS</p>
-                                <p>ExpressJS</p>
-                                <p> HTML & CSS</p>
+                            <div style={{fontFamily:'Tahoma'}}>
+                                 JavaScript<br/>
+                                Python<br/>
+                                MySQL<br/>
+                               ReactJS<br/>
+                               MongoDB<br/>
+                               NodeJS<br/>
+                               ExpressJS<br/>
+                                HTML & CSS<br/>
                             </div>
                         </div>
                     </Card>
@@ -122,6 +122,7 @@ const About = () => {
                     </Card>
                 </Cell>
             </Grid>
+            </div>
         </Fragment>
     )
 }
