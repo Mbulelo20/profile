@@ -17,15 +17,17 @@ const MyProjects = () => {
                             
                             <div class="overlay">
                                 <div class="text" style={{marginBottom:'3em'}}>
-                                    <h1>Github Finder</h1>
-                                    <h6>Search and find your favorite <br/> github users and repos...</h6>
-                                    <Grid>
-                                        <Cell>
-                                        <btn >
-                                            <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
-                                        </btn>
-                                        </Cell>
-                                    </Grid>
+                                    <div class="container">
+                                        <h1>Github Finder</h1>
+                                        <h6>Search and find your favorite <br/> github users and repos...</h6>
+                                        <Grid>
+                                            <Cell>
+                                            <btn >
+                                                <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
+                                            </btn>
+                                            </Cell>
+                                        </Grid>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -97,10 +99,16 @@ const MyProjects = () => {
                             </h4>
                             <Grid>
                                 <Cell>
-                                <btn >
-                                    <a href="https://mbulelo20.github.io/my-portfolio/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View</a>                        
-                                </btn>
+                                    <btn >
+                                        <a href="https://github.com/Mbulelo20/my-portfolio" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">Github link</a>                        
+                                    </btn>
                                 </Cell>
+                                <Cell  style={{marginLeft: '2em'}}>
+                                    <btn >
+                                        <a href="https://mbulelo20.github.io/my-portfolio/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View</a>                        
+                                    </btn>
+                                </Cell>
+                                
                             </Grid>
                         </div>
                     </div>
@@ -120,12 +128,29 @@ const MyProjects = () => {
                                 based on user input.
                             </h4>
                             <Grid>
+                                        <Cell>
+                                        <btn >
+                                            <a href="https://github.com/Mbulelo20/Currency-Exchange.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
+                                        </btn>
+                                        </Cell>
+                                        <Cell style={{marginLeft: '2em'}}>
+                                        <btn >
+                                            <a href="https://github.com/Mbulelo20/CurrencyExchangeApp/raw/master/Currencyconverter.exe" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View Demo</a>                        
+                                        </btn>
+                                        </Cell>
+                                    </Grid>
+                            {/* <Grid>
                                 <Cell>
                                     <btn>
                                         <a href="https://github.com/Mbulelo20/Currency-Exchange.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary">Github link</a> 
                                     </btn>
                                 </Cell>
-                            </Grid>
+                                <Cell style={{marginLeft: '2em'}}>
+                                    <btn>
+                                        <a href="https://github.com/Mbulelo20/CurrencyExchangeApp/raw/master/Currencyconverter.exe" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">Download</a>
+                                    </btn>
+                                </Cell>
+                            </Grid> */}
                         </div>
                     </div>
                 </div>
@@ -142,12 +167,14 @@ const MyProjects = () => {
                             <h1>PyLott</h1>
                             <h4> Python lottery game.
                             </h4>
+                            <Grid>
                             <Cell>
-                                    <btn>
-                                        <a href="https://github.com/Mbulelo20/Currency-Exchange.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary">Github link</a> 
-                                    </btn>
-                                </Cell>
-                            
+                                <btn>
+                                    <a href="https://github.com/Mbulelo20/PyLot.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary">Github link</a> 
+                                </btn>
+                                    
+                            </Cell>
+                            </Grid>
                         </div>
                     </div>
                 </div>
