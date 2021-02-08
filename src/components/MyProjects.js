@@ -1,44 +1,24 @@
 import React, { Fragment } from 'react'
-import {Grid, Cell, Card, CardTitle, CardText, CardActions} from 'react-mdl';
-import {Link} from 'react-router-dom'
+import {Grid, Cell} from 'react-mdl';
 
 const MyProjects = () => {
     return (
         <Fragment >
-            <div>
+            <div className="projectsI">
                 <div className="container" >
                     <h1 style={{fontFamily: 'Trebuchet MS', textAlign: 'center', color:'grey', }}>My Projects</h1>
                 </div>
-                <Grid className='container' style={{textAlign: 'center', color: 'grey', margin:'-4em', marginTop:'1em'}}>
-                    <Cell col={1}>
-                    <img src='https://thumbs.dreamstime.com/b/node-js-emblem-node-js-vector-logo-backend-programming-javascript-server-development-167619269.jpg' style={{maxWidth:'50%'}}/>
-                    </Cell>
-                    <Cell col={1}>
-                    <img src='https://logodix.com/logo/1764963.png' style={{maxWidth:'50%'}}/>
-                    </Cell>
-                    <Cell col={1}>
-                    <img src='https://res.cloudinary.com/practicaldev/image/fetch/s--54ca_F2q--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/1wwdyw5de8avrdkgtz5n.png' style={{maxWidth:'50%'}}/>
-                    </Cell>
-                    <Cell col={1}>
-                    <img src='https://s.clipartkey.com/mpngs/s/309-3091112_clipart-of-python-and-binatang-transparent-cartoons-python.png' style={{maxWidth:'50%'}}/>
-                    </Cell>
-                    <Cell col={1}>
-                    <img src='https://pbs.twimg.com/profile_images/1255113654049128448/J5Yt92WW_400x400.png' style={{maxWidth:'50%'}}/>
-                    </Cell>
-                    <Cell col={1}>
-                    <img src='https://cledara-public.s3.eu-west-2.amazonaws.com/logo-mongodb.png' style={{maxWidth:'50%'}}/>
-                    </Cell>
-                </Grid>
+               
                 <Grid className="container" style={{marginTop: '8em'}}>
                     <Cell col={4}>
-                        <div class="containerI" style={{width: "100%"}}>
+                        <div class="containerI" style={{width: "90%"}}>
                             <img src="https://i.pinimg.com/originals/31/8c/21/318c21f5dbe767634543ac1020bc1cfa.jpg" alt="Avatar" class="image"
                             />
                             
                             <div class="overlay">
                                 <div class="text" style={{marginBottom:'3em'}}>
                                     <h1>Github Finder</h1>
-                                    <h4>Search and find your favorite <br/> github users and repos...</h4>
+                                    <h6>Search and find your favorite <br/> github users and repos...</h6>
                                     <Grid>
                                         <Cell>
                                         <btn >
@@ -52,7 +32,7 @@ const MyProjects = () => {
 
                         </Cell>
                         <Cell col={4}>
-                        <div class="containerI" style={{width: "100%"}}>
+                        <div class="containerI" style={{width: "90%"}}>
                             <img src="https://www.australia.com/content/australia/en/places/sydney-and-surrounds/guide-to-byron-bay/_jcr_content/imagePortrait.adapt.740.medium.jpg" alt="Avatar" class="image"
                             
                             
@@ -80,7 +60,7 @@ const MyProjects = () => {
 
                         </Cell>
                         <Cell col={4}>
-                        <div class="containerI" style={{width: "100%"}}>
+                        <div class="containerI" style={{width: "90%"}}>
                             <img src="https://cdn.osxdaily.com/wp-content/uploads/2012/06/iphone-contacts.jpg" alt="Avatar" class="image"
                             style={{height:'700px'}}
                             />
@@ -106,7 +86,7 @@ const MyProjects = () => {
                 <Grid className="container">
             
             <Cell col={4}>
-            <div class="containerI" style={{width: "100%"}}>
+            <div class="containerI" style={{width: "90%"}}>
                     <img src="https://www.australia.com/content/australia/en/places/sydney-and-surrounds/guide-to-byron-bay/_jcr_content/imagePortrait.adapt.740.medium.jpg" alt="Avatar" class="image"
                     />
                     
@@ -127,7 +107,7 @@ const MyProjects = () => {
                 </div>
                 </Cell>
                 <Cell col={4}>
-                <div class="containerI" style={{width: "100%"}}>
+                <div class="containerI" style={{width: "90%"}}>
                     <img src="https://www.enca.com/sites/default/files/1388612_58676202.jpg" alt="Avatar" class="image"
                     style={{height:'400px'}}
                     />
@@ -152,7 +132,7 @@ const MyProjects = () => {
 
                 </Cell>
                 <Cell col={4}>
-                <div class="containerI" style={{width: "100%"}}>
+                <div class="containerI" style={{width: "90%"}}>
                     <img src="https://www.controcampus.it/estrazioni-2/" alt="Avatar" class="image"
                     style={{height:'400px'}}
                     />

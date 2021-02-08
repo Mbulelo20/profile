@@ -1,37 +1,37 @@
 import React, {Fragment} from 'react'
-import {Grid, Cell, Link} from 'react-mdl'
+import {Grid} from 'react-mdl'
 
 const Home = () => {
     return (
         <Fragment>
             <container>
-            <Grid className="demo-grid-3" style={{  
+            <Grid className="demo-grid-ruler" style={{  
                     
-                    marginTop: '10em',
+                    marginTop: '14em',
                     width: '60%',
                     height:'40%',
                     color: 'grey',  
                 }} >
-                <Cell col ={12}>
+                <div>
                     <div style={{marginBottom: '-1em', color: 'white'}}>
-                        <h1 style={{fontFamily: 'Trebuchet MS', fontWeight: 'bolder', textAlign:'left'}}>Hello, I'm Mbulelo Pani</h1>
+                        <h1 style={{fontFamily: 'Trebuchet MS', fontWeight: 'bolder', textAlign:'center'}}>Hello, I'm Mbulelo Pani</h1>
                     </div>
-                    <div style={{fontFamily: 'Trebuchet MS', marginBottom: '0em', color:'white', textAlign:'left'}}>
+                    <div style={{fontFamily: 'Trebuchet MS', marginBottom: '0em', color:'white', textAlign:'center'}}>
                         <h4 style={{fontFamily: 'Trebuchet MS'}}> HTML/CSS | Python | JavaScript | Bootstrap | React | MongoDb | NodeJS | ExpressJS </h4>
                     </div>
-                    <div style={{color: 'white', textAlign:'left'}}>
-                        <h5 style={{ lineHeight: '110%', fontFamily: 'Time New Roman'}}> 
-                            I am a junior web developer. I do full stack web delopment, but I'm mostly passionate about the functionality of things, the backend. <br/>
-                            Take a while to see my work, ok.
+
+                    <div style={{textAlign:'center'}}>
+                        <h5 className='color1' style={{color:'white', lineHeight: '110%', fontFamily: 'Time New Roman'}}> 
+                        I am a junior web developer living in Cape Town. I am passionate about building websites that are smart, neat
+                        and interactive. Take a while and see more about what I do.
+                        </h5>
+                        <h5 className='color2' style={{color: 'black', lineHeight: '110%', fontFamily: 'Time New Roman'}}> 
+                        I am a junior web developer living in Cape Town. I am passionate about building websites that are smart, neat
+                        and interactive. Take a while and see more about what I do.
                         </h5>
                     </div>
-                </Cell>
-                <a 
-                    class="fa fa-arrow-circle-down w3-jumbo w3-xxxlarge" 
-                    style={{width:'100%', height:'100%', color:'lightBlue', marginTop: '1em'}}
-                    href="#section2"
-                >
-                </a>
+                </div>
+                
             </Grid> 
             </container>
             

@@ -5,10 +5,10 @@ import {Grid, Cell} from 'react-mdl'
 const Testimonials = () => {
     return (
         <Fragment >
-            <div >
+            <div className="testimonials" >
+                <div>
                     <h1 style={{fontFamily: 'Trebuchet MS', textAlign: 'center', color:'grey'}}>Testimonials</h1>
                     <h5 style={{fontFamily: 'Trebuchet MS', textAlign: 'center', color:'grey'}}>Comments from a few of my past instructors and fellow cohorts at LC Academy</h5>
-                    <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZdRZ1gCU_q-kxXoXZsQhewRIfU5lzxhvo4A&usqp=CAU" style={{width:'85px'}}/></center>
                 </div>
             <div className="container" style={{marginTop:'-8em'}}>
             <Grid className="demo-grid-ruler" style={{marginTop:'12em'}}>
@@ -16,30 +16,27 @@ const Testimonials = () => {
                     <div class="flip-card" style={{margin:'2em'}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front" style={{backgroundColor: 'rgb(63, 76, 78)', color:'white'}}>
-                                <h2>Godwin Dzvapatsva</h2>
-                                <h4>Head of Curriculum and Learning</h4>
-                                <h5>says...</h5>
+                                <h2 style={{margin:'22%'}}>Godwin Dzvapatsva</h2>
                             </div>
                             <div class="flip-card-back">
-                                <h5><br/>
-                                    <p>......................................</p>
+                                <h5>
+                                
                                         Mbulelo is a well-behaved student <br/> 
                                         who has shown sound skills in back end and front end development<br/>
                                     <br/>He is someone who manages to work within given timelines.
                                     </h5>
-                                    <p>......................................</p>
+                                    
                                 <p></p>
                             </div>
                         </div>
                     </div>
+                    
                 </Cell>
                 <Cell col={6}>
                     <div class="flip-card" style={{margin:'2em'}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front" style={{backgroundColor: 'rgb(63, 76, 78)', color:'white'}}>
-                                <h2>Siyamthanda Mgoqi,</h2>
-                                <h4>fellow classmate,</h4>
-                                <h5>says this...</h5>
+                                <h2 style={{margin:'22%'}}>Siyamthanda Mgoqi</h2>
                             </div>
                             <div class="flip-card-back" >
                             <h5>
@@ -62,9 +59,7 @@ const Testimonials = () => {
                     <div class="flip-card" style={{margin:'2em'}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front" style={{backgroundColor: 'rgb(63, 76, 78)', color:'white'}}>
-                                <h2>Asaph Franks</h2>
-                                <h4>Another fellow classmate</h4>
-                                <h5>says...</h5>
+                                <h2 style={{margin:'22%'}}>Asaph Franks</h2>
                             </div>
                             <div class="flip-card-back">
                                 <h5><br/>
@@ -83,8 +78,7 @@ const Testimonials = () => {
                     <div class="flip-card" style={{margin:'2em'}}>
                         <div class="flip-card-inner">
                             <div class="flip-card-front" style={{backgroundColor: 'rgb(63, 76, 78)', color:'white'}}>
-                                <h2><h5>While</h5>Lukhanyo Vakele,</h2>
-                                <h5>has this to say...</h5>
+                                <h2 style={{margin:'22%'}}>Lukhanyo Vakele</h2>
                             </div>
                             <div class="flip-card-back">
                                 <br/>
@@ -99,6 +93,7 @@ const Testimonials = () => {
                     </div>
                 </Cell>
             </Grid>
+            </div>
             </div>
         </Fragment>
     )

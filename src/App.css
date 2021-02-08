@@ -3,6 +3,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 .header-color{
   color: aquamarine;
 }
@@ -100,7 +102,7 @@ html {
   scroll-behavior: smooth;
 }
 .backgroundI {
-  background-image: url('./components/layout/bckimg.jpg');
+  background-image: url('./components/layout/fadebck.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: relative;
@@ -108,7 +110,13 @@ html {
   box-shadow: #4d5557;
 
 }
-
+.testimonials{
+  background-image: url('./components/layout/tech1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: relative;
+  height: '120%'
+}
 .contact-info {
   margin: 50em;
   margin-top: 55em;
@@ -117,16 +125,18 @@ html {
 }
 .contact i {
   color: rgba(43, 41, 167, 0.699);
-  font-size: 3em;
-  padding: 28px;
-  padding-top: 5px;
+  font-size: 2em;
+  margin-left: 0em;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  
 
 }
 .email i {
   color: rgb(80, 187, 38);
-  font-size: 3em;
-  padding: 28px;
-  padding-top: 5px;
+  font-size: 2em;
+  margin-top: 1rem;
+  margin-right: 1rem;
 }
 .Title{
   font-weight: bolder;
@@ -153,6 +163,14 @@ html {
   color: white;
   font-family: 'Amatic SC', cursive;
   font-style: italic;
+}
+
+.color2 { display: none; }
+
+ /* When resolution <= 1200px, hide full text and show short text */
+@media (max-width: 1322px) {
+    .color2 { display: inline-block; }
+    .color1 { display: none; }
 }
 
 
@@ -190,7 +208,7 @@ html {
 
 .flip-card-front {
   background-color: #bbb;
-  color: rgb(63, 76, 78);
+  color: rgb(78, 63, 75);
 }
 
 .flip-card-back {
@@ -220,7 +238,6 @@ html {
 .container{
   width: 100%;
   margin: 0 auto;
-  justify-content: flex-end;
 }
 @keyframes load{
   from {
@@ -375,15 +392,13 @@ a {
 
 /* Navbar links */
 .navbar a {
-  float: left;
+  float: right;
   color: white;
   text-decoration: none;
   font-size: 17px;
 }
 
-.navbar a:hover {
-  background-color: crimson;
-}
+
 
 .active {
   background-color: #4CAF50;
