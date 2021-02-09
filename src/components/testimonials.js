@@ -19,14 +19,13 @@ const Testimonials = () => {
                                 <h2 style={{margin:'22%'}}>Godwin Dzvapatsva</h2>
                             </div>
                             <div class="flip-card-back">
-                                <h5>
-                                
-                                        Mbulelo is a well-behaved student <br/> 
-                                        who has shown sound skills in back end and front end development<br/>
-                                    <br/>He is someone who manages to work within given timelines.
-                                    </h5>
-                                    
-                                <p></p>
+                                <h6><br/>
+                                <p>......................................</p>
+                                    Mbulelo is a well-behaved student who has <br/> 
+                                    shown sound skills in backend and frontend development.
+                                    <br/>He is someone who manages to work <br/> within given timelines.
+                                </h6>
+                                <p>......................................</p>
                             </div>
                         </div>
                     </div>
@@ -39,14 +38,13 @@ const Testimonials = () => {
                                 <h2 style={{margin:'22%'}}>Siyamthanda Mgoqi</h2>
                             </div>
                             <div class="flip-card-back" >
-                            <h5>
+                            <h6><br/>
                                 <p>......................................</p>
-                                Mbulelo is a focused individual, and <br/>
-                                it's with this how he aproaches his work. One thing<br/>
-                                I learned from him is that one has to focus on the task at hand<br/>
-                                to achieve the best results! 
-                                <br/>
-                                </h5>
+                                Mbulelo is a focused individual, and it's with <br/>
+                                 this how he aproaches his work. One thing I learned<br/>
+                                 from him is that one has to focus on the task at hand<br/>
+                                to achieve the best results.
+                                </h6>
                                 <p>......................................</p>
                                 <p></p>
                             </div>
@@ -62,12 +60,12 @@ const Testimonials = () => {
                                 <h2 style={{margin:'22%'}}>Asaph Franks</h2>
                             </div>
                             <div class="flip-card-back">
-                                <h5><br/>
+                                <h6><br/><br/>
                                     <p>......................................</p>
                                         Mbulelo is a really curious person<br/> 
-                                        who invests a lot of his time in getting work done.<br/>
+                                        who invests a lot of his time in getting work done.
                                     <br/> I'd recommend working with him to anyone.
-                                    </h5>
+                                    </h6>
                                     <p>......................................</p>
                                 <p></p>
                             </div>
@@ -81,11 +79,11 @@ const Testimonials = () => {
                                 <h2 style={{margin:'22%'}}>Lukhanyo Vakele</h2>
                             </div>
                             <div class="flip-card-back">
-                                <br/>
+                                <h6><br/><br/>
                                 <p>......................................</p>
-                                <h5>Mbulelo is one of the hardest <br/> working people I met at the Academy.</h5>
-                                <h5>Working and learning with him has been a valuable experience.<br/>
-                                    I do hope to he stays hungry for knowledge</h5>
+                                Mbulelo is one of the hardest  working people <br/> I met at the Academy.
+                                    Working and learning with him has been a valuable experience.<br/>
+                                </h6>
                                 <p>......................................</p>
                                 
                             </div>

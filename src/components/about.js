@@ -4,28 +4,18 @@ import {Grid, Cell, Card} from 'react-mdl';
 
 const About = () => {
     return (
-        <div id='ab' style={{marginTop:"120px"}}>
+        <div id='ab' style={{marginTop:"11"}}>
              <Fragment >
-            <div shadow={5}>
-                <Grid className="demo-grid-ruler">
-                    <Cell col={12}>
-                         <h1 style={{fontFamily: 'Trebuchet MS', color: 'black'}}><center>Who Am I?</center></h1>
-                    </Cell>
-                </Grid>
+            <div  style={{  
+                        marginTop: '10em',
+                        width: '100%'
+                    }}>
                 <Grid className="demo-grid-ruler" style={{  
-                        marginTop: '3em',
-                        width: '80%',
-                        height:'40%',
-                        color: 'black',  
+                        marginTop:'-20em'
                     }} >
-
-                    <Cell col={4}>
-                        <img src="https://lh3.googleusercontent.com/xlXBD2NiBAeyiMNjhNQGGF6yVXWz46fIHDnHNJfTwQoyZ6eSa5K2HtytDaXIMrSPezc6O8qxfy_eo7b8AF-v4Ko9XM1cJUJvyMiKJEqjity2itzB_r9LOb-YhCe1NX4j2alC5lj0k4Tg_IFv1S28OK0oJ2GwPYTuX9OLE0e02T07B88FuDg8ZluyRCDkFfAwGfonmQ5mTWnP425MZNx5EOegEa3wy4mfXjyM8b3lV7IoGuKPTm_UUAy4jgCXoFVeb8qK3sKrQXjk85NYjyw3pS554lpTpAgvmIflzHJVEpJLMxfOJuVotZYExUv6ym_4uYkbEqTFX6Qtl1yTwXBzrheGhyqYYIljUPMNXPf4VN4ejXzU6ExXxqB62pnAx16Csv6TSeGlhmAEBv3dVjUb5did4UTEMj8zcgd60G4PgUTTUKuF_XE6ZOMYbfLQxtNBrj3QK_0n90QVkrK09fs0y7Zv7O4lYWxt2UAKFBjmZUFDWKzApHmGV8wKBMo7VwnDLhD6SjfrFnqqC-DFwNRlOU5AMBWZpk9jVPmCxpIl3RX_N6e0_R-nKf6-cVgzeKMry5Ood3Nx9ECetpd5OTYKdjE-kiouBrNl2HWTBBiczXb08192G01GGfnpyd0kOTbYCtHlGoXVdnZJ_qjLzrzMnf_k1gAFcWMd-GjMEjcC5uKj9hvYEeWSZOYhTQ-zVw=w525-h700-no?authuser=0" 
-                        alt='profile avatar'
-                        style={{width:'100%', height:'75%', borderRadius:'60%'}}/>
-                    </Cell>
-                    <Cell col ={8} style={{align: 'middle'}}>
-                        <h4 style={{color: 'black',margin:'3em', width:'100%'}}>
+                    <Cell col ={8} style={{width:'100%'}}>
+                        <h2 style={{fontFamily: 'Trebuchet MS'}}><center>Who Am I?</center></h2>
+                        <h4 style={{color: 'black',margin:'2em'}}>
                             <center>
                             I am an innovative person with good problem solving capabilities.  <br/>
                             I love programming because it is one of the few disciplines that allow
@@ -35,7 +25,6 @@ const About = () => {
                             </center>
                         </h4>
                     </Cell>
-                    
                 </Grid>
                 <Grid className="container" style={{marginTop: '5em'}}>
                     <Cell  col={6}>

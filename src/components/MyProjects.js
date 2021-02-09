@@ -17,9 +17,8 @@ const MyProjects = () => {
                             
                             <div class="overlay">
                                 <div class="text" style={{marginBottom:'3em'}}>
-                                    <div class="container">
-                                        <h1>Github Finder</h1>
-                                        <h6>Search and find your favorite <br/> github users and repos...</h6>
+                                        <h3 style={{margin:'0em'}}>Github Finder</h3>
+                                        <h5 style={{margin:'1em'}}>Search and <br/>find your favorite <br/> github users and repos...</h5>
                                         <Grid>
                                             <Cell>
                                             <btn >
@@ -27,7 +26,6 @@ const MyProjects = () => {
                                             </btn>
                                             </Cell>
                                         </Grid>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +41,7 @@ const MyProjects = () => {
                             <div class="overlay">
                                 <div class="text" style={{marginBottom:'3em'}}>
                                     <h1>Visi-Tour</h1>
-                                    <h4>Register and login and <br/> view cool pictures of your <br/>favorite places <br/> github users and repos...</h4>
+                                    <h4 style={{margin:'1em'}}>Register and login and <br/> view cool pictures of your <br/>favorite places <br/> github users and repos...</h4>
                                     <Grid>
                                         <Cell>
                                         <btn >
@@ -69,10 +67,10 @@ const MyProjects = () => {
                             
                             <div class="overlay">
                                 <div class="text" style={{marginBottom:'3em'}}>
-                                    <h1>Contact <br/>Keeper</h1>
-                                    <h4>Manages a registered user's <br/>contacts with functions such as <br/>
-                                    create, read, update and delete
-                                    </h4>
+                                    <h3 style={{margin:'1em'}}>Contact <br/>Keeper</h3>
+                                    <h5 style={{margin:'1em'}}>Manages a registered user's <br/>contacts with functions such as <br/>
+                                        create, read, update and delete
+                                    </h5>
                                     <Grid>
                                         <Cell>
                                         <btn >
