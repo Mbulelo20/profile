@@ -6,72 +6,62 @@ const About = () => {
     return (
         <div id='ab' style={{marginTop:"11"}}>
              <Fragment >
-            <div  style={{  
-                        marginTop: '10em',
-                        width: '100%'
-                    }}>
-                <Grid className="demo-grid-ruler" style={{  
-                        marginTop:'-20em'
-                    }} >
-                    <Cell col ={8} style={{width:'100%'}}>
-                        <h2 style={{fontFamily: 'Trebuchet MS'}}><center>Who Am I?</center></h2>
-                        <h4 style={{color: 'black',margin:'2em'}}>
-                            <center>
-                            I am an innovative person with good problem solving capabilities.  <br/>
-                            I love programming because it is one of the few disciplines that allow
-                            for individual and  teamwork  creativity simultaneously. <br/>
-                            <br/>
-                            I do full stack web delopment, but I'm mostly passionate about the functionality of things, the backend. <br/>
-                            </center>
-                        </h4>
+            <div  style={{marginTop: '50em', width: '100%'}}>
+                <Grid className="demo-grid-ruler container" style={{marginTop:'-20em'}}>
+                    <Cell  col={4}>
+                        <Card  style={{width: '100%', margin: 'auto'}}>
+                            <img src="https://cdn.pixabay.com/photo/2016/04/01/11/25/avatar-1300331_960_720.png" alt="avatar" style={{maxHeight: '450px'}}/>
+                        </Card>
+                    </Cell>
+                    <Cell col ={8}>
+                        <Card  style={{width: '100%', margin: 'auto'}}>
+                        <h2 style={{fontFamily: 'Tahoma', color: '#555555', marginBottom: '0.5em'}}><center>About Me</center></h2>
+                        <h5 style={{color: '#555555',margin:'2em'}}>
+                            I am a recently graduated web developer based in Cape Town.<br/>
+                            I graduated in 2020 at Life Choices Academy, and in 2019 I had been a volunteer  at a tech<br/> NGO for 4 months.
+                            I've gained experience in working alone, but I've also gained <br/>good experience while studying and working within a team.<br/><br/>
+                            My passion lies in designing the funcionality of websites, <br/> from databases and authenticating,
+                            to forms and animations.
+                        </h5>
+                        </Card>
                     </Cell>
                 </Grid>
                 <Grid className="container" style={{marginTop: '5em'}}>
                     <Cell  col={6}>
-                        <Card shadow={5} style={{zIndex:0,width:'80%',height:'500px', margin: 'auto'}}>
-                            
-                            <div style={{color: 'grey', textAlign:'center', paddingBottom: '-10em'}}>
+                        <Card style={{zIndex:0,width:'80%',height:'500px', margin: 'auto'}}>
+                            <div style={{color: 'grey', textAlign:'left', paddingBottom: '-10em'}}>
                                 <h2>Education</h2>
                                 <h4> Lifechoices Coding Academy</h4>
                                 <div style={{fontFamily:'Tahoma'}}>
                                     Period: Feb, 2020 - Aug, 2020.<br/>
                                     Course: Fullstack Web Development<br/>
-                                    <div style={{fontFamily:'Tahoma', backgroundColor:'green',color:'white', width: '30%', margin:'auto'}}>
-                                        Completed
-                                    </div>
                                 </div>
-                                
                                 <h4>Northlink College</h4>
                                 <div style={{fontFamily:'Tahoma'}}>
                                     Period: 2016 - 2018.<br/>
                                     Course: Logic Systems, Electrical Engineering<br/>
                                     Qualification: N4
-                                    <div style={{fontFamily:'Tahoma', backgroundColor:'green',color:'white', width: '30%', margin:'auto'}}>
-                                        Completed
-                                    </div>
                                 </div>
                                 <h4>Sizimisele High School</h4>
                                 <div style={{fontFamily:'Tahoma'}}>
                                     Period: 2011 - 2015.<br/>
                                     Course: Electrical Engineering<br/>
-                                    <div style={{fontFamily:'Tahoma', backgroundColor:'green',color:'white', width: '30%', margin:'auto'}}>
-                                        Completed
-                                    </div>
+                                    Certificate: Matric
                                 </div>
-                            
                             </div>
                         </Card>
                     </Cell>
                     <Cell  col={6}>
-                        <Card shadow={5} style={{zIndex:0,width:'80%',height:'500px', margin: 'auto'}}>
+                        <Card style={{zIndex:0,width:'80%',height:'500px', margin: 'auto'}}>
                         
-                            <div style={{color: 'grey', textAlign:'center', paddingBottom: '-12em'}}>
+                            <div style={{color: 'grey', textAlign:'left', paddingBottom: '-12em'}}>
                                 <h2>Experience</h2>
                                 
                                 <div style={{fontFamily:'Tahoma'}}>
-                                <h4> LC Studio</h4>
+                                <h4 > LC Studio</h4>
+                                    <h5>Web developer </h5><br/>
                                     Period: Dec, 2020 - .<br/>
-                                    Role: Intern<br/>
+                                    Role: fullstack development<br/>
                                     Duties: Junior web developer<br/>
                                 </div>
                                 <div style={{fontFamily:'Tahoma'}}>

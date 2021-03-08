@@ -7,7 +7,7 @@ const Testimonials = () => {
         <Fragment >
             <div className="testimonials" >
                 <div>
-                    <h1 style={{fontFamily: 'Trebuchet MS', textAlign: 'center', color:'grey'}}>Testimonials</h1>
+                    <h1 style={{fontFamily: 'Robot Slab, serif', textAlign: 'center', color:'grey'}}>Testimonials</h1>
                     <h5 style={{fontFamily: 'Trebuchet MS', textAlign: 'center', color:'grey'}}>Comments from a few of my past instructors and fellow cohorts at LC Academy</h5>
                 </div>
             <div className="container" style={{marginTop:'-8em'}}>
@@ -15,12 +15,13 @@ const Testimonials = () => {
                 <Cell col={6}>
                     <div class="flip-card" style={{margin:'2em'}}>
                         <div class="flip-card-inner">
-                            <div class="flip-card-front" style={{backgroundColor: 'rgb(63, 76, 78)', color:'white'}}>
+                            <div class="flip-card-front" style={{backgroundColor: 'grey', color:'white'}}>
                                 <h2 style={{margin:'22%'}}>Godwin Dzvapatsva</h2>
                             </div>
                             <div class="flip-card-back">
                                 <h6><br/>
                                 <p>......................................</p>
+                                <i class="fa fa-quote-right" aria-hidden="true" style={{backroundColor:"#fff"}}></i>
                                     Mbulelo is a well-behaved student who has <br/> 
                                     shown sound skills in backend and frontend development.
                                     <br/>He is someone who manages to work <br/> within given timelines.
@@ -34,7 +35,7 @@ const Testimonials = () => {
                 <Cell col={6}>
                     <div class="flip-card" style={{margin:'2em'}}>
                         <div class="flip-card-inner">
-                            <div class="flip-card-front" style={{backgroundColor: 'rgb(63, 76, 78)', color:'white'}}>
+                            <div class="flip-card-front" style={{backgroundColor: 'grey', color:'white'}}>
                                 <h2 style={{margin:'22%'}}>Siyamthanda Mgoqi</h2>
                             </div>
                             <div class="flip-card-back" >
@@ -56,7 +57,7 @@ const Testimonials = () => {
                 <Cell col={6}>
                     <div class="flip-card" style={{margin:'2em'}}>
                         <div class="flip-card-inner">
-                            <div class="flip-card-front" style={{backgroundColor: 'rgb(63, 76, 78)', color:'white'}}>
+                            <div class="flip-card-front" style={{backgroundColor: 'grey', color:'white'}}>
                                 <h2 style={{margin:'22%'}}>Asaph Franks</h2>
                             </div>
                             <div class="flip-card-back">
@@ -75,7 +76,7 @@ const Testimonials = () => {
                 <Cell col={6}>
                     <div class="flip-card" style={{margin:'2em'}}>
                         <div class="flip-card-inner">
-                            <div class="flip-card-front" style={{backgroundColor: 'rgb(63, 76, 78)', color:'white'}}>
+                            <div class="flip-card-front" style={{backgroundColor: 'grey', color:'white'}}>
                                 <h2 style={{margin:'22%'}}>Lukhanyo Vakele</h2>
                             </div>
                             <div class="flip-card-back">

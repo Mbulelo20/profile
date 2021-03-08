@@ -17,60 +17,68 @@ const MyProjects = () => {
                             
                             <div class="overlay">
                                 <div class="text" style={{marginBottom:'3em'}}>
-                                        <h3 style={{margin:'0em'}}>Github Finder</h3>
-                                        <h5 style={{margin:'1em'}}>Search and <br/>find your favorite <br/> github users and repos...</h5>
-                                        <Grid>
-                                            <Cell>
-                                            <btn >
-                                                <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
-                                            </btn>
-                                            </Cell>
-                                        </Grid>
-                                </div>
-                            </div>
-                        </div>
-
-                        </Cell>
-                        <Cell col={4}>
-                        <div class="containerI" style={{width: "90%"}}>
-                            <img src="https://www.australia.com/content/australia/en/places/sydney-and-surrounds/guide-to-byron-bay/_jcr_content/imagePortrait.adapt.740.medium.jpg" alt="Avatar" class="image"
-                            
-                            
-                            />
-                            
-                            <div class="overlay">
-                                <div class="text" style={{marginBottom:'3em'}}>
-                                    <h1>Visi-Tour</h1>
-                                    <h4 style={{margin:'1em'}}>Register and login and <br/> view cool pictures of your <br/>favorite places <br/> github users and repos...</h4>
+                                    <div className="container">
+                                        <h3>Github Finder</h3>
+                                        <h5>Search and <br/>find your favorite <br/> github users and repos...</h5>
+                                    </div>
                                     <Grid>
                                         <Cell>
                                         <btn >
-                                            <a href="https://github.com/Mbulelo20/visitour.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
+                                            <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
                                         </btn>
                                         </Cell>
+
                                         <Cell style={{marginLeft: '2em'}}>
                                         <btn >
-                                            <a href="https://polar-coast-73088.herokuapp.com/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View Demo</a>                        
+                                            <a href="https://githubseeker.herokuapp.com/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View demo</a>                        
                                         </btn>
                                         </Cell>
                                     </Grid>
                                 </div>
                             </div>
                         </div>
-
+                    </Cell>
+                        <Cell col={4}>
+                            <div class="containerI" style={{width: "90%"}}>
+                                <img src="https://www.australia.com/content/australia/en/places/sydney-and-surrounds/guide-to-byron-bay/_jcr_content/imagePortrait.adapt.740.medium.jpg" alt="Avatar" class="image"
+                                />
+                                <div class="overlay">
+                                    <div class="text" style={{marginBottom:'3em'}}>
+                                        <div className="container">
+                                            <h3 >Visi-Tour</h3>
+                                            <h5>Register and login and <br/> view cool pictures of your <br/>favorite places <br/> github users and repos...</h5>
+                                        </div>
+                                        <Grid>
+                                            <Cell>
+                                            <btn >
+                                                <a href="https://github.com/Mbulelo20/visitour.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
+                                            </btn>
+                                            </Cell>
+                                            <Cell style={{marginLeft: '2em'}}>
+                                            <btn >
+                                                <a href="https://polar-coast-73088.herokuapp.com/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View demo</a>                        
+                                            </btn>
+                                            </Cell>
+                                        </Grid>
+                                    </div>
+                                </div>
+                            </div>
                         </Cell>
                         <Cell col={4}>
                         <div class="containerI" style={{width: "90%"}}>
-                            <img src="https://cdn.osxdaily.com/wp-content/uploads/2012/06/iphone-contacts.jpg" alt="Avatar" class="image"
+                            <img src="https://lh3.googleusercontent.com/QZjDASaZnw4KvJm5-U7zunLMfyw4cMeB933_TYAzc0k26Hc5DDQCsmOwMl_FXJsCxaPTLhqPJPC2SYBtjW_09EYO9A9Z5QKun87OCKbp8y7rOCyOfSHjBYaSpbtrtUgFII0scy-waLr38lPkPbybEQpmNGmaONS0q79N1nsudfqEJBWRsNjavPhA3spwRWVzvAah7mrHAzjOdhI0-4rsdd7INm4ACcjjWbNxoq5G93B3gJral8r8IahYJu7A-60nU_uGP1z5d-LuTSat-lg4w9jGJOmkDj7dc8H31EMVRZrA0wXnNQKzPI7C5UapjVOQt8o5NIQ5Oh2T8AhNNOsxW7iAY9jJLMdC4NsioK3KEERQBEu3luo1gHqM-Mm5-aFukRybUw1snMPNyaJQDkMhYp4cmA4b9254iHDDRSLXX2iwSOdwDvXxzVOJNYF2l3Q84wNeJu4t0_rMNk6qmUDTQwLCUo7lt1l8H0SYMaIzzGd-rQNNSRS0YTDOfSNUyI3AR4WwAmnQH2WtZooXN94qgBNagDvrb7FSsgKFEDDcHcI80tqm3PTMemEFsR8I1mUHUx_NNqmWv9EJfar7x5LI7PBTeeXhJFQmQfKGlpQjdPXsmaGYKtIomIQKYizMzlHp_kzLfXH4h1YNA1NVmiddk7Op-lQdtCgeIVgTu8ZBN59e6SpcxjYGzIisWf7UFg=w815-h757-no?authuser=0" alt="Avatar" class="image"
                             style={{height:'700px'}}
                             />
                             
                             <div class="overlay">
                                 <div class="text" style={{marginBottom:'3em'}}>
-                                    <h3 style={{margin:'1em'}}>Contact <br/>Keeper</h3>
-                                    <h5 style={{margin:'1em'}}>Manages a registered user's <br/>contacts with functions such as <br/>
-                                        create, read, update and delete
-                                    </h5>
+                                    <div className="container">
+                                        <h3>Contact Keeper</h3>
+                                        <h5>Manages and records <br/>a registered user's contacts. 
+                                        </h5>
+                                        
+                                    </div>
+                                    
                                     <Grid>
                                         <Cell>
                                         <btn >
@@ -87,12 +95,12 @@ const MyProjects = () => {
             
             <Cell col={4}>
             <div class="containerI" style={{width: "90%"}}>
-                    <img src="https://www.australia.com/content/australia/en/places/sydney-and-surrounds/guide-to-byron-bay/_jcr_content/imagePortrait.adapt.740.medium.jpg" alt="Avatar" class="image"
-                    />
+                    <img src="https://cdn.pixabay.com/photo/2014/04/02/10/25/man-303792_960_720.png" alt="Avatar" class="image"
+                    style={{height:'700px'}}/>
                     
                     <div class="overlay">
                         <div class="text" style={{marginBottom:'3em'}}>
-                            <h1>Portfolio (I)</h1>
+                            <h1>Portfolio I</h1>
                             <h4>My very first portfolio.
                             </h4>
                             <Grid>
@@ -103,7 +111,7 @@ const MyProjects = () => {
                                 </Cell>
                                 <Cell  style={{marginLeft: '2em'}}>
                                     <btn >
-                                        <a href="https://mbulelo20.github.io/my-portfolio/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View</a>                        
+                                        <a href="https://mbulelo20.github.io/my-portfolio/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View demo</a>                        
                                     </btn>
                                 </Cell>
                                 
@@ -120,35 +128,24 @@ const MyProjects = () => {
                     
                     <div class="overlay">
                         <div class="text" style={{marginBottom:'3em'}}>
-                            <h1>Currency <br/> Exchange</h1>
-                            <h4>Python app that fetches data <br/>
-                                and does currency conversion <br/>
-                                based on user input.
-                            </h4>
+                            <div className="container">
+                            <h3>Currency <br/> Exchange</h3>
+                            <h5>Python currency converter
+                            </h5>
+                            <h5>.exe file</h5>
+                            </div>
                             <Grid>
-                                        <Cell>
-                                        <btn >
-                                            <a href="https://github.com/Mbulelo20/Currency-Exchange.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
-                                        </btn>
-                                        </Cell>
-                                        <Cell style={{marginLeft: '2em'}}>
-                                        <btn >
-                                            <a href="https://github.com/Mbulelo20/CurrencyExchangeApp/raw/master/Currencyconverter.exe" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View Demo</a>                        
-                                        </btn>
-                                        </Cell>
-                                    </Grid>
-                            {/* <Grid>
                                 <Cell>
-                                    <btn>
-                                        <a href="https://github.com/Mbulelo20/Currency-Exchange.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary">Github link</a> 
-                                    </btn>
+                                <btn >
+                                    <a href="https://github.com/Mbulelo20/Currency-Exchange.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
+                                </btn>
                                 </Cell>
                                 <Cell style={{marginLeft: '2em'}}>
-                                    <btn>
-                                        <a href="https://github.com/Mbulelo20/CurrencyExchangeApp/raw/master/Currencyconverter.exe" rel="noopener noreferrer" target="_blank" class="btn btn-primary stretched-link">Download</a>
-                                    </btn>
+                                <btn >
+                                    <a href="https://github.com/Mbulelo20/CurrencyExchangeApp/raw/master/Currencyconverter.exe" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View demo</a>                        
+                                </btn>
                                 </Cell>
-                            </Grid> */}
+                            </Grid>
                         </div>
                     </div>
                 </div>
@@ -162,15 +159,16 @@ const MyProjects = () => {
                     
                     <div class="overlay">
                         <div class="text" style={{marginBottom:'3em'}}>
-                            <h1>PyLott</h1>
-                            <h4> Python lottery game.
-                            </h4>
+                            <div className="container">
+                                <h3>PyLott</h3>
+                                <h5> Python lottery game.</h5>
+                                <h5>.exe file</h5>
+                            </div>
                             <Grid>
                             <Cell>
                                 <btn>
                                     <a href="https://github.com/Mbulelo20/PyLot.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary">Github link</a> 
                                 </btn>
-                                    
                             </Cell>
                             </Grid>
                         </div>
