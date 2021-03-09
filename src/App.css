@@ -10119,6 +10119,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
+  background-image: url("https://raw.githubusercontent.com/StartBootstrap/startbootstrap-agency/master/src/assets/img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10424,6 +10425,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
+  /* background-image: url("../assets/img/map-image.png"); */
   background-repeat: no-repeat;
   background-position: center;
 }

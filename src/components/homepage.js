@@ -5,19 +5,17 @@ export class Homepage extends Component {
     render() {
         return (
             <header class="masthead">
-            <div class="container">
+            <div class="container"   style={{margin: '0px 66px', padding: '0px 12px'}}>
                 <div class="masthead-subheading" style={{
-                    fontFamily: "Droid Serif",
-                    fontSize: '36px',
-                    fontStyle: 'italic'
                 }}>
                     Hello, I'm Mbulelo Pani
                 </div>
 
                 <div class="masthead-heading text-uppercase" style={{
-                    fontFamily: "Montserrat",
-                    fontSize: '55px',
-                }}>It's Nice To Meet You</div>
+                }}>
+                    It's Nice To Meet You
+                
+                </div>
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
             </div>
             </header>
