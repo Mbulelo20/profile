@@ -12,6 +12,7 @@ export class Homepage extends Component {
                 </div>
 
                 <div class="masthead-heading text-uppercase" style={{
+                    fontSize: '62px'
                 }}>
                     It's Nice To Meet You
                 
