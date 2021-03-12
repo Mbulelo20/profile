@@ -29,11 +29,15 @@ export class Aboutme extends Component {
                             View CV</button>
 
                     </div>
-                    <div className="col-md-5" style={{textAlign: 'center'}}>
-                        <img src="https://cdn.pixabay.com/photo/2021/02/27/16/25/woman-6055084_960_720.jpg" alt="img" style={{width: '65%'}}/>
+                    <div className="col-md-5">
+                        <center>
+                            <img src="https://cdn.pixabay.com/photo/2021/02/27/16/25/woman-6055084_960_720.jpg" alt="img" style={{width: '90%'}}/>
+                        </center>
                     </div>
                 </div>
+                <hr/>
             </div>
+            
         )
     }
 }
