@@ -11,7 +11,7 @@ export class Mywork extends Component {
                     </div>
                     <br/>
                     <br/>
-                    <div className="row">
+                    <div className="row" data-aos="flip-down">
                         <div className="col-md-4">
                             <div class="containerI" style={{width: "100%", color: 'white'}}>
                                 <div>
@@ -82,7 +82,7 @@ export class Mywork extends Component {
                         </div>
                     </div>
                     <br/>
-                    <div className="row">
+                    <div className="row" data-aos="flip-down">
                         <div className="col-md-4">
                             <div class="containerI" style={{width: "100%", color: 'white'}}>
                                 <div>

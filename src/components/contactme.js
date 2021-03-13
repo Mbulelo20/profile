@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import emailjs from 'emailjs-com'
 
-import InfoCarousel from './carousel'
+// import InfoCarousel from './carousel'
 
 export class Contactme extends Component {
     render() {
@@ -26,9 +26,9 @@ export class Contactme extends Component {
                     </div>
                 <br/>
                 <div className="row">
-                    <div className="col-md-8">
+                    {/* <div className="col-md-8">
                     <InfoCarousel/>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="container">
                 <form className="contact-form" onSubmit={sendEmail} style={{width:'100%'}}>

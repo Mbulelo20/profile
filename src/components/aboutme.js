@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import {Button} from 'react-bootstrap'
 export class Aboutme extends Component {
     render() {
         return (
@@ -9,7 +9,7 @@ export class Aboutme extends Component {
                     <h3 className="section-subheading text-muted" style={{fontSize:'18px', marginBottom: '4rem'}}>Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div className="row">
-                    <div className="col-md-7">
+                    <div className="col-md-6" data-aos="fade-left">
                         Hi, my name is Mbulelo Pani. I'm a web developer from Cape Town.
                         I enjoy working on projects that challenge my critical thinking and require a little bit of imagination,
                         from authentication and databases, to forms and animations.
@@ -24,14 +24,14 @@ export class Aboutme extends Component {
                         working within alone, but I also gained experience with working as a team.
                         <br/>
                         <br/>
-                        <button type="submit" class="btn btn-outline-primary" download>
+                        <Button type="submit" class="btn btn-outline-primary" download>
                             <i class="fas fa-file" aria-hidden="true"></i>
-                            View CV</button>
+                            View CV</Button>
 
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-md-6">
                         <center>
-                            <img src="https://cdn.pixabay.com/photo/2021/02/27/16/25/woman-6055084_960_720.jpg" alt="img" style={{width: '90%'}}/>
+                            <img src="https://cdn.pixabay.com/photo/2021/02/27/16/25/woman-6055084_960_720.jpg" alt="img" style={{width: '100%', margin: '0.3rem'}}/>
                         </center>
                     </div>
                 </div>

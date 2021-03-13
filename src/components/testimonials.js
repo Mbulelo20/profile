@@ -17,13 +17,11 @@ export class Testimonials extends Component {
                         <div className="container card border-0">
                            <br/>
                                 <h5 className="testimonial-text text-center">
-                                    <i className="fa fa-quote-left" aria-hidden="true" style={{color: '#4fbfa8', marginRight: '1rem'}}></i>
                                     <div className="container text-desc text-center">
                                         Mbulelo is a well-behaved student who has
                                         shown sound skills in backend and frontend development.
                                         He is someone who manages to work within given timelines.
                                     </div>
-                                    <i className="fa fa-quote-right" aria-hidden="true"style={{color: '#4fbfa8', marginLeft: '1rem'}}></i>
                                     
                                 </h5>
                                 <br/>
@@ -40,14 +38,12 @@ export class Testimonials extends Component {
                            <br/>
                            
                                 <h5 className="testimonial-text text-center">
-                                    <i className="fa fa-quote-left" aria-hidden="true" style={{color: '#4fbfa8', marginRight: '1rem'}}></i>
                                     <div className="container text-desc text-center">
                                         Mbulelo is a focused individual, and it's with 
                                         this how he aproaches his work. One thing I learned
                                         from him is that one has to focus on the task at hand
                                         to achieve the best results.
                                     </div>
-                                    <i className="fa fa-quote-right" aria-hidden="true"style={{color: '#4fbfa8', marginLeft: '1rem'}}></i>
                                 </h5>
                                 <br/>
                             <div className="container text-desc">
@@ -60,20 +56,19 @@ export class Testimonials extends Component {
                     </div>
                    
                 </div>
-                <br/>
                 <div className="row">
                     <div className="col-md-6">
                         <div className="container card border-0">
                            <br/>
                                 <h5 className="testimonial-text text-center">
-                                    <i className="fa fa-quote-left" aria-hidden="true" style={{color: '#4fbfa8', marginRight: '1rem'}}></i>
                                     <div className="container text-desc text-center">
                                         Mbulelo is a really curious person  
                                         who invests a lot of his time in getting work done.
                                         I'd recommend working with him to anyone.
                                     </div>
-                                    <i className="fa fa-quote-right" aria-hidden="true"style={{color: '#4fbfa8', marginLeft: '1rem'}}></i>
-                                    
+                                    <div>
+                                        -
+                                    </div>
                                 </h5>
                                 <br/>
                             <div className="container text-desc">
@@ -89,12 +84,10 @@ export class Testimonials extends Component {
                            <br/>
                            
                                 <h5 className="testimonial-text text-center">
-                                    <i className="fa fa-quote-left" aria-hidden="true" style={{color: '#4fbfa8', marginRight: '1rem'}}></i>
                                     <div className="container text-desc text-center">
                                     Mbulelo is one of the hardest  working people I met at the Academy.
                                     Working and learning with him has been a valuable experience.
                                     </div>
-                                    <i className="fa fa-quote-right" aria-hidden="true"style={{color: '#4fbfa8', marginLeft: '1rem'}}></i>
                                 </h5>
                                 <br/>
                             <div className="container text-desc">
