@@ -7,13 +7,13 @@ export class Mywork extends Component {
                 <div className="container">
                     <br/>
                     <div className="text-center">
-                        <h2 className="section-heading text-uppercase">My Work</h2>
+                        <h2 className="section-heading text-uppercase" style={{color:'#555555', fontFamil: 'Roboto'}}>My Work</h2>
                     </div>
                     <br/>
                     <br/>
-                    <div className="row" data-aos="flip-down">
+                    <div className="row" data-aos="fade-in">
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "100%", color: 'white'}}>
+                            <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
                                 <img src="https://i.pinimg.com/originals/31/8c/21/318c21f5dbe767634543ac1020bc1cfa.jpg" alt="Avatar" class="image" />
                                 </div>
@@ -38,7 +38,7 @@ export class Mywork extends Component {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "100%", color: 'white'}}>
+                            <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
                                     <img src="https://www.australia.com/content/australia/en/places/sydney-and-surrounds/guide-to-byron-bay/_jcr_content/imagePortrait.adapt.740.medium.jpg" alt="Avatar" class="image" />
                                 </div>
@@ -61,7 +61,7 @@ export class Mywork extends Component {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "100%", color: 'white'}}>
+                            <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
                                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbySPOVJMWqKXXDjw9zQLk4k7k7T2xDXjzsw&usqp=CAU" alt="Avatar" class="image" />
                                 </div>
@@ -82,9 +82,9 @@ export class Mywork extends Component {
                         </div>
                     </div>
                     <br/>
-                    <div className="row" data-aos="flip-down">
+                    <div className="row" data-aos="fade-in">
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "100%", color: 'white'}}>
+                            <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
                                 <img src="https://www.nicepng.com/png/detail/202-2024687_profile-icon-for-the-politics-category-profile-icon.png" alt="Avatar" class="image" />
                                 </div>
@@ -109,7 +109,7 @@ export class Mywork extends Component {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "100%", color: 'white'}}>
+                            <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
                                     <img src="https://www.enca.com/sites/default/files/1388612_58676202.jpg" alt="Avatar" class="image" />
                                 </div>
@@ -132,7 +132,7 @@ export class Mywork extends Component {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "100%", color: 'white'}}>
+                            <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
                                     <img src="https://www.controcampus.it/estrazioni-2/" alt="Avatar" class="image" />
                                 </div>

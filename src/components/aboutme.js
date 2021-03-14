@@ -4,12 +4,12 @@ export class Aboutme extends Component {
     render() {
         return (
             <div className="container">
-                <div className="text-center">
-                    <h2 className="section-heading text-uppercase">About me</h2>
-                    <h3 className="section-subheading text-muted" style={{fontSize:'18px', marginBottom: '4rem'}}>Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+                <br/><br/>
                 <div className="row">
-                    <div className="col-md-6" data-aos="fade-left">
+                    <div className="col-md-6" data-aos="fade-right">
+                    <div>
+                    <h2 className="section-heading text-uppercase" style={{color: '#4FBFA8', marginBottom:'2rem', textAlign: 'bottom'}}>About me</h2>
+                </div>
                         Hi, my name is Mbulelo Pani. I'm a web developer from Cape Town.
                         I enjoy working on projects that challenge my critical thinking and require a little bit of imagination,
                         from authentication and databases, to forms and animations.
@@ -24,12 +24,12 @@ export class Aboutme extends Component {
                         working within alone, but I also gained experience with working as a team.
                         <br/>
                         <br/>
-                        <Button type="submit" class="btn btn-outline-primary" download>
+                        <Button type="submit" class="btn btn-outline-primary" download style={{borderRadius: '0rem', backgroundColor: 'grey'}}>
                             <i class="fas fa-file" aria-hidden="true"></i>
                             View CV</Button>
 
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-6" data-aos="fade-left">
                         <center>
                             <img src="https://cdn.pixabay.com/photo/2021/02/27/16/25/woman-6055084_960_720.jpg" alt="img" style={{width: '100%', margin: '0.3rem'}}/>
                         </center>

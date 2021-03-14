@@ -5,24 +5,22 @@ import Aos from 'aos';
 
 const Stack = () => {
     useEffect(() => {
-        Aos.init({duration: 2000});
+        Aos.init({duration: 3000});
     }, []);
         return (
             <div className="container">
-                            <br/>
-
-                <div className="text-center container">
-                    <h2 className="section-heading text-uppercase" style={{fontSize: '55px'}}>Stack</h2>
+            <br/>
+                <div className="container">
+                    <h3 className="section-heading text-uppercase text-center" style={{fontSize: '55px', color: '#4FBFA8'}}>Stack</h3>
                     <hr/>
                 </div>
                 <br/>
-                <br/>
-                <div className="row" data-aos="fade-left">
+                <div className="row" data-aos="fade-right">
                     <div className="col-md-3 stack ">
                         <div className="text-center " style={{color:'grey'}}>
                             <h2 className="section-heading text-uppercase">Javascript</h2>
                         </div>
-                        <i className="fab fa-js " aria-hidden="true" style={{fontSize: '190px',textAlign: 'center', color: '#1583c9', backgroundColor: 'white', width: '100%',height:'100%'}}/>
+                        <i className="fab fa-js " aria-hidden="true" style={{fontSize: '190px',textAlign: 'center', color: '#1583c9', backgroundColor: 'white', width: '100%',}}/>
                         <hr/>
                     </div>
                     <div className="col-md-3 ">
@@ -30,7 +28,7 @@ const Stack = () => {
                             <h2 className="section-heading text-uppercase">Python</h2>
                         </div>
                         <i className="fab fa-python " aria-hidden="true" style={{fontSize: '190px', color: '#1583c9', textAlign: 'center', backgroundColor: 'white', width: '100%'}}/>
-                        <hr/>
+                        <hr style={{color: 'green'}}/>
                     </div>
                     <div className="col-md-3 ">
                         <div className="text-center" style={{color:'grey'}}>
@@ -43,7 +41,7 @@ const Stack = () => {
                         <div className="text-center" style={{color:'grey'}}>
                             <h2 className="section-heading text-uppercase">Css3</h2>
                         </div>
-                        <i className="fab fa-css3 " aria-hidden="true" style={{fontSize: '190px', color: '#1583c9', textAlign: 'center', backgroundColor: 'white', width: '100%', height: '100%'}}/>
+                        <i className="fab fa-css3 " aria-hidden="true" style={{fontSize: '190px', color: '#1583c9', textAlign: 'center', backgroundColor: 'white', width: '100%'}}/>
                         <hr/>
                     </div>
                 </div>
@@ -53,7 +51,7 @@ const Stack = () => {
                         <div className="text-center" style={{color:'grey'}}>
                             <h2 className="section-heading text-uppercase">REAct js</h2>
                         </div>
-                        <i className="fab fa-react " aria-hidden="true" style={{fontSize: '190px',textAlign: 'center', color: '#1583c9',  backgroundColor: 'white', width: '100%',height:'100%'}}/>
+                        <i className="fab fa-react " aria-hidden="true" style={{fontSize: '190px',textAlign: 'center', color: '#1583c9',  backgroundColor: 'white', width: '100%',}}/>
                         <hr/>
                     </div>
                     <div className="col-md-3">
@@ -74,7 +72,7 @@ const Stack = () => {
                         <div className="text-center" style={{color:'grey'}}>
                             <h2 className="section-heading text-uppercase">MongoDb</h2>
                         </div>
-                        <i className="fas fa-database " aria-hidden="true" style={{fontSize: '190px', color: '#1583c9', textAlign: 'center', backgroundColor: 'white', width: '100%', height: '100%'}}/>
+                        <i className="fas fa-database " aria-hidden="true" style={{fontSize: '190px', color: '#1583c9', textAlign: 'center', backgroundColor: 'white', width: '100%'}}/>
                         <hr/>
 
                     </div>
