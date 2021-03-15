@@ -84,6 +84,7 @@ export class Testimonials extends Component {
                                 <div className="container">
                                     <hr/>
                                 </div>
+                            <br/>
                             <div className="container text-desc">
                                     <h3>Lukhanyo Vakele,</h3>
                                     <h6>Former classmate, LifeChoices Academy</h6>

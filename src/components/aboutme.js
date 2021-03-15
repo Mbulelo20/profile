@@ -6,7 +6,7 @@ export class Aboutme extends Component {
             <div className="container">
                 <br/><br/>
                 <div className="row">
-                    <div className="col-md-6" data-aos="fade-right">
+                    <div className="col-md-6" data-aos="zoom-in">
                     <div>
                     <h2 className="section-heading text-uppercase" style={{color: '#4FBFA8', marginBottom:'2rem', textAlign: 'bottom'}}>About me</h2>
                 </div>
@@ -29,7 +29,7 @@ export class Aboutme extends Component {
                             View CV</Button>
 
                     </div>
-                    <div className="col-md-6" data-aos="fade-left">
+                    <div className="col-md-6" data-aos="zoom-in">
                         <center>
                             <img src="https://cdn.pixabay.com/photo/2021/02/27/16/25/woman-6055084_960_720.jpg" alt="img" style={{width: '100%', margin: '0.3rem'}}/>
                         </center>

@@ -13,12 +13,12 @@ export class Homepage extends Component {
                     </div>
 
                     <div class="masthead-heading" style={{
-                        fontSize: '62px'
+                        fontSize: '58px'
                     }}>
                         I'm A Junior Web Developer
                     
                     </div>
-                    <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#section2">View some more</a>
+                    <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#aboutme" style={{borderRadius: '0rem', backgroundColor: '#4FBFA8'}} >View some more</a>
                 </div>
             </header>
         )

@@ -1,11 +1,10 @@
 import React, { useEffect } from 'react'
-import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Aos from 'aos';
 
 const Stack = () => {
     useEffect(() => {
-        Aos.init({duration: 3000});
+        Aos.init({duration: 2000});
     }, []);
         return (
             <div className="container">
@@ -30,7 +29,7 @@ const Stack = () => {
                         <i className="fab fa-python " aria-hidden="true" style={{fontSize: '190px', color: '#1583c9', textAlign: 'center', backgroundColor: 'white', width: '100%'}}/>
                         <hr style={{color: 'green'}}/>
                     </div>
-                    <div className="col-md-3 ">
+                    <div className="col-md-3">
                         <div className="text-center" style={{color:'grey'}}>
                             <h2 className="section-heading text-uppercase">Html5</h2>
                         </div>

@@ -19,23 +19,22 @@ function App() {
         <br/>
         <div id="home" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
           <Homepage/>
-          
-      </div>
-      <div id="aboutme" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
-        <Aboutme/>
-      </div>
-      <div id="stack" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
-        <Stack/>
-      </div>
-      <div id="mywork" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
-        <Mywork/>
-      </div>
-      <div id="testimonials" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
-        <Testimonials/>
-      </div>
-      <div id="contact" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
-        <Contactme/>
-      </div>
+        </div>
+        <div id="aboutme" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
+          <Aboutme/>
+        </div>
+        <div id="stack" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
+          <Stack/>
+        </div>
+        <div id="mywork" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
+          <Mywork/>
+        </div>
+        <div id="testimonials" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
+          <Testimonials/>
+        </div>
+        <div id="contact" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
+          <Contactme/>
+        </div>
       </div>
     </Router>
   );
