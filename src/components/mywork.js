@@ -11,7 +11,7 @@ export class Mywork extends Component {
                     </div>
                     <br/>
                     <br/>
-                    <div className="row" data-aos="fade-in">
+                    <div className="row" data-aos="zoom-in">
                         <div className="col-md-4">
                             <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
@@ -82,7 +82,7 @@ export class Mywork extends Component {
                         </div>
                     </div>
                     <br/>
-                    <div className="row" data-aos="fade-in">
+                    <div className="row" data-aos="zoom-in">
                         <div className="col-md-4">
                             <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>

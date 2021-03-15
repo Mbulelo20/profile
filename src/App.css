@@ -81,17 +81,21 @@
   background-color: #f5f5f5;
 }
 .text-desc {
-  color: #6c757d
+  color: #0c5595;
+  bottom: 10px
 }
 .card {
-  min-height: 270px;
-  margin: 1em
+  margin: 1em;
+  
 }
 .col-md-3{
     margin-top: 1em
 }
 .col-md-4{
     margin-top: 1em
+}
+.fa-quote-left {
+  color: 'blue'
 }
 .image {
   display: block;

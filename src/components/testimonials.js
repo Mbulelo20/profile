@@ -13,93 +13,85 @@ export class Testimonials extends Component {
                     </div>
                     <br/>
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-3">
                         <div className="container card border-0">
                            <br/>
-                                <h5 className="testimonial-text text-center">
-                                    <div className="container text-desc text-center">
-                                        Mbulelo is a well-behaved student who has
-                                        shown sound skills in backend and frontend development.
-                                        He is someone who manages to work within given timelines.
-                                    </div>
-                                    
-                                </h5>
-                                <br/>
-                            <div className="container text-desc">
-                                <h3>- Godwin Dzvapatsva</h3>
-                                <h6 style={{marginLeft: '20px'}}>Lecturer, LifeChoices Academy</h6>
+                            <div className="container text-desc text-center">
+                                Mbulelo is a well-behaved student who has
+                                shown sound skills in backend and frontend development.
+                                He is someone who manages to work within given timelines.
                             </div>
-                            
+                            <br/>
+                                <div className="container">
+                                    <hr/>
+                                </div>
+                            <br/>
+                            <div className="container text-desc">
+                                <h4>Godwin Dzvapatsva,</h4>
+                                <h6 >Lecturer, LifeChoices Academy</h6>
+                            </div>
                             <br/>
                          </div>
                     </div>
-                    <div className="col-md-6">
-                    <div className="container card border-0">
-                           <br/>
-                           
-                                <h5 className="testimonial-text text-center">
-                                    <div className="container text-desc text-center">
-                                        Mbulelo is a focused individual, and it's with 
-                                        this how he aproaches his work. One thing I learned
-                                        from him is that one has to focus on the task at hand
-                                        to achieve the best results.
-                                    </div>
-                                </h5>
-                                <br/>
-                            <div className="container text-desc">
-                                <h3>- Siyamthanda Mgoqi</h3>
-                                <h6 style={{marginLeft: '20px'}}>Former classmate, LifeChoices Academy</h6>
+                    <div className="col-md-3">
+                        <div className="container card border-0">
+                            <br/>   
+                            <div className="container text-desc text-center">
+                                Mbulelo is a focused individual, and it's with 
+                                this how he aproaches his work. One thing I learned
+                                from him is that one has to focus on the task at hand
+                                to achieve the best results.
                             </div>
-                            
+                            <br/>
+                                <div className="container">
+                                    <hr/>
+                                </div>
+                            <br/>
+                            <div className="container text-desc">
+                                <h4>Siyamthanda Mgoqi,</h4>
+                                <h6>Former classmate, LifeChoices Academy</h6>
+                            </div>
                             <br/>
                          </div>
                     </div>
-                   
-                </div>
-                <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-3">
                         <div className="container card border-0">
                            <br/>
-                                <h5 className="testimonial-text text-center">
-                                    <div className="container text-desc text-center">
-                                        Mbulelo is a really curious person  
-                                        who invests a lot of his time in getting work done.
-                                        I'd recommend working with him to anyone.
-                                    </div>
-                                    <div>
-                                        -
-                                    </div>
-                                </h5>
-                                <br/>
-                            <div className="container text-desc">
-                                <h3>- Asaph Franks</h3>
-                                <h6 style={{marginLeft: '20px'}}>Lecturer, LifeChoices Academy</h6>
+                            <div className="container text-center text-desc ">
+                                Mbulelo is a really curious person  
+                                who invests a lot of his time and energy in getting all of his tasks done.
+                                I'd recommend working with him to anyone.
                             </div>
-                            
                             <br/>
+                                <div className="container">
+                                    <hr/>
+                                </div>
+                            <br/>
+                            <div className="container text-desc">
+                                <h4>Asaph <br/>Franks,</h4>
+                                <h6>Former classmate, LifeChoices Academy</h6><br/>
+                            </div>
                          </div>
                     </div>
-                    <div className="col-md-6">
-                    <div className="container card border-0">
-                           <br/>
-                           
-                                <h5 className="testimonial-text text-center">
-                                    <div className="container text-desc text-center">
-                                    Mbulelo is one of the hardest  working people I met at the Academy.
-                                    Working and learning with him has been a valuable experience.
-                                    </div>
-                                </h5>
-                                <br/>
-                            <div className="container text-desc">
-                                <h3>- Lukhanyo Vakele</h3>
-                                <h6 style={{marginLeft: '20px'}}>Former classmate, LifeChoices Academy</h6>
-                            </div>
-                            
+                    <div className="col-md-3">
+                        <div className="container card border-0">
                             <br/>
-                         </div>
+                            <div className="container text-desc text-center">
+                                Mbulelo is one of the best and hardest  working people I met at the Academy.<br/>
+                                Working and learning with him has been a valuable experience.
+                            </div>
+                            <br/>
+                                <div className="container">
+                                    <hr/>
+                                </div>
+                            <div className="container text-desc">
+                                    <h3>Lukhanyo Vakele,</h3>
+                                    <h6>Former classmate, LifeChoices Academy</h6>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                   
-                </div>
                 
             </div>
             </Fragment>
