@@ -27,22 +27,22 @@ export class Contactme extends Component {
                 <br/>
                 <div className="row">
                     <div className="col-md-4">
-                        <h4>
+                        <h4 className=" text-center">
                             <i class="fas fa-phone"></i>
                         </h4>
-                        <h6>(074) 704 6422</h6>
+                        <h6 className=" text-center">(074) 704 6422</h6>
                     </div>
                     <div className="col-md-4">
-                        <h4>
+                        <h4 className=" text-center">
                             <i class="fa fa-envelope"></i>
                         </h4>
-                        <h6>www.mbulelopani09@gmail.com</h6>
+                        <h6 className=" text-center">www.mbulelopani09@gmail.com</h6>
                     </div>
                     <div className="col-md-4">
-                    <h4>
+                    <h4 className=" text-center">
                             <i class="fa fa-envelope"></i>
                         </h4>
-                        <h6>www.mbulelopani09@gmail.com</h6>
+                        <h6 className=" text-center">www.mbulelopani09@gmail.com</h6>
                     </div>
                     
                 </div>
