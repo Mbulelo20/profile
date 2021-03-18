@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import emailjs from 'emailjs-com'
 
-// import InfoCarousel from './carousel'
+import InfoCarousel from './carousel'
 
 export class Contactme extends Component {
     render() {
@@ -22,31 +22,16 @@ export class Contactme extends Component {
             <div className="container">
                 <br/>
                     <div className="text-center">
-                        <h2 className="section-heading">Get in touch</h2>
-                    </div>
-                <br/>
-                <div className="row">
-                    <div className="col-md-4">
-                        <h4>
-                            <i class="fas fa-phone"></i>
-                        </h4>
-                        <h6>(074) 704 6422</h6>
-                    </div>
-                    <div className="col-md-4">
-                        <h4>
-                            <i class="fa fa-envelope"></i>
-                        </h4>
-                        <h6>www.mbulelopani09@gmail.com</h6>
-                    </div>
-                    <div className="col-md-4">
-                    <h4>
-                            <i class="fa fa-envelope"></i>
-                        </h4>
-                        <h6>www.mbulelopani09@gmail.com</h6>
-                    </div>
+                        <h2 className="section-heading">Get in touch <InfoCarousel/></h2>
+                        <div style={{margin: '45%',marginTop: '4em', width: '100%'}}>
+                    <InfoCarousel/>
                     
                 </div>
+                    </div>
+                <br/>
+                
                 <div className="container-fluid">
+                
                     <form className="contact-form" onSubmit={sendEmail} style={{width:'100%'}}>
                         <div className=" row pt-5">
                             <div className="col-8 form-group mx-auto">

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import InfoCarousel from './carousel';
 
 export default class navbar extends Component {
     render() {
@@ -18,6 +19,9 @@ export default class navbar extends Component {
                             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#mywork">My Work</a></li>
                             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a></li>
                             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Get in touch</a></li>
+                            <div style={{justifyContent: 'left', width: '10%'}}>
+                                <InfoCarousel/>
+                            </div>
 
                         </ul>
                     </div>

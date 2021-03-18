@@ -4,7 +4,7 @@ export class Testimonials extends Component {
     render() {
         return (
             <Fragment >
-            <div className="container testimonials" >
+            <div className="container testimonials">
             <br/>
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">Testimonials</h2>
@@ -12,7 +12,7 @@ export class Testimonials extends Component {
 
                     </div>
                     <br/>
-                <div className="row">
+                <div className="row"  data-aos="fade-left">
                     <div className="col-md-3">
                         <div className="container card border-0">
                            <br/>

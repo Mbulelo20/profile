@@ -57,6 +57,7 @@
 
 .stack {
   border-radius: 50%;
+
 }
 .overlay {
   position: absolute;
@@ -78,6 +79,9 @@
   width: 100%;
 }
 #testimonials {
+  background-color: #f5f5f5;
+}
+#stack {
   background-color: #f5f5f5;
 }
 .text-desc {
@@ -147,7 +151,10 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
+.vl {
+  border-left: 2px solid green;
+  height: 500px;
+}
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;

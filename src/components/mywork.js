@@ -11,7 +11,7 @@ export class Mywork extends Component {
                     </div>
                     <br/>
                     <br/>
-                    <div className="row" data-aos="zoom-in">
+                    <div className="row" data-aos="zoom-out">
                         <div className="col-md-4">
                             <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
@@ -21,17 +21,18 @@ export class Mywork extends Component {
                                 <div className="overlay">
                                     <div className="container text-center">
                                         <br/><br/>
-                                        <h3>Github Finder</h3>
-                                        <h5>Search and find your favorite github users and repos...</h5>
-                                        <br/>
-                                        <div>
-                                            <btn style={{margin: '2px'}}>
-                                                <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
-                                            </btn>
-                                            <btn  style={{margin: '2px'}} >
-                                                <a href="https://githubseeker.herokuapp.com/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View demo</a>                        
-                                            </btn>
-                                        </div>
+                                            <h3>Github Finder</h3>
+                                            <h5>Search and find your favorite github users and repos...</h5>
+                                            <br/>
+                                            <div>
+                                                <btn style={{margin: '2px'}}>
+                                                    <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
+                                                </btn>
+                                                <btn  style={{margin: '2px'}} >
+                                                    <a href="https://githubseeker.herokuapp.com/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View demo</a>                        
+                                                </btn>
+                                            </div>
+                                            
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +82,7 @@ export class Mywork extends Component {
                         </div>
                     </div>
                     <br/>
-                    <div className="row" data-aos="zoom-in">
+                    <div className="row" data-aos="zoom-out">
                         <div className="col-md-4">
                             <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
@@ -104,6 +105,7 @@ export class Mywork extends Component {
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                         <div className="col-md-4">

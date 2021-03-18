@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, Fragment } from 'react'
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Aos from 'aos';
 
@@ -7,7 +7,8 @@ const Stack = () => {
         Aos.init({duration: 2000});
     }, []);
         return (
-            <div className="container">
+            <Fragment>
+            <div className="container mystack">
             <br/>
                 <div className="container">
                     <h3 className="section-heading text-uppercase text-center" style={{fontSize: '55px', color: '#4FBFA8'}}>Stack</h3>
@@ -88,6 +89,7 @@ const Stack = () => {
                 </div>
             </div>
             </div>
+            </Fragment>
         )
     }
 
