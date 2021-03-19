@@ -31,7 +31,7 @@ export class Aboutme extends Component {
                     </div>
                     <div className="col-md-6" data-aos="zoom-in">
                         <center>
-                            <img src="https://cdn.pixabay.com/photo/2021/02/27/16/25/woman-6055084_960_720.jpg" alt="img" style={{width: '100%', margin: '0.3rem'}}/>
+                            <img src="JPG.jpg" alt="img" style={{width: '100%', margin: '0.3rem'}}/>
                         </center>
                     </div>
                 </div>

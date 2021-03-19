@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import mbulelologo from '../images/mbulelologo.png'
 
 export default class navbar extends Component {
     render() {
         return (
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" style={{opacity:'.7'}}>
                 <div class="container">
-                    <a class="navbar-brand js-scroll-trigger" href="/"><img src="assets/img/navbar-logo.svg" alt=""/>Mbulelo.</a>
+                    <a class="navbar-brand js-scroll-trigger" href="/"><img src={mbulelologo.png} alt="..."/></a>
                     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                 </button>
@@ -18,7 +19,6 @@ export default class navbar extends Component {
                             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#mywork">My Work</a></li>
                             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a></li>
                             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Get in touch</a></li>
-
                         </ul>
                     </div>
                 </div>
