@@ -4,7 +4,7 @@ export class Testimonials extends Component {
     render() {
         return (
             <Fragment >
-            <div className="container testimonials" >
+            <div className="container testimonials">
             <br/>
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">Testimonials</h2>
@@ -12,7 +12,7 @@ export class Testimonials extends Component {
 
                     </div>
                     <br/>
-                <div className="row">
+                <div className="row"  data-aos="fade-left">
                     <div className="col-md-3">
                         <div className="container card border-0">
                            <br/>
@@ -56,6 +56,25 @@ export class Testimonials extends Component {
                     </div>
                     <div className="col-md-3">
                         <div className="container card border-0">
+                            <br/>   
+                            <div className="container text-desc text-center">
+                            Mbulelo is one of the best and hardest working people I met at the Academy.
+                            Working and learning with him has been a valuable experience. I hope to work with him.
+                            </div>
+                            <br/>
+                                <div className="container">
+                                    <hr/>
+                                </div>
+                            <br/>
+                            <div className="container text-desc">
+                                <h4>Lukhanyo <br/>Vakele,</h4>
+                                <h6>Former classmate, LifeChoices Academy</h6>
+                            </div>
+                            <br/>
+                         </div>
+                    </div>
+                    <div className="col-md-3">
+                        <div className="container card border-0">
                            <br/>
                             <div className="container text-center text-desc ">
                                 Mbulelo is a really curious person  
@@ -73,25 +92,7 @@ export class Testimonials extends Component {
                             </div>
                          </div>
                     </div>
-                    <div className="col-md-3">
-                        <div className="container card border-0">
-                            <br/>
-                            <div className="container text-desc text-center">
-                                Mbulelo is one of the best and hardest  working people I met at the Academy.<br/>
-                                Working and learning with him has been a valuable experience.
-                            </div>
-                            <br/>
-                                <div className="container">
-                                    <hr/>
-                                </div>
-                            <br/>
-                            <div className="container text-desc">
-                                    <h3>Lukhanyo Vakele,</h3>
-                                    <h6>Former classmate, LifeChoices Academy</h6>
-                                    <br/>
-                                </div>
-                            </div>
-                        </div>
+                    
                     </div>
                 
             </div>

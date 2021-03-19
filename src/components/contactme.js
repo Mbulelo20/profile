@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import emailjs from 'emailjs-com'
-
-// import InfoCarousel from './carousel'
-
+import InfoCarousel from './carousel'
 export class Contactme extends Component {
     render() {
         function sendEmail(e) {
@@ -19,34 +17,19 @@ export class Contactme extends Component {
               e.target.reset();
           }
         return (
-            <div className="container">
+            <div className="container"data-aos="zoom-in">
                 <br/>
-                    <div className="text-center">
-                        <h2 className="section-heading">Get in touch</h2>
-                    </div>
-                <br/>
-                <div className="row">
-                    <div className="col-md-4">
-                        <h4 className=" text-center">
-                            <i class="fas fa-phone"></i>
-                        </h4>
-                        <h6 className=" text-center">(074) 704 6422</h6>
-                    </div>
-                    <div className="col-md-4">
-                        <h4 className=" text-center">
-                            <i class="fa fa-envelope"></i>
-                        </h4>
-                        <h6 className=" text-center">www.mbulelopani09@gmail.com</h6>
-                    </div>
-                    <div className="col-md-4">
-                    <h4 className=" text-center">
-                            <i class="fa fa-envelope"></i>
-                        </h4>
-                        <h6 className=" text-center">www.mbulelopani09@gmail.com</h6>
-                    </div>
+                <div className="text-center justify-content-md-center">
+                    <h1 className="section-heading">Get in touch</h1>
                     
+                        
                 </div>
                 <div className="container-fluid">
+                < div className="text-center justify-content-md-center">
+                       
+                <InfoCarousel/>
+                      
+                   </div>
                     <form className="contact-form" onSubmit={sendEmail} style={{width:'100%'}}>
                         <div className=" row pt-5">
                             <div className="col-8 form-group mx-auto">
@@ -64,9 +47,9 @@ export class Contactme extends Component {
                             <div className="col-8 form-group mx-auto" style={{width: '50px', height: '190px'}}>
                                     <input type="textarea" id="" className="form-control" required placeholder="Leave a message" name="message" style={{width:'100%', height:'60%', paddingBottom:'5em'}}/>
                             </div>
-                                <div className="col-8 form-group mx-auto" style={{marginTop:'-5em'}}>
-                                    <input className="btn btn-primary" type="submit" value="Send"/>
-                                </div>
+                            <div className="col-8 form-group mx-auto" style={{marginTop:'-5em'}}>
+                                <input className="btn btn-primary" type="submit" value="Send"/>
+                            </div>
                         </div>
                     </form>
                 </div>

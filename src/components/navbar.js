@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import mbulelologo from '../images/mbulelologo.png'
 
 export default class navbar extends Component {
     render() {
         return (
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" style={{opacity:'.7'}}>
                 <div class="container">
-                    <a class="navbar-brand js-scroll-trigger" href="/"><img src={mbulelologo.png} alt="..."/></a>
+                    <a class="navbar-brand js-scroll-trigger" href="/">Mbulelo .</a>
                     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                 </button>
