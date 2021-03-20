@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import {Button} from 'react-bootstrap'
+import InfoCarousel from './carousel'
+import './MbuleloPaniCV.pdf'
 export class Aboutme extends Component {
     render() {
         return (
@@ -29,10 +31,30 @@ export class Aboutme extends Component {
                             working within alone, but I also gained experience with working as a team.
                         <br/>
                         <br/>
-                        <Button type="submit" class="btn btn-outline-primary" download style={{borderRadius: '0rem', backgroundColor: 'grey'}}>
+                        <div className="row">
+                            <div className="col-sm-1">
+                            <Button href="./MbuleloPaniCV.pdf" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5',color: '#4fbfa8', borderRadius: '50%'}}>
                             <i class="fas fa-file" aria-hidden="true"></i>
-                            <div>View CV</div>
+                            
                         </Button>
+                            </div>
+                            <div className="col-sm-1">
+                            <Button href="https://www.github.com/Mbulelo20" rel="noopener noreferrer" target="_blank" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5',color: 'black', borderRadius: '50%'}}>
+                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                            
+                        </Button>
+                            </div>
+                            <div className="col-sm-1">
+                            <Button href="https://www.linkedin.com/in/mbulelo-pani-638b4b196" rel="noopener noreferrer" target="_blank" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5', color:'blue', borderRadius: '50%'}}>
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            
+                        </Button>
+                            </div>
+                            <div className="col-sm-7">
+                                <InfoCarousel/>
+                            </div>
+                        </div>
+                        
 
                     </div>
                     

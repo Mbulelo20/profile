@@ -19,11 +19,7 @@ export class Contactme extends Component {
         return (
             <div className="container"data-aos="zoom-in">
                 <br/>
-                <div className="text-center justify-content-md-center">
-                    <h1 className="section-heading">Get in touch</h1>
-                    
-                        
-                </div>
+                
                 <div className="container-fluid">
                 < div className="text-center justify-content-md-center">
                        
