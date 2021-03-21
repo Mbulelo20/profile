@@ -43,9 +43,9 @@ export class Contactme extends Component {
                             <div className="col-8 form-group mx-auto" style={{width: '50px', height: '190px'}}>
                                     <input type="textarea" id="" className="form-control" required placeholder="Leave a message" name="message" style={{width:'100%', height:'60%', paddingBottom:'5em'}}/>
                             </div>
-                            <div className="col-8 form-group mx-auto" style={{marginTop:'-5em'}}>
+                            <txt className="col-8 form-group mx-auto" style={{marginTop:'-5em'}}>
                                 <input className="btn btn-primary" type="submit" value="Send"/>
-                            </div>
+                            </txt>
                         </div>
                     </form>
                 </div>
