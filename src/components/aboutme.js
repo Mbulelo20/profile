@@ -11,11 +11,12 @@ export class Aboutme extends Component {
             <div className="container">
                 <br/><br/>
                 <div className="row">
-                <div className="col-md-5" data-aos="fade-right">
+                    <div className="col-md-5" data-aos="fade-right">
                         <center>
                             <img src={Mbulelo} alt="img" style={{width: '100%', margin: '0.3rem'}}/>
                         </center>
-                    </div><br/>
+                    </div>
+                    <br/>
                     <div className="col-md-7" data-aos="fade-left">
                         <div>
                             <h2 className="section-heading text-uppercase" style={{color: '#4FBFA8', marginBottom:'2rem', textAlign: 'bottom'}}>About me</h2>
@@ -36,34 +37,25 @@ export class Aboutme extends Component {
                         <br/>
                         <div className="row">
                             <div className="col-sm-1">
-                            <Button src={Mycv} style={{borderRadius: '0rem', backgroundColor: '#f5f5f5',color: '#4fbfa8', borderRadius: '50%'}}>
-                            <i class="fas fa-file" aria-hidden="true"></i>
-                            
-                        </Button>
+                                <Button src={Mycv} style={{borderRadius: '0rem', backgroundColor: '#f5f5f5',color: '#4fbfa8', borderRadius: '50%'}}>
+                                    <i class="fas fa-file" aria-hidden="true"></i>
+                                </Button>
                             </div>
                             <div className="col-sm-1">
-                            <Button href="https://www.github.com/Mbulelo20" rel="noopener noreferrer" target="_blank" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5',color: 'black', borderRadius: '50%'}}>
-                            <i class="fab fa-github-square" aria-hidden="true"></i>
-                            
-                        </Button>
+                                <Button href="https://www.github.com/Mbulelo20" rel="noopener noreferrer" target="_blank" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5',color: 'black', borderRadius: '50%'}}>
+                                    <i class="fab fa-github-square" aria-hidden="true"></i>
+                                </Button>
                             </div>
                             <div className="col-sm-1">
-                            <Button href="https://www.linkedin.com/in/mbulelo-pani-638b4b196" rel="noopener noreferrer" target="_blank" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5', color:'blue', borderRadius: '50%'}}>
-                            <i class="fab fa-linkedin" aria-hidden="true"></i>
-                            
-                        </Button>
-                            </div>
-                            <div className="col-sm-7">
-                                <InfoCarousel/>
+                                <Button href="https://www.linkedin.com/in/mbulelo-pani-638b4b196" rel="noopener noreferrer" target="_blank" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5', color:'blue', borderRadius: '50%'}}>
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                </Button>
                             </div>
                         </div>
-                        
 
                     </div>
-                    
                 </div>
             </div>
-            
         )
     }
 }
