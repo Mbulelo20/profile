@@ -21,10 +21,16 @@ export class Contactme extends Component {
                 <br/>
                 
                 <div className="container-fluid">
-                < div className="text-center justify-content-md-center">
-                       
-                <InfoCarousel/>
-                      
+                    {/* <div className="text-center justify-content-md-center">
+                        <InfoCarousel/>
+                   </div> */}
+                   <div className="row text-center ">
+                        <div className="col-md-6">
+                            <h1 style={{marginRight: '-10em'}}>Get In Touch</h1>
+                        </div>
+                        <div className="col-md-6" style={{marginLeft: '-7em'}}>
+                            <InfoCarousel />
+                        </div>
                    </div>
                     <form className="contact-form" onSubmit={sendEmail} style={{width:'100%'}}>
                         <div className=" row pt-5">
@@ -40,12 +46,12 @@ export class Contactme extends Component {
                                     <input type="text" className="form-control" placeholder="subject" name="subject" style={{width:'100%'}}/>
                             </div>
 
-                            <div className="col-8 form-group mx-auto" style={{width: '50px', height: '190px'}}>
-                                    <input type="textarea" id="" className="form-control" required placeholder="Leave a message" name="message" style={{width:'100%', height:'60%', paddingBottom:'5em'}}/>
+                            <div className="col-8 form-group mx-auto" style={{width: '50px', height: '150px'}}>
+                                    <textarea type="textarea" id="" className="form-control" required placeholder="Leave a message" name="message" style={{width:'100%',overflow:'auto', height:'60%', paddingBottom:'1em'}}/>
                             </div>
-                            <txt className="col-8 form-group mx-auto" style={{marginTop:'-5em'}}>
+                            <div className="col-8 form-group mx-auto" style={{marginTop:'-4em'}}>
                                 <input className="btn btn-primary" type="submit" value="Send"/>
-                            </txt>
+                            </div>
                         </div>
                     </form>
                 </div>

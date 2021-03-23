@@ -17,7 +17,7 @@ export class Aboutme extends Component {
                         </center>
                     </div>
                     <br/>
-                    <div className="col-md-7" data-aos="fade-left">
+                    <div className="col-md-7" data-aos="fade-left" style={{marginTop:'2em'}}>
                         <div>
                             <h2 className="section-heading text-uppercase" style={{color: '#4FBFA8', marginBottom:'2rem', textAlign: 'bottom'}}>About me</h2>
                         </div>
@@ -35,15 +35,20 @@ export class Aboutme extends Component {
                             working within alone, but I also gained experience with working as a team.
                         <br/>
                         <br/>
+                            I enjoy the time being in a team, sharing ideas and solutions and trouble shooting. Outside my work, my interests include robotics, physics and gaming.
+                        <br/>
+                        <br/>
+                        <br/>
                         <div className="row">
-                            <div className="col-sm-1">
-                                <Button src={Mycv} style={{borderRadius: '0rem', backgroundColor: '#f5f5f5',color: '#4fbfa8', borderRadius: '50%'}}>
-                                    <i class="fas fa-file" aria-hidden="true"></i>
-                                </Button>
-                            </div>
+                            
                             <div className="col-sm-1">
                                 <Button href="https://www.github.com/Mbulelo20" rel="noopener noreferrer" target="_blank" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5',color: 'black', borderRadius: '50%'}}>
                                     <i class="fab fa-github-square" aria-hidden="true"></i>
+                                </Button>
+                            </div>
+                            <div className="col-sm-1">
+                                <Button href="https://www.freecodecamp.org/mbulelo97" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5',color: 'green',width: '40px',borderRadius: '50%'}}>
+                                    <i class="fab fa-free-code-camp" aria-hidden="true" style={{fontSize: '14px'}}></i>
                                 </Button>
                             </div>
                             <div className="col-sm-1">
@@ -51,6 +56,7 @@ export class Aboutme extends Component {
                                     <i class="fab fa-linkedin" aria-hidden="true"></i>
                                 </Button>
                             </div>
+                            
                         </div>
 
                     </div>

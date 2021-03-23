@@ -40,7 +40,7 @@ const Stack = () => {
                         <div className="text-center" style={{color:'grey'}}>
                             <h2 className="section-heading text-uppercase">Css3</h2>
                         </div>
-                        <i className="fab fa-css3 " aria-hidden="true" style={{fontSize: '190px', color: '#1583c9', textAlign: 'center', backgroundColor: 'white', width: '100%'}}/>
+                        <i className="fab fa-css3 " aria-hidden="true" style={{fontSize: '190px', color: '#1583c9', textAlign: 'center', width: '100%'}}/>
                         <hr/>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ const Stack = () => {
                         <div className="text-center" style={{color:'grey'}}>
                             <h2 className="section-heading text-uppercase">MongoDb</h2>
                         </div>
-                        <i className="fas fa-database " aria-hidden="true" style={{fontSize: '190px', color: '#4fbfa8', textAlign: 'center', backgroundColor: 'white', width: '100%'}}/>
+                        <i className="fas fa-database " aria-hidden="true" style={{fontSize: '190px', color: '#4fbfa8', textAlign: 'center', width: '100%'}}/>
                         <hr/>
 
                     </div>

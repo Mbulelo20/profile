@@ -1,4 +1,9 @@
 import React, { Component, Fragment } from 'react'
+import Gitimage from '../images/git.jpg'
+import Visitour from '../images/visitour.png'
+import Contactkeeper from '../images/contactkeeper.jpg'
+import Portfolio from '../images/portfolio.png'
+import Pylot from '../images/pytonlot.jpg'
 
 export class Mywork extends Component {
     render() {
@@ -15,7 +20,7 @@ export class Mywork extends Component {
                         <div className="col-md-4">
                             <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
-                                <img src="https://i.pinimg.com/originals/31/8c/21/318c21f5dbe767634543ac1020bc1cfa.jpg" alt="Avatar" class="image" />
+                                <img src={Gitimage} alt="Avatar" class="image" />
                                 </div>
                                 
                                 <div className="overlay">
@@ -40,7 +45,7 @@ export class Mywork extends Component {
                         <div className="col-md-4">
                             <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
-                                    <img src="https://www.australia.com/content/australia/en/places/sydney-and-surrounds/guide-to-byron-bay/_jcr_content/imagePortrait.adapt.740.medium.jpg" alt="Avatar" class="image" />
+                                    <img src={Visitour} alt="Avatar" class="image" style={{minHeight: '250px'}}/>
                                 </div>
                                 <div className="overlay">
                                     <div className="container text-center">
@@ -63,7 +68,7 @@ export class Mywork extends Component {
                         <div className="col-md-4">
                             <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
-                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbySPOVJMWqKXXDjw9zQLk4k7k7T2xDXjzsw&usqp=CAU" alt="Avatar" class="image" />
+                                    <img src={Contactkeeper} alt="Avatar" class="image" />
                                 </div>
                                 <div className="overlay">
                                     <div className="container text-center">
@@ -86,7 +91,7 @@ export class Mywork extends Component {
                         <div className="col-md-4">
                             <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
-                                <img src="https://www.nicepng.com/png/detail/202-2024687_profile-icon-for-the-politics-category-profile-icon.png" alt="Avatar" class="image" />
+                                <img src={Portfolio} alt="Avatar" class="image"  style={{minHeight:'250px'}}/>
                                 </div>
                                 
                                 <div className="overlay">
@@ -134,7 +139,7 @@ export class Mywork extends Component {
                         <div className="col-md-4">
                             <div class="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
-                                    <img src="https://www.controcampus.it/estrazioni-2/" alt="Avatar" class="image" />
+                                    <img src={Pylot} alt="Avatar" class="image" />
                                 </div>
                                 <div className="overlay">
                                     <div className="container text-center">
