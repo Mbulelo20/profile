@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Logo from './navlogo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class navbar extends Component {
@@ -7,7 +6,7 @@ export default class navbar extends Component {
         return (
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" style={{opacity:'.7'}}>
                 <div class="container">
-                <a class="navbar-brand js-scroll-trigger" src={Logo}>Mbulelo Pani .</a>
+                <a class="navbar-brand js-scroll-trigger" >Mbulelo Pani .</a>
                     
                     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu

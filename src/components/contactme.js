@@ -26,7 +26,7 @@ export class Contactme extends Component {
                    </div> */}
                    <div className="row text-center ">
                         <div className="col-md-6">
-                            <h1 style={{marginRight: '-10em'}}>Get In Touch</h1>
+                            <h1 style={{marginRight: '-10em', color: '#212529'}}>Get In Touch</h1>
                         </div>
                         <div className="col-md-6" style={{marginLeft: '-7em'}}>
                             <InfoCarousel />

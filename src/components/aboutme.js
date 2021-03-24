@@ -1,9 +1,5 @@
 import React, { Component } from 'react'
-import {Button} from 'react-bootstrap'
-import InfoCarousel from './carousel'
-import './MbuleloPaniCV.pdf'
 import Mbulelo from '../images/mbulelobg2.png'
-import Mycv from './MbuleloPaniCV.pdf'
 
 export class Aboutme extends Component {
     render() {
@@ -19,7 +15,7 @@ export class Aboutme extends Component {
                     <br/>
                     <div className="col-md-7" data-aos="fade-left" style={{marginTop:'2em'}}>
                         <div>
-                            <h2 className="section-heading text-uppercase" style={{color: '#4FBFA8', marginBottom:'2rem', textAlign: 'bottom'}}>About me</h2>
+                            <h1 className="section-heading text-uppercase" style={{color: '#4FBFA8', marginBottom:'2rem', textAlign: 'bottom'}}>About me</h1>
                         </div>
                             My name is Mbulelo Pani. I'm a web developer from Cape Town.
                             I enjoy working on projects that challenge my critical thinking and require a little bit of imagination,
@@ -39,14 +35,29 @@ export class Aboutme extends Component {
                         <br/>
                         <br/>
                         <br/>
-                        <div className="row">
-                            
-                            <div className="col-sm-1">
-                                <Button href="https://www.github.com/Mbulelo20" rel="noopener noreferrer" target="_blank" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5',color: 'black', borderRadius: '50%'}}>
-                                    <i class="fab fa-github-square" aria-hidden="true"></i>
-                                </Button>
+                        <div className="row" style={{color: '#343a40'}}>
+                            <div className="col-sm-3">
+                                    <p>
+                                        <i class="fas fa-map-marker-alt" aria-hidden="true" style={{fontSize: '20px', marginRight: '.2em', color: '#343a40'}}></i>
+                                        Cape Town, WC
+                                    </p>
                             </div>
-                            <div className="col-sm-1">
+                            |
+                            <div className="col-sm-3">
+                                    <p>
+                                        <i class="fas fa-phone" aria-hidden="true" style={{fontSize: '20px', marginRight: '.2em', color: '#343a40'}}></i>
+                                        073 703 6422
+                                    </p>
+                            </div>
+                            |
+                            <div className="col-sm-5">
+                                    <p>
+                                        <i class="fas fa-envelope" aria-hidden="true" style={{fontSize: '20px', marginRight: '.2em', color: '#343a40'}}></i>
+                                        mbulelopani09@gmail.com
+                                    </p>
+                            </div>
+                            
+                            {/* <div className="col-sm-1">
                                 <Button href="https://www.freecodecamp.org/mbulelo97" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5',color: 'green',width: '40px',borderRadius: '50%'}}>
                                     <i class="fab fa-free-code-camp" aria-hidden="true" style={{fontSize: '14px'}}></i>
                                 </Button>
@@ -55,7 +66,7 @@ export class Aboutme extends Component {
                                 <Button href="https://www.linkedin.com/in/mbulelo-pani-638b4b196" rel="noopener noreferrer" target="_blank" style={{borderRadius: '0rem', backgroundColor: '#f5f5f5', color:'blue', borderRadius: '50%'}}>
                                     <i class="fab fa-linkedin" aria-hidden="true"></i>
                                 </Button>
-                            </div>
+                            </div> */}
                             
                         </div>
 
