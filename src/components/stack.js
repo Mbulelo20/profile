@@ -50,7 +50,7 @@ const Stack = () => {
                         <div className="text-center" style={{color:'grey'}}>
                             <h2 className="section-heading text-uppercase">React js</h2>
                         </div>
-                        <i className="fab fa-react " aria-hidden="true" style={{fontSize: '190px',textAlign: 'center', color: '#1583c9',width: '100%',}}/>
+                        <i className="fab fa-react " aria-hidden="true" style={{fontSize: '190px',textAlign: 'center', color: '#1583c9',width: '100%'}}/>
                         <hr/>
                     </div>
                     <div className="col-md-3">
@@ -60,13 +60,7 @@ const Stack = () => {
                         <i className="fab fa-vuejs " aria-hidden="true" style={{fontSize: '190px', color: '#4fbfa8', textAlign: 'center',width: '100%'}}/>
                         <hr/>
                     </div>
-                    <div className="col-md-3">
-                        <div className="text-center" style={{color:'grey'}}>
-                            <h2 className="section-heading text-uppercase">Node js</h2>
-                        </div>
-                        <i className="fab fa-node-js " aria-hidden="true" style={{fontSize: '190px', color: '#1583c9', textAlign: 'center', backgroundColor: '#white', width: '100%'}}/>
-                        <hr/>
-                    </div>
+                    
                     <div className="col-md-3">
                         <div className="text-center" style={{color:'grey'}}>
                             <h2 className="section-heading text-uppercase">MongoDb</h2>
@@ -75,18 +69,15 @@ const Stack = () => {
                         <hr/>
 
                     </div>
+                    <div className="col-md-3">
+                        <div className="text-center" style={{color:'grey'}}>
+                            <h2 className="section-heading text-uppercase">Node js</h2>
+                        </div>
+                        <i className="fab fa-node-js " aria-hidden="true" style={{fontSize: '190px', color: '#1583c9', textAlign: 'center', width: '100%'}}/>
+                        <hr/>
+                    </div>
                 </div>
-            <div className="row">
-                <div className="col-md-3">
-                    
-                </div>
-                <div className="col-md-3">
-                    
-                </div>
-                <div className="col-md-3">
-                    
-                </div>
-            </div>
+            
             </div>
             </Fragment>
         )
