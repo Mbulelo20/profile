@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { FaRocket } from 'react-icons/fa';
+
 import Mbulelo from '../images/mbulelobg2.png'
 
 export class Aboutme extends Component {
@@ -39,6 +41,7 @@ export class Aboutme extends Component {
                             <div className="col-sm-3">
                                     <p>
                                         <i class="fas fa-map-marker-alt" aria-hidden="true" style={{fontSize: '20px', marginRight: '.2em', color: '#343a40'}}></i>
+                                        <FaRocket />
                                         Cape Town, WC
                                     </p>
                             </div>
