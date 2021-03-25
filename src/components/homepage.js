@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import {Button} from 'react-bootstrap';
 
 export class Homepage extends Component {
     render() {
@@ -18,7 +18,7 @@ export class Homepage extends Component {
                         I'm A Junior Web Developer
                     
                     </div>
-                    <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#aboutme" style={{borderRadius: '0rem', backgroundColor: '#4FBFA8'}} >View some more</a>
+                    <Button className="btn btn-primary" href="#aboutme" style={{borderRadius: '0rem', backgroundColor: '#4FBFA8'}} >View some more</Button>
                 </div>
             </header>
         )

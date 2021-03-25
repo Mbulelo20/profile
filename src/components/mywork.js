@@ -123,6 +123,8 @@ export class Mywork extends Component {
                                         <br/><br/>
                                         <h3>Currency Exchange</h3>
                                         <h5>Python currency converter</h5>
+                                        <h6>.exe file</h6>
+
                                         <br/>
                                         <div>
                                             <btn style={{margin: '2px'}}>

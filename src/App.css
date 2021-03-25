@@ -65,11 +65,11 @@
   left: 0;
   right: 0;
   background-color: #4d5557;
-  opacity: .8;
+  opacity: .9;
   overflow: hidden;
   width: 0;
   height: 100%;
-  transition: .5s ease;
+  transition: .4s ease;
 }
 .containerI {
   position: relative;
@@ -104,12 +104,20 @@
 html {
   scroll-behavior: smooth;
 }
-
+.icons {
+  font-size: 20px;
+  margin-right: .3em;
+}
+.iconscontact {
+  font-size: 27px;
+  margin-right: 1em;
+}
 .image {
   display: block;
   width: 100%;
   max-height: 250px;
 }
+.carousel-indicators li { visibility: hidden; }
 
 html {
   font-family: sans-serif;

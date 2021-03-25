@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
-import { FaRocket } from 'react-icons/fa';
+import { FaMapMarkerAlt } from 'react-icons/fa';
+import { FaMobileAlt } from 'react-icons/fa';
+import { FaEnvelopeOpen } from 'react-icons/fa';
+
 
 import Mbulelo from '../images/mbulelobg2.png'
 
@@ -37,25 +40,25 @@ export class Aboutme extends Component {
                         <br/>
                         <br/>
                         <br/>
-                        <div className="row" style={{color: '#343a40'}}>
+                        <div className="row" style={{color: '#555'}}>
                             <div className="col-sm-3">
                                     <p>
-                                        <i class="fas fa-map-marker-alt" aria-hidden="true" style={{fontSize: '20px', marginRight: '.2em', color: '#343a40'}}></i>
-                                        <FaRocket />
+                                        
+                                        <FaMapMarkerAlt className="icons"/>
                                         Cape Town, WC
                                     </p>
                             </div>
                             |
                             <div className="col-sm-3">
                                     <p>
-                                        <i class="fas fa-phone" aria-hidden="true" style={{fontSize: '20px', marginRight: '.2em', color: '#343a40'}}></i>
+                                        <FaMobileAlt className="icons"/>
                                         073 703 6422
                                     </p>
                             </div>
                             |
                             <div className="col-sm-5">
                                     <p>
-                                        <i class="fas fa-envelope" aria-hidden="true" style={{fontSize: '20px', marginRight: '.2em', color: '#343a40'}}></i>
+                                        <FaEnvelopeOpen className="icons"/>
                                         mbulelopani09@gmail.com
                                     </p>
                             </div>

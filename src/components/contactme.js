@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import emailjs from 'emailjs-com'
-import InfoCarousel from './carousel'
+import {Button} from 'react-bootstrap';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+// import InfoCarousel from './carousel'
 export class Contactme extends Component {
     render() {
         function sendEmail(e) {
@@ -17,44 +21,63 @@ export class Contactme extends Component {
               e.target.reset();
           }
         return (
-            <div className="container"data-aos="zoom-in">
+            <div className="container" data-aos="zoom-in">
                 <br/>
                 
-                <div className="container-fluid">
                     {/* <div className="text-center justify-content-md-center">
                         <InfoCarousel/>
                    </div> */}
-                   <div className="row text-center ">
-                        <div className="col-md-6">
-                            <h1 style={{marginRight: '-10em', color: '#212529'}}>Get In Touch</h1>
+                    <h1 className="text-center justify-content-md-center" style={{ color: '#555'}}>Get In Touch</h1>
+                    
+                        
+                        
+                <form className="contact-form" onSubmit={sendEmail} style={{width:'100%'}}>
+                    <div className=" row pt-5">
+                        <div className="col-8 form-group mx-auto">
+                                <input type="text" className="form-control" placeholder="Name" name="name" style={{width:'100%'}}/>
                         </div>
-                        <div className="col-md-6" style={{marginLeft: '-7em'}}>
-                            <InfoCarousel />
+
+                        <div className="col-8 form-group mx-auto">
+                                <input type="text" className="form-control" required placeholder="Email address" name="email" style={{width:'100%'}}/>
                         </div>
-                   </div>
-                    <form className="contact-form" onSubmit={sendEmail} style={{width:'100%'}}>
-                        <div className=" row pt-5">
-                            <div className="col-8 form-group mx-auto">
-                                    <input type="text" className="form-control" placeholder="Name" name="name" style={{width:'100%'}}/>
-                            </div>
 
-                            <div className="col-8 form-group mx-auto">
-                                    <input type="text" className="form-control" required placeholder="Email address" name="email" style={{width:'100%'}}/>
-                            </div>
-
-                            <div className="col-8 form-group mx-auto">
-                                    <input type="text" className="form-control" placeholder="subject" name="subject" style={{width:'100%'}}/>
-                            </div>
-
-                            <div className="col-8 form-group mx-auto" style={{width: '50px', height: '150px'}}>
-                                    <textarea type="textarea" id="" className="form-control" required placeholder="Leave a message" name="message" style={{width:'100%',overflow:'auto', height:'60%', paddingBottom:'1em'}}/>
-                            </div>
-                            <div className="col-8 form-group mx-auto" style={{marginTop:'-4em'}}>
-                                <input className="btn btn-primary" type="submit" value="Send"/>
-                            </div>
+                        <div className="col-8 form-group mx-auto">
+                                <input type="text" className="form-control" placeholder="subject" name="subject" style={{width:'100%'}}/>
                         </div>
-                    </form>
-                </div>
+
+                        <div className="col-8 form-group mx-auto" style={{width: '50px', height: '150px'}}>
+                                <textarea type="textarea" id="" className="form-control" required placeholder="Leave a message" name="message" style={{width:'100%',overflow:'auto', height:'60%', paddingBottom:'1em'}}/>
+                        </div>
+                        <div className="col-8 form-group mx-auto" style={{marginTop:'-4em'}}>
+                            <center>
+                            <Button className="btn btn-primary" type="submit" style={{backgroundColor: '#4FBFA8'}}>Send Message</Button>
+
+                            </center>
+                            <center>
+                            <div className="row banner-social-buttons justify-content-md-center" style={{color: '#343a40', marginTop:'2em'}}>
+                                    <div className="col-sm-1 " style={{color: 'black'}}>
+                                            <a href="https://linkedin.com/in/mbulelo-pani-638b4b196" target="_blank" style={{color: '#555'}}>
+                                                
+                                                <FaLinkedin className="iconscontact"/>
+                                            </a>
+                                    </div>
+                                    |
+                                    <div className="col-sm-1">
+                                            <a href="https://wa.me/+27737036422" target="_blank" style={{color: '#555'}}>
+                                                <FaWhatsapp className="iconscontact"/>
+                                            </a>
+                                    </div>
+                                    |
+                                    <div className="col-sm-1">
+                                            <a href="https://github.com/mbulelo20" target="_blank" style={{color: '#555'}}>
+                                                <FaGithub className="iconscontact"/>
+                                            </a>
+                                    </div>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                </form>
             </div>
         )
     }
