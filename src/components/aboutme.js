@@ -2,10 +2,11 @@ import React, { Component } from 'react'
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaMobileAlt } from 'react-icons/fa';
 import { FaEnvelopeOpen } from 'react-icons/fa';
+// import { FaFile } from 'react-icons/fa';
 
 
 import Mbulelo from '../images/mbulelobg2.png'
-
+// import Mycv from '../images/MbuleloPaniCV.pdf';
 export class Aboutme extends Component {
     render() {
         return (
@@ -33,14 +34,18 @@ export class Aboutme extends Component {
                         <br/>
                         <br/>
                             I started a fullstack web development course at Lifechoices, graduating the same year, 2020. I gained experience in studying and
-                            working within alone, but I also gained experience with working as a team.
+                            working alone, but I also gained valuable experience working within a team.
                         <br/>
                         <br/>
                             I enjoy the time being in a team, sharing ideas and solutions and trouble shooting. Outside my work, my interests include robotics, physics and gaming.
                         <br/>
                         <br/>
                         <br/>
-                        <div className="row" style={{color: '#555'}}>
+                         
+                        
+                        
+                       
+                        <div className="row" style={{color: '#555heroku o'}}>
                             <div className="col-sm-3">
                                     <p>
                                         

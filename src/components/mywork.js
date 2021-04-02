@@ -1,4 +1,6 @@
 import React, { Component, Fragment } from 'react'
+import {Button} from 'react-bootstrap';
+
 import Gitimage from '../images/git.jpg'
 import Visitour from '../images/visitour.png'
 import Contactkeeper from '../images/contactkeeper.jpg'
@@ -18,9 +20,9 @@ export class Mywork extends Component {
                     <br/>
                     <div className="row" data-aos="zoom-out">
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "85%", color: 'white'}}>
+                            <div className="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
-                                <img src={Gitimage} alt="Avatar" class="image" />
+                                <img src={Gitimage} alt="Avatar" className="image" />
                                 </div>
                                 
                                 <div className="overlay">
@@ -30,12 +32,12 @@ export class Mywork extends Component {
                                             <h5>Search and find your favorite github users and repos...</h5>
                                             <br/>
                                             <div>
-                                                <btn style={{margin: '2px'}}>
-                                                    <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
-                                                </btn>
-                                                <btn  style={{margin: '2px'}} >
-                                                    <a href="https://githubseeker.herokuapp.com/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View demo</a>                        
-                                                </btn>
+                                                <Button style={{margin: '2px'}}>
+                                                    <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">GitHub link</a>                        
+                                                </Button>
+                                                <Button  style={{margin: '2px'}} >
+                                                    <a href="https://githubseeker.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">View demo</a>                        
+                                                </Button>
                                             </div>
                                             
                                     </div>
@@ -43,9 +45,9 @@ export class Mywork extends Component {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "85%", color: 'white'}}>
+                            <div className="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
-                                    <img src={Visitour} alt="Avatar" class="image" style={{minHeight: '250px'}}/>
+                                    <img src={Visitour} alt="Avatar" className="image" style={{minHeight: '250px'}}/>
                                 </div>
                                 <div className="overlay">
                                     <div className="container text-center">
@@ -54,21 +56,21 @@ export class Mywork extends Component {
                                         <h5>Register and login and <br/> view cool pictures of your <br/>favorite places </h5>
                                         <br/>
                                         <div>
-                                            <btn style={{margin: '2px'}}>
-                                                <a href="https://github.com/Mbulelo20/visitour.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
-                                            </btn>
-                                            <btn  style={{margin: '2px'}} >
-                                                <a href="https://polar-coast-73088.herokuapp.com/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View demo</a>                        
-                                            </btn>
+                                            <Button style={{margin: '2px'}}>
+                                                <a href="https://github.com/Mbulelo20/visitour.git" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">GitHub link</a>                        
+                                            </Button>
+                                            <Button  style={{margin: '2px'}} >
+                                                <a href="https://polar-coast-73088.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">View demo</a>                        
+                                            </Button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "85%", color: 'white'}}>
+                            <div className="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
-                                    <img src={Contactkeeper} alt="Avatar" class="image" />
+                                    <img src={Contactkeeper} alt="Avatar" className="image" />
                                 </div>
                                 <div className="overlay">
                                     <div className="container text-center">
@@ -77,9 +79,9 @@ export class Mywork extends Component {
                                         <h5>Manages and records a registered user's contacts.  </h5>
                                         <br/>
                                         <div>
-                                            <btn style={{margin: '2px'}}>
-                                                <a href="https://github.com/Mbulelo20/Contacts-Keeper.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
-                                            </btn>
+                                            <Button style={{margin: '2px'}}>
+                                                <a href="https://github.com/Mbulelo20/Contacts-Keeper.git" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">GitHub link</a>                        
+                                            </Button>
                                         </div>
                                     </div>
                                 </div>
@@ -89,9 +91,9 @@ export class Mywork extends Component {
                     <br/>
                     <div className="row" data-aos="zoom-out">
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "85%", color: 'white'}}>
+                            <div className="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
-                                <img src={Portfolio} alt="Avatar" class="image"  style={{minHeight:'250px'}}/>
+                                <img src={Portfolio} alt="Avatar" className="image"  style={{minHeight:'250px'}}/>
                                 </div>
                                 
                                 <div className="overlay">
@@ -101,12 +103,12 @@ export class Mywork extends Component {
                                         <h5>My very first portfolio.</h5>
                                         <br/>
                                         <div>
-                                            <btn style={{margin: '2px'}}>
-                                                <a href="https://github.com/Mbulelo20/my-portfolio" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">Github link</a>                        
-                                            </btn>
-                                            <btn  style={{margin: '2px'}} >
-                                                <a href="https://mbulelo20.github.io/my-portfolio/" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View demo</a>                        
-                                            </btn>
+                                            <Button style={{margin: '2px'}}>
+                                                <a href="https://github.com/Mbulelo20/my-portfolio" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">Github link</a>                        
+                                            </Button>
+                                            <Button  style={{margin: '2px'}} >
+                                                <a href="https://mbulelo20.github.io/my-portfolio/" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">View demo</a>                        
+                                            </Button>
                                         </div>
                                     </div>
                                 </div>
@@ -114,9 +116,9 @@ export class Mywork extends Component {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "85%", color: 'white'}}>
+                            <div className="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
-                                    <img src="https://www.enca.com/sites/default/files/1388612_58676202.jpg" alt="Avatar" class="image" />
+                                    <img src="https://www.enca.com/sites/default/files/1388612_58676202.jpg" alt="Avatar" className="image" />
                                 </div>
                                 <div className="overlay">
                                     <div className="container text-center">
@@ -127,21 +129,21 @@ export class Mywork extends Component {
 
                                         <br/>
                                         <div>
-                                            <btn style={{margin: '2px'}}>
-                                                <a href="https://github.com/Mbulelo20/Currency-Exchange.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">GitHub link</a>                        
-                                            </btn>
-                                            <btn  style={{margin: '2px'}} >
-                                                <a href="https://github.com/Mbulelo20/CurrencyExchangeApp/raw/master/Currencyconverter.exe" rel="noopener noreferrer" target="_blank" class="btn btn-primary ">View demo</a>                        
-                                            </btn>
+                                            <Button style={{margin: '2px'}}>
+                                                <a href="https://github.com/Mbulelo20/Currency-Exchange.git" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">GitHub link</a>                        
+                                            </Button>
+                                            <Button  style={{margin: '2px'}} >
+                                                <a href="https://github.com/Mbulelo20/CurrencyExchangeApp/raw/master/Currencyconverter.exe" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">View demo</a>                        
+                                            </Button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div class="containerI" style={{width: "85%", color: 'white'}}>
+                            <div className="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
-                                    <img src={Pylot} alt="Avatar" class="image" />
+                                    <img src={Pylot} alt="Avatar" className="image" />
                                 </div>
                                 <div className="overlay">
                                     <div className="container text-center">
@@ -151,9 +153,9 @@ export class Mywork extends Component {
                                         <h5>.exe file</h5>
                                         <br/>
                                         <div>
-                                            <btn style={{margin: '2px'}}>
-                                                <a href="https://github.com/Mbulelo20/PyLot.git" rel="noopener noreferrer" target="_blank" class="btn btn-primary">Github link</a> 
-                                            </btn>
+                                            <Button style={{margin: '2px'}}>
+                                                <a href="https://github.com/Mbulelo20/PyLot.git" rel="noopener noreferrer" target="_blank" className="Button btn-primary">Github link</a> 
+                                            </Button>
                                         </div>
                                     </div>
                                 </div>

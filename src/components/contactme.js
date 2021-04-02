@@ -56,20 +56,20 @@ export class Contactme extends Component {
                             <center>
                             <div className="row banner-social-buttons justify-content-md-center" style={{color: '#343a40', marginTop:'2em'}}>
                                     <div className="col-sm-1 " style={{color: 'black'}}>
-                                            <a href="https://linkedin.com/in/mbulelo-pani-638b4b196" target="_blank" style={{color: '#555'}}>
+                                            <a href="https://linkedin.com/in/mbulelo-pani-638b4b196" target="_blank" rel="noreferrer" style={{color: '#555'}}>
                                                 
                                                 <FaLinkedin className="iconscontact"/>
                                             </a>
                                     </div>
                                     |
                                     <div className="col-sm-1">
-                                            <a href="https://wa.me/+27737036422" target="_blank" style={{color: '#555'}}>
+                                            <a href="https://wa.me/+27737036422" target="_blank" rel="noreferrer" style={{color: '#555'}}>
                                                 <FaWhatsapp className="iconscontact"/>
                                             </a>
                                     </div>
                                     |
                                     <div className="col-sm-1">
-                                            <a href="https://github.com/mbulelo20" target="_blank" style={{color: '#555'}}>
+                                            <a href="https://github.com/mbulelo20" target="_blank" rel="noreferrer" style={{color: '#555'}}>
                                                 <FaGithub className="iconscontact"/>
                                             </a>
                                     </div>
