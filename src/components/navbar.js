@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default class navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top container" id="mainNav" style={{opacity:'.7'}}>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" style={{opacity:'.7'}}>
                 <div className="container">
                 <div className="navbar-brand js-scroll-trigger" >Mbulelo Pani .</div>
                     
