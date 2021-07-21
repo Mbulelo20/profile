@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/profile/static/css/main.87b9c376.chunk.css",
-    "main.js": "/profile/static/js/main.d03c1971.chunk.js",
-    "main.js.map": "/profile/static/js/main.d03c1971.chunk.js.map",
+    "main.js": "/profile/static/js/main.5629953d.chunk.js",
+    "main.js.map": "/profile/static/js/main.5629953d.chunk.js.map",
     "runtime-main.js": "/profile/static/js/runtime-main.f728aa11.js",
     "runtime-main.js.map": "/profile/static/js/runtime-main.f728aa11.js.map",
     "static/css/2.d7a2b26e.chunk.css": "/profile/static/css/2.d7a2b26e.chunk.css",
@@ -17,10 +17,10 @@
     "static/media/UpdatedCV-MbuleloPani.65082099.pdf": "/profile/static/media/UpdatedCV-MbuleloPani.65082099.pdf",
     "static/media/contactkeeper.2dac85dc.jpg": "/profile/static/media/contactkeeper.2dac85dc.jpg",
     "static/media/App.css": "/profile/static/media/frontpage.050c4eca.jpg",
-    "static/media/git.7423218d.jpg": "/profile/static/media/git.7423218d.jpg",
     "static/media/mbulelobg2.bdd3c067.png": "/profile/static/media/mbulelobg2.bdd3c067.png",
     "static/media/portfolio.c9762aa1.png": "/profile/static/media/portfolio.c9762aa1.png",
     "static/media/pytonlot.f30f0cc3.jpg": "/profile/static/media/pytonlot.f30f0cc3.jpg",
+    "static/media/tvstop.bccd9ae8.png": "/profile/static/media/tvstop.bccd9ae8.png",
     "static/media/visitour.70d0e3d8.png": "/profile/static/media/visitour.70d0e3d8.png"
   },
   "entrypoints": [
@@ -28,6 +28,6 @@
     "static/css/2.d7a2b26e.chunk.css",
     "static/js/2.6a68d335.chunk.js",
     "static/css/main.87b9c376.chunk.css",
-    "static/js/main.d03c1971.chunk.js"
+    "static/js/main.5629953d.chunk.js"
   ]
 }
