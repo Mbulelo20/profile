@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 // import {Button} from 'react-bootstrap';
 
-import Gitimage from '../images/git.jpg'
+import Gitimage from '../images/tvstop.png'
 import Visitour from '../images/visitour.png'
 import Contactkeeper from '../images/contactkeeper.jpg'
 import Portfolio from '../images/portfolio.png'
@@ -28,15 +28,15 @@ export class Mywork extends Component {
                                 <div className="overlay">
                                     <div className="container text-center">
                                         <br/><br/>
-                                            <h3>Github Finder</h3>
-                                            <h5>Search and find your favorite github users and repos...</h5>
+                                            <h3>tv-Stop</h3>
+                                            <h6>Quickly find the latest info, release dates and more on movies by easily searching</h6>
                                             <br/>
                                             <div>
                                                 <btn style={{margin: '2px'}}>
-                                                    <a href="https://github.com/Mbulelo20/Github-project-finder.git" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">GitHub link</a>                        
+                                                    <a href="https://github.com/Mbulelo20/tv-stop.git" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">GitHub link</a>                        
                                                 </btn>
                                                 <btn  style={{margin: '2px'}} >
-                                                    <a href="https://githubseeker.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">View demo</a>                        
+                                                    <a href="https://tvstop.netlify.app" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">View demo</a>                        
                                                 </btn>
                                             </div>
                                             
