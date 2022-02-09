@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from 'react'
+import React, { Component } from 'react'
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import emailjs from 'emailjs-com'
@@ -6,7 +6,6 @@ import {Button} from 'react-bootstrap';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaWhatsapp } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
-// import InfoCarousel from './carousel'
 export class Contactme extends Component {
     render() {
         function sendEmail(e) {
