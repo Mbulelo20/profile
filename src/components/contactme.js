@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect } from 'react'
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 import emailjs from 'emailjs-com'
 import {Button} from 'react-bootstrap';
 import { FaLinkedin } from 'react-icons/fa';
@@ -9,7 +11,7 @@ export class Contactme extends Component {
     render() {
         function sendEmail(e) {
             e.preventDefault();
-        
+        alert("hi")
             emailjs.sendForm('service_yipvd2q', 'template_f90yrci', e.target, 'user_gliSFWQT1Y7S20Cz3Dug6')
               .then((result) => {
                   console.log(result.text);
@@ -19,6 +21,9 @@ export class Contactme extends Component {
                   
               });
               e.target.reset();
+          }
+          this.componentDidMount = () => {
+            Aos.init({duration: 1000});
           }
         return (
             <div className="container" data-aos="zoom-in">
@@ -50,7 +55,7 @@ export class Contactme extends Component {
                         </div>
                         <div className="col-8 form-group mx-auto" style={{marginTop:'-4em'}}>
                             <center>
-                            <Button className="btn btn-primary" type="submit" style={{backgroundColor: '#4FBFA8'}}>Send Message</Button>
+                            <Button className="btn btn-primary" type="submit" style={{backgroundColor: '#4FBFA8', borderRadius: '0rem',borderColor: '#4FBFA8'}}>Send Message</Button>
 
                             </center>
                             <center>

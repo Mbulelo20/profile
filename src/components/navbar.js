@@ -6,7 +6,7 @@ export default class navbar extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" style={{opacity:'.7'}}>
                 <div className="container">
-                <div className="navbar-brand js-scroll-trigger" >Mbulelo Pani .</div>
+                <div className="navbar-brand js-scroll-trigger" style={{color:'#4FBFA8', fontWeight:'bold'}}>Mbulelo Pani .</div>
                     
                     <button className="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu

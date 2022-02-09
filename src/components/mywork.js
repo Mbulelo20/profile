@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
 // import {Button} from 'react-bootstrap';
-
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 import Gitimage from '../images/tvstop.png'
 import Visitour from '../images/visitour.png'
 import Contactkeeper from '../images/contactkeeper.jpg'
@@ -8,17 +9,20 @@ import Portfolio from '../images/portfolio.png'
 import Pylot from '../images/pytonlot.jpg'
 
 export class Mywork extends Component {
+    componentDidMount = () => {
+        Aos.init({duration: 1000});
+      }
     render() {
         return (
             <Fragment>
                 <div className="container">
                     <br/>
                     <div className="text-center">
-                        <h2 className="section-heading text-uppercase" style={{color:'#555555', fontFamil: 'Roboto'}}>My Work</h2>
+                        <h1 className="section-heading text-uppercase" style={{color:'#555555', fontFamil: 'Roboto'}}>My Work</h1>
                     </div>
                     <br/>
                     <br/>
-                    <div className="row" data-aos="zoom-out">
+                    <div className="row" data-aos="zoom-in">
                         <div className="col-md-4">
                             <div className="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>
@@ -89,7 +93,7 @@ export class Mywork extends Component {
                         </div>
                     </div>
                     <br/>
-                    <div className="row" data-aos="zoom-out">
+                    <div className="row" data-aos="zoom-in">
                         <div className="col-md-4">
                             <div className="containerI" style={{width: "85%", color: 'white'}}>
                                 <div>

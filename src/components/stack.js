@@ -24,7 +24,7 @@ const Stack = () => {
             <div className="container mystack">
             <br/>
                 <div className="container">
-                    <h3 className="section-heading text-uppercase text-center" style={{fontSize: '55px', color: 'black'}}>Stack <i className="fas fa-tools" style={{color: '#808080'}}></i></h3>
+                    <h3 className="section-heading text-uppercase text-center" style={{fontSize: '40px', color: '#555555'}}>Stack <i className="fas fa-tools" style={{color: '#808080'}}></i></h3>
                 </div>
                 <br/>
                 <div className="row container" >

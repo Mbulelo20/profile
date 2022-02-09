@@ -8,8 +8,9 @@ export class Homepage extends Component {
         return (
             <header className="masthead">
                 <div className="container" style={{paddingLeft: '0.75rem', paddingRight: '0.75rem', marginRight: 'auto', marginLeft: 'auto'}}>
-                    <div className="masthead-subheading" style={{
-                        
+                    <div className="masthead-heading " style={{
+                        fontSize: '38px',
+                        marginBottom: '1rem'
                     }}>
                         Hello, I'm Mbulelo Pani
                     </div>
@@ -20,8 +21,8 @@ export class Homepage extends Component {
                         I'm A Junior Web Developer
                     
                     </div>
-                    <Button className="btn btn-primary" href="#aboutme" style={{borderRadius: '0rem', backgroundColor: '#4FBFA8', margin:'1em'}} >View profile</Button>
-                    <Button className="btn btn-primary" href={Mycv} target='_blank 'style={{borderRadius: '0rem', backgroundColor: '#4FBFA8', margin:'1em'}} >View my CV</Button>
+                    <Button className="btn btn-primary" href="#aboutme" style={{borderRadius: '0rem', backgroundColor: '#4FBFA8', margin:'1em', borderColor: '#4FBFA8', fontWeight: 'bold'}} >View profile</Button>
+                    <Button className="btn btn-primary" href={Mycv} target='_blank 'style={{borderRadius: '0rem', backgroundColor: '#4FBFA8', margin:'1em', borderColor: '#4FBFA8', fontWeight: 'bold'}} >View my CV</Button>
 
                 </div>
             </header>
