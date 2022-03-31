@@ -2,8 +2,8 @@ import React, { Component, Fragment } from 'react'
 // import {Button} from 'react-bootstrap';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
-import Gitimage from '../images/tvstop.png'
-import Gitgetter from '../images/gitgetter.png'
+import Film from '../images/film.png'
+import Gitgetter from '../images/gitapp.png'
 import Gallery from '../images/gallery.jpg'
 
 export class Mywork extends Component {
@@ -24,21 +24,21 @@ export class Mywork extends Component {
                         <div className="col-md-4">
                             <div className="containerI" style={{width: "85%", color: 'white', minHeight:'250px'}}>
                                 <div>
-                                <img src={Gitimage} alt="Avatar" className="image" />
+                                <img src={Film} alt="Avatar" className="image" style={{minHeight: '250px'}}/>
                                 </div>
                                 
                                 <div className="overlay">
                                     <div className="container text-center">
                                         <br/><br/>
-                                            <h3>tv-Stop</h3>
-                                            <h6>Quickly find the latest info, release dates and more on movies by easily searching</h6>
+                                            <h3>Movies Gallery</h3>
+                                            <h6>Quickly find the latest info, release dates and more on trending movies by easily searching.</h6>
                                             <br/>
                                             <div>
                                                 <btn style={{margin: '2px'}}>
-                                                    <a href="https://github.com/Mbulelo20/tv-stop.git" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">GitHub link</a>                        
+                                                    <a href="https://github.com/Mbulelo20/Movie-Gallery.git" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">GitHub link</a>                        
                                                 </btn>
                                                 <btn  style={{margin: '2px'}} >
-                                                    <a href="https://tvstop.netlify.app" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">View demo</a>                        
+                                                    <a href="https://moviesgalleri.netlify.app/" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">View demo</a>                        
                                                 </btn>
                                             </div>
                                             
@@ -55,7 +55,7 @@ export class Mywork extends Component {
                                     <div className="container text-center">
                                         <br/><br/>
                                         <h3>Photo Gallery</h3>
-                                        <h5>Register and login and <br/> to save your favorite <br/>photos</h5>
+                                        <h5>Register and login and <br/>save your favorite <br/>photos</h5>
                                         <br/>
                                         <div>
                                             <btn style={{margin: '2px'}}>
@@ -72,7 +72,7 @@ export class Mywork extends Component {
                         <div className="col-md-4">
                             <div className="containerI" style={{width: "85%", color: 'white', minHeight:'250px'}}>
                                 <div>
-                                    <img src={Gitgetter} alt="Avatar" className="image" style={{minHeight: '250px'}}/>
+                                    <img src={Gitgetter} alt="Avatar" className="image" style={{minHeight: '275px'}}/>
                                 </div>
                                 <div className="overlay">
                                     <div className="container text-center">
