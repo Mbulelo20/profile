@@ -10,16 +10,16 @@ export class Contactme extends Component {
     render() {
         function sendEmail(e) {
             e.preventDefault();
-        alert("hi")
-            emailjs.sendForm('service_yipvd2q', 'template_f90yrci', e.target, 'user_gliSFWQT1Y7S20Cz3Dug6')
+            emailjs.sendForm('service_0pj11v2', 'template_f90yrci', e.target, 'user_gliSFWQT1Y7S20Cz3Dug6')
               .then((result) => {
                   console.log(result.text);
                   alert('Thanks for your message')
+                  e.target.reset();
               }, (error) => {
                   console.log(error.text);
                   
               });
-              e.target.reset();
+              
           }
           this.componentDidMount = () => {
             Aos.init({duration: 1000});
