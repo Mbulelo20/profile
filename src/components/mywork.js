@@ -16,7 +16,7 @@ export class Mywork extends Component {
                 <div className="container">
                     <br/>
                     <div className="text-center">
-                        <h1 className="section-heading text-uppercase" style={{color:'#555555', fontFamil: 'Roboto'}}>My Work</h1>
+                        <h1 className="masthead-heading" style={{color:'#777', fontFamil: 'Roboto'}}>My Work</h1>
                     </div>
                     <br/>
                     <br/>
@@ -35,10 +35,10 @@ export class Mywork extends Component {
                                             <br/>
                                             <div>
                                                 <btn style={{margin: '2px'}}>
-                                                    <a href="https://github.com/Mbulelo20/Movie-Gallery.git" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">GitHub link</a>                        
+                                                    <a href="https://github.com/Mbulelo20/Movie-Gallery.git" rel="noopener noreferrer" target="_blank" className="btn"  style={{backgroundColor: '#4FBFA8', borderRadius: '0rem',borderColor: '#4FBFA8', color: 'white'}}>GitHub link</a>                        
                                                 </btn>
                                                 <btn  style={{margin: '2px'}} >
-                                                    <a href="https://moviesgalleri.netlify.app/" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">View demo</a>                        
+                                                    <a href="https://moviesgalleri.netlify.app/" rel="noopener noreferrer" target="_blank" className="btn"  style={{backgroundColor: '#4FBFA8', borderRadius: '0rem',borderColor: '#4FBFA8', color: 'white'}}>Website</a>                        
                                                 </btn>
                                             </div>
                                             
@@ -59,10 +59,10 @@ export class Mywork extends Component {
                                         <br/>
                                         <div>
                                             <btn style={{margin: '2px'}}>
-                                                <a href="https://github.com/Mbulelo20/memorysKeeper.git" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">GitHub link</a>                        
+                                                <a href="https://github.com/Mbulelo20/memorysKeeper.git" rel="noopener noreferrer" target="_blank" className="btn"  style={{backgroundColor: '#4FBFA8', borderRadius: '0rem',borderColor: '#4FBFA8', color: 'white'}}>GitHub link</a>                        
                                             </btn>
                                             <btn  style={{margin: '2px'}} >
-                                                <a href="https://mbulelophotos.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">View demo</a>                        
+                                                <a href="https://mbulelophotos.herokuapp.com/" rel="noopener noreferrer" target="_blank" className="btn"  style={{backgroundColor: '#4FBFA8', borderRadius: '0rem',borderColor: '#4FBFA8', color: 'white'}}>Website</a>                        
                                             </btn>
                                         </div>
                                     </div>
@@ -82,10 +82,10 @@ export class Mywork extends Component {
                                         <br/>
                                         <div>
                                             <btn style={{margin: '2px'}}>
-                                            <a href="https://github.com/Mbulelo20/profile.git" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">GitHub link</a>                        
+                                            <a href="https://github.com/Mbulelo20/profile.git" rel="noopener noreferrer" target="_blank" className="btn" style={{backgroundColor: '#4FBFA8', borderRadius: '0rem',borderColor: '#4FBFA8', color: 'white'}}>GitHub link</a>                        
                                             </btn>
                                             <btn  style={{margin: '2px'}} >
-                                            <a href="https://gitgetter.netlify.app/" rel="noopener noreferrer" target="_blank" className="btn btn-primary ">Demo</a>                        
+                                            <a href="https://gitgetter.netlify.app/" rel="noopener noreferrer" target="_blank" className="btn"  style={{backgroundColor: '#4FBFA8', borderRadius: '0rem',borderColor: '#4FBFA8', color: 'white'}}>Website</a>                        
                                             </btn>
                                         </div>
                                     </div>

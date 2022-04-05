@@ -21,7 +21,7 @@ export class Aboutme extends Component {
                     <br/>
                     <div className="col-md-7" data-aos="fade-left" style={{marginTop:'2em'}}>
                         <div>
-                            <h1 className="section-heading text-uppercase" style={{color: '#4FBFA8', marginBottom:'2rem', textAlign: 'bottom'}}>About me</h1>
+                            <h1 className="" style={{color: '#777', marginBottom:'2rem', textAlign: 'bottom'}}>About me</h1>
                         </div>
                             My name is Mbulelo Pani. I'm a web developer from Cape Town.
                             I enjoy working on projects that challenge my critical thinking and require a little bit of imagination,
