@@ -69,7 +69,7 @@
   overflow: hidden;
   width: 0;
   height: 100%;
-  transition: .3s ease;
+  transition: .4s ease;
 }
 .containerI {
   position: relative;
@@ -10105,7 +10105,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("./components/frontpage.jpg");
+  background-image: url("./Images/frontpage.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

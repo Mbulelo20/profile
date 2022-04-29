@@ -1,38 +1,42 @@
 import './App.css';
 import {BrowserRouter as Router} from "react-router-dom";
-
-import Navbar from './components/navbar'
-import Homepage from './components/homepage'
-import Aboutme from './components/aboutme'
-import Stack from './components/stack'
-import Mywork from './components/mywork'
-import Testimonials from './components/testimonials'
-import Contactme from './components/contactme'
+import {useEffect, useState} from "react"
+import NavBar from './components/NavBar'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import MyStack from './Pages/MyStack'
+import MyWork from './Pages/MyWork'
+import Testimonials from './Pages/Testimonials'
+import ContactPage from './Pages/ContactPage'
 
 
 function App() {
+  const [msg, setMsg] = useState('')
+  useEffect(() => {
+    setMsg('Someone viewed your site');
+  }, [])
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        <NavBar />
         <br/>
         <div id="home" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
-          <Homepage/>
+          <Home />
         </div>
         <div id="aboutme" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
-          <Aboutme/>
+          <About />
         </div>
         <div id="stack" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
-          <Stack/>
+          <MyStack/>
         </div>
         <div id="mywork" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
-          <Mywork/>
+          <MyWork/>
         </div>
         <div id="testimonials" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
           <Testimonials/>
         </div>
         <div id="contact" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
-          <Contactme/>
+          <ContactPage msg={msg}/>
         </div>
       </div>
     </Router>

@@ -1,31 +1,29 @@
-import React from 'react'
-import Mbulelo from '../images/mbulelobg2.png'
+import React, { Component } from 'react';
+import {Button} from 'react-bootstrap';
+import MyCV from '../Images/mbulelo_pani_cv.pdf';
 
-const Home = () => {
-  return (
-    <div className="container">
-                <div className="row">
-                    <div className="col-md-6">
-                            <img src={Mbulelo} alt="img" style={{width: '650px', margin: '0.3rem'}}/>
+export class Homepage extends Component {
+
+    render() {
+        return (
+            <header className="masthead">
+                <div className="container" style={{paddingLeft: '0.75rem', paddingRight: '0.75rem', marginRight: 'auto', marginLeft: 'auto'}}>
+                    <div className="masthead-heading " style={{fontSize: '38px', marginBottom: '1rem'}}>
+                        Hello, I'm Mbulelo Pani
                     </div>
-                    <br/>
-                    <div className="col-md-6" style={{marginTop:'2em'}}>
-                        <hr className="line" style={{border: '2px solid', borderRadius: '5px', width: '24%'}}/>
-                        <div className="heading">
-                            <p>
-                                <h4>Junior Web Developer</h4>
-                            </p>
-                        </div>
-                        <div className="tags" style={{ backgroundColor:'#E7E9EB', borderRadius:'10px'}}>Javascript</div>
-                        <div className="heading">
-                            <p>
-                                <h1>Mbulelo Pani</h1>
-                            </p>
-                        </div>
+                    <div className="masthead-heading" style={{ fontSize: '58px' }}>
+                        I'm A Junior Web Developer
                     </div>
+                    <Button className="btn btn-primary" href="#aboutme" style={{borderRadius: '0rem', backgroundColor: '#4FBFA8', margin:'1em', borderColor: '#4FBFA8', fontWeight: 'bold'}} >
+                        View profile
+                    </Button>
+                    <Button className="btn btn-primary" href={MyCV} target='_blank 'style={{borderRadius: '0rem', backgroundColor: '#4FBFA8', margin:'1em', borderColor: '#4FBFA8', fontWeight: 'bold'}} >
+                        View my CV
+                    </Button>
                 </div>
-            </div>
-  )
+            </header>
+        )
+    }
 }
 
-export default Home
+export default Homepage;
