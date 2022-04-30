@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default class NavBar extends Component {
-    render() {
+const NavBar = () => {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" style={{opacity:'.7'}}>
                 <div className="container">
@@ -24,5 +23,6 @@ export default class NavBar extends Component {
                 </div>
             </nav>
         )
-    }
 }
+
+export default NavBar;
