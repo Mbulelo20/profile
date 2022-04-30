@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default class navbar extends Component {
+export default class NavBar extends Component {
     render() {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" style={{opacity:'.7'}}>
