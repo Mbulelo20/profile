@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaMobileAlt } from 'react-icons/fa';
 import { FaEnvelopeOpen } from 'react-icons/fa';
-import Mbulelo from '../Images/mbulelobg2.png'
+import Mbulelo from '../Files/mbulelobg2.png'
 // import Mycv from '../images/MbuleloPaniCV.pdf';
 
 export class About extends Component {
