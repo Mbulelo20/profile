@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Button} from 'react-bootstrap';
-import MyCV from '../Images/mbulelo_pani_cv.pdf';
+import MyCV from '../Files/mbulelo_pani_cv.pdf';
 
 export class home extends Component {
 
