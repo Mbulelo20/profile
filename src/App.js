@@ -1,7 +1,7 @@
 import './App.css';
 import {BrowserRouter as Router} from "react-router-dom";
 import {useEffect, useState} from "react"
-import NavBar from "./Components/NavBar.js";
+import Navbar from "./Components/Navbar.js";
 import Home from './Pages/Home'
 import About from './Pages/About'
 import MyStack from './Pages/MyStack'
@@ -18,7 +18,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <NavBar />
+        <Navbar />
         <br/>
         <div id="home" className="body" style={{paddingTop:'70px',paddingBottom:'70px'}}>
           <Home />
