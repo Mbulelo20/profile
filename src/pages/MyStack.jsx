@@ -14,7 +14,7 @@ import {FaBootstrap} from 'react-icons/fa';
 import {SiTailwindcss} from 'react-icons/si';
 import {DiMeteor} from 'react-icons/di';
 
-const Stack = () => {
+const MyStack = () => {
     useEffect(() => {
         Aos.init({duration: 1000});
     }, []);
@@ -123,4 +123,4 @@ const Stack = () => {
         )
     }
 
-export default Stack;
+export default MyStack;

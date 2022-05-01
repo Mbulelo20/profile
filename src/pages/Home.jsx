@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Button} from 'react-bootstrap';
 import MyCV from '../Images/mbulelo_pani_cv.pdf';
 
-export class Homepage extends Component {
+export class Home extends Component {
 
     render() {
         return (
@@ -26,4 +26,4 @@ export class Homepage extends Component {
     }
 }
 
-export default Homepage;
+export default Home;
