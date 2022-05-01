@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const NavBar = () => {
+const Navbar = () => {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav" style={{opacity:'.7'}}>
                 <div className="container">
@@ -25,4 +25,4 @@ const NavBar = () => {
         )
 }
 
-export default NavBar;
+export default Navbar;
