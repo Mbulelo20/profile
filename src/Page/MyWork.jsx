@@ -1,10 +1,10 @@
 import React, { useEffect,  Fragment } from 'react';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
-import Film from '../Images/film.png';
-import Gitgetter from '../Images/gitapp.png';
-import Gallery from '../Images/gallery.jpg';
-import Weather from '../Images/weather.png';
+import Film from '../Files/film.png';
+import Gitgetter from '../Files/gitapp.png';
+import Gallery from '../Files/gallery.jpg';
+import Weather from '../Files/weather.png';
 
 const MyWork = () => {
     const data = [
