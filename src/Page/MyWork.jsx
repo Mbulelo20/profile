@@ -4,7 +4,7 @@ import Aos from 'aos';
 import Film from '../Files/film.png';
 import Gitgetter from '../Files/gitapp.png';
 import Gallery from '../Files/gallery.jpg';
-import Weather from '../Files/weather.png';
+import Weather from '../Files/instareact.png';
 
 const MyWork = () => {
     const data = [
