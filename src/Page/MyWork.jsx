@@ -2,7 +2,6 @@ import React, { useEffect,  Fragment } from 'react';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import Film from '../Files/film.png';
-import Gitgetter from '../Files/gitapp.png';
 import Gallery from '../Files/gallery.jpg';
 import Weather from '../Files/instareact.png';
 
@@ -28,13 +27,6 @@ const MyWork = () => {
             gitLink: 'https://github.com/Mbulelo20/react-weather.git',
             link: 'https://instareactweather.netlify.app',
             image: Weather
-        },
-        {
-            name: 'GitGetter',
-            description: 'Search for other github users',
-            gitLink: 'https://github.com/Mbulelo20/Github-project-finder.git',
-            link: 'https://gitgetter.netlify.app/',
-            image: Gitgetter
         },
     ]
 
